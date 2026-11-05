@@ -1,0 +1,34 @@
+# Публикует приложение как сайт на GitHub Pages: https://ВАШ-НИК.github.io/ИМЯ-РЕПОЗИТОРИЯ/
+# Нужен Google Play как адрес «Политики конфиденциальности»: .../privacy.html
+# Включить: Settings → Pages → Source: GitHub Actions.
+name: Сайт и политика конфиденциальности
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.dep.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund --legacy-peer-deps
+      - run: node scripts/fetch-vendor.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: www
+      - id: dep
+        uses: actions/deploy-pages@v4
