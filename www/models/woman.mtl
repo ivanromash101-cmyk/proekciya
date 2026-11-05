@@ -1,0 +1,9 @@
+newmtl skin
+Kd 0.80 0.62 0.52
+
+newmtl eyes
+Kd 1 1 1
+map_Kd textures/brown_eye.png
+
+newmtl hair
+Kd 0.22 0.14 0.08

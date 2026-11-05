@@ -1,0 +1,7 @@
+name = "proekciya-stylist"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+MODEL = "claude-haiku-5-5"
+# Ключ задаётся секретом, не здесь:  npx wrangler secret put ANTHROPIC_API_KEY

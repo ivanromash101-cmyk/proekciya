@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Проекция</title>
+<meta name="description" content="3D-фигура по меркам, автоматический скан по фото, своё лицо и подбор размера одежды. Доступно для незрячих и глухих.">
+<meta name="theme-color" content="#16181d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Unbounded:wght@600&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#p-measure">Перейти к меркам</a>
+
+<div class="app" id="app">
+  <header class="topbar">
+    <div class="brand" aria-hidden="true"><span class="brand-tape"></span>Проекция</div>
+    <h1 class="sr">Проекция — подбор размера одежды</h1>
+    <div class="top-right">
+    <button type="button" class="cart-btn theme-btn" id="themeBtn" aria-pressed="true" aria-label="Светлая тема"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+    <button type="button" class="cart-btn music-btn" id="musicBtn" aria-pressed="false" aria-label="Включить музыку"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg><i class="eq" aria-hidden="true"><b></b><b></b><b></b></i></button>
+    <button type="button" class="cart-btn" id="cartBtn" aria-label="Корзина: 0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6zM9 8V7a3 3 0 0 1 6 0v1"/></svg><span class="cart-count" hidden aria-hidden="true">0</span></button>
+    <label class="lang" title="Язык">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3z"></path></svg>
+      <select id="langSel" aria-label="Язык"><option value="ru">Русский</option></select>
+    </label>
+    <div class="badge" id="badge" role="status" aria-live="polite" aria-atomic="true">
+      <span class="badge-size" id="bSize">M</span>
+      <span class="badge-txt"><span id="bSub">EU 50 · RU 50</span><span class="badge-small" id="bShape">Атлетическая</span></span>
+    </div>
+    </div>
+  </header>
+
+  <main class="stage" id="stage">
+    <div class="fit-room" id="fitRoom" hidden>
+      <canvas id="fitCanvas" tabindex="0" role="img" aria-label="Фото-примерочная: ваше фото и вещи на нём. Стрелки двигают выбранную вещь, плюс и минус меняют размер."></canvas>
+      <div class="fit-empty" id="fitEmpty">
+        <h2>Ваша проекция по фото</h2>
+        <p>Загрузите своё фото в полный рост — программа уберёт фон, отсканирует фигуру и покажет ваши размеры.</p>
+        <ol><li>Стоять прямо, лицом к камере, руки чуть в стороны.</li><li>Облегающая одежда, ровный свет, однотонный фон.</li><li>В кадре всё тело — от макушки до стоп.</li></ol>
+        <div class="row"><label class="primary file-btn fit-pick">Выбрать фото<input type="file" id="fitFile" accept="image/*"></label><button type="button" id="fitShoot">Сфотографироваться</button></div>
+        <p class="note">Фото хранится только на этом устройстве и никуда не отправляется.</p>
+      </div>
+      <div class="fit-bar" id="fitBar">
+        <button type="button" id="fitSnap">Сохранить снимок</button>
+        <button type="button" id="fitChange">Другое фото</button>
+        <button type="button" id="fitScan">Сканировать</button>
+        <button type="button" id="fitRemove">Убрать фото</button>
+      </div>
+      <div class="scan-card" id="scanCard" hidden role="dialog" aria-labelledby="scanCardT">
+        <div class="sc-head"><span class="sc-dot" aria-hidden="true"></span><h3 id="scanCardT">Скан готов</h3></div>
+        <p class="sc-sub" id="scanCardSub"></p>
+        <table class="sc-tbl"><thead><tr><th scope="col">Мерка</th><th scope="col">Скан</th><th scope="col">Сейчас</th></tr></thead><tbody id="scanCardRows"></tbody></table>
+        <div class="sc-btns"><button type="button" class="primary" id="scanCardApply">Применить мерки</button><button type="button" id="scanCardClose">Не сейчас</button></div>
+      </div>
+      <div class="fit-ptools" id="fitPTools" hidden role="group" aria-label="Правка фона">
+        <button type="button" data-pmode="erase" aria-pressed="true">Стереть</button>
+        <button type="button" data-pmode="restore" aria-pressed="false">Вернуть</button>
+        <label>Кисть<input type="range" id="fitPBrush" min="6" max="90" value="26"></label>
+        <button type="button" class="primary" id="fitPDone">Готово</button>
+      </div>
+      <p class="fit-status" id="fitStatus" role="status" aria-live="polite"></p>
+      <div class="fit-panel" id="fitPanel" hidden role="group" aria-labelledby="fitTitle">
+        <div class="fp-head"><b id="fitTitle"></b><button type="button" class="link" id="fitDone">Готово</button></div>
+        <div class="fp-row">
+          <button type="button" data-mode="erase" aria-pressed="false">Ластик</button>
+          <button type="button" data-mode="restore" aria-pressed="false">Вернуть</button>
+          <button type="button" id="fitDel">Снять вещь</button>
+        </div>
+        <details class="fp-more" id="fitMore">
+          <summary>Ещё настройки</summary>
+          <div class="fp-grid">
+            <label>Ширина<input type="range" id="fitW" min="50" max="170" value="100"></label>
+            <label>Длина<input type="range" id="fitH" min="50" max="170" value="100"></label>
+            <label>Поворот<input type="range" id="fitRot" min="-60" max="60" value="0"></label>
+            <label>Прозрачность<input type="range" id="fitOp" min="30" max="100" value="100"></label>
+            <label>Кисть<input type="range" id="fitBrush" min="8" max="80" value="26"></label>
+          </div>
+          <div class="fp-row">
+            <button type="button" id="fitUp">Выше слоем</button>
+            <button type="button" id="fitDown">Ниже слоем</button>
+            <button type="button" id="fitReset">Заново</button>
+          </div>
+        </details>
+        <p class="note">Двигайте вещь пальцем, растягивайте и поворачивайте двумя пальцами или жёлтой ручкой в углу.</p>
+      </div>
+    </div>
+    <canvas id="gl" tabindex="0" role="img" aria-roledescription="3D-модель" aria-label="Модель человека"></canvas>
+    <div class="labels" id="labels" aria-hidden="true"></div>
+    <div class="busy" id="busy" hidden aria-hidden="true"><span class="dot"></span>Строю фигуру</div>
+    <div class="nogl" id="nogl" hidden><b>3D недоступно на этом устройстве.</b> Мерки, размер и скан работают.</div>
+    <div class="viewseg" role="radiogroup" aria-label="Вид модели">
+      <button type="button" role="radio" data-view="holo" aria-checked="false">Голограмма</button>
+      <button type="button" role="radio" data-view="photo" aria-checked="false">Моё фото</button>
+    </div>
+    <div class="stagebtns">
+      <button type="button" class="icon" id="spinBtn" aria-pressed="true" aria-label="Автовращение"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.6M20 4v5h-5"/></svg></button>
+      <button type="button" class="icon" id="resetView" aria-label="Вернуть вид"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></button>
+    </div>
+  </main>
+
+  <aside class="sheet" id="sheet" data-open="true">
+    <button type="button" class="grab" id="grab" aria-expanded="true" aria-controls="sheetBody"><span></span><b class="sr">Свернуть или развернуть панель</b></button>
+    <div class="sheet-body" id="sheetBody">
+
+    <!-- МЕРКИ -->
+    <section class="panel" id="p-measure" role="tabpanel" aria-labelledby="t-measure" tabindex="-1">
+      <div class="result" id="result" aria-labelledby="resH">
+        <h2 class="sr" id="resH">Рекомендуемый размер</h2>
+        <div class="result-size"><span class="tapechip" id="rSize">M</span></div>
+        <dl class="result-rows">
+          <div><dt>Верх</dt><dd id="rTop">EU 50 · RU 50</dd></div>
+          <div><dt>Низ</dt><dd id="rBottom">EU 50 · RU 50</dd></div>
+          <div><dt>Джинсы</dt><dd id="rJeans">W33 L32</dd></div>
+          <div><dt>Рубашка</dt><dd id="rShirt">—</dd></div>
+          <div id="rBraRow" hidden><dt>Бюстгальтер</dt><dd id="rBra">—</dd></div>
+          <div><dt>Обувь</dt><dd id="rShoe">—</dd></div>
+          <div><dt>Головной убор</dt><dd id="rHat">—</dd></div>
+          <div><dt>Фигура</dt><dd id="rShape">—</dd></div>
+        </dl>
+        <div class="result-actions">
+          <button type="button" id="readRes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9zM16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/></svg>Прочитать</button>
+          <button type="button" id="shareBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.2 10.8l7.6-3.6M8.2 13.2l7.6 3.6"/></svg>Поделиться</button>
+          <button type="button" id="saveBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg>В файл</button>
+        </div>
+      </div>
+
+      <section class="profiles" id="profiles" aria-labelledby="profH">
+        <div class="pf-head">
+          <h2 class="sec-title" id="profH">Мои мерки</h2>
+          <label class="pf-pick"><span class="sr">Чьи мерки</span><select id="pfSel"></select></label>
+        </div>
+        <p class="pf-state" id="pfState" role="status"></p>
+        <div class="pf-btns">
+          <button type="button" class="primary" id="pfSave">Сохранить мерки</button>
+          <button type="button" id="pfRevert">Вернуть сохранённые</button>
+          <button type="button" class="ghost" id="pfNew">+ Новый человек</button>
+        </div>
+        <div class="pf-newrow" id="pfNewRow" hidden>
+          <label for="pfName" class="sr">Имя</label>
+          <input id="pfName" type="text" maxlength="30" placeholder="Имя, например: Алёнка" autocomplete="off">
+          <button type="button" class="primary" id="pfNewOk">Создать</button>
+          <button type="button" class="ghost" id="pfNewCancel">Отмена</button>
+        </div>
+        <div class="pf-rename" id="pfRenameRow" hidden>
+          <label for="pfRename" class="sr">Новое имя</label>
+          <input id="pfRename" type="text" maxlength="30" autocomplete="off">
+          <button type="button" class="primary" id="pfRenameOk">Готово</button>
+        </div>
+        <div class="pf-more"><button type="button" class="link" id="pfRenameBtn">Переименовать</button><button type="button" class="link" id="pfDel">Удалить этого человека</button></div>
+      </section>
+
+      <form id="form" novalidate>
+        <fieldset>
+          <legend class="sec-title">Мерки, см</legend>
+          <div class="wiz" id="wizTop"><span id="wizCount" aria-live="polite">Шаг 1 из 7</span></div>
+          <div class="step" data-step="gender">
+            <span class="f-name" id="g-lbl">Пол</span>
+            <div class="seg" role="radiogroup" aria-labelledby="g-lbl">
+              <button id="g-m" type="button" role="radio" aria-checked="true">Мужчина</button>
+              <button id="g-f" type="button" role="radio" aria-checked="false">Женщина</button>
+            </div>
+          </div>
+          <div id="fields"></div>
+          <div class="wiz wiz-nav">
+            <button id="prev" type="button">← Назад</button>
+            <button id="next" type="button" class="primary">Далее →</button>
+          </div>
+        </fieldset>
+      </form>
+      <div class="row">
+        <button type="button" id="voiceBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Сказать мерки</button>
+        <button type="button" id="reset" class="ghost">Сбросить</button>
+        <button type="button" id="resetAll" class="ghost danger">Начать заново</button>
+      </div>
+      <p class="note" id="resetAllNote" hidden role="status">Будут стёрты мерки, фото, примерочная, корзина и настройки. Нажмите «Да, стереть всё» ещё раз в течение 5 секунд.</p>
+      <p class="note">Размер по европейской сетке. У брендов посадка отличается — сверяйтесь с таблицей магазина.</p>
+    </section>
+
+    <!-- СТИЛЬ -->
+    <section class="panel" id="p-style" role="tabpanel" aria-labelledby="t-style" tabindex="-1" hidden>
+      <h2 class="sec-title">Стилист</h2>
+      <div class="chat" aria-labelledby="chatTitle">
+        <div class="chat-head">
+          <span class="chat-ava" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.6L12 15l-1.8-4.4L5.5 9l4.7-1.4z"/><path d="M18.5 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></span>
+          <div class="chat-tt"><h3 id="chatTitle">Спросите стилиста</h3><small>ИИ-стилист знает ваши мерки, фигуру и цветотип · <span id="chatMode">онлайн</span></small></div>
+          <button type="button" class="link" id="chatClear" hidden>Очистить</button>
+        </div>
+        <details class="chat-how">
+          <summary>Как работает ИИ-стилист</summary>
+          <ul>
+            <li>Знает ваши мерки, размер, фигуру и цветотип из программы.</li>
+            <li>Отвечает на вашем языке и предлагает образы — их можно сразу примерить на 3D-модели.</li>
+            <li>Подскажет, что искать, и найдёт вещи вашего размера в магазинах.</li>
+            <li>Говорит только о стиле и одежде. Фото никогда не отправляются.</li>
+          </ul>
+        </details>
+        <div class="chat-log" id="chatLog" role="log" aria-live="polite" aria-label="Переписка со стилистом"></div>
+        <div class="chat-empty" id="chatEmpty">
+          <p>Спросите о чём угодно: что надеть на событие, какие цвета вам идут, как сочетать вещи.</p>
+          <div class="chat-chips" id="chatChips">
+            <button type="button">Что надеть на свадьбу летом?</button>
+            <button type="button">Какие цвета мне идут?</button>
+            <button type="button">Соберите образ для офиса</button>
+            <button type="button">Что скрыть, что подчеркнуть?</button>
+          </div>
+        </div>
+        <div class="chat-consent" id="chatConsent" hidden role="dialog" aria-labelledby="chatCT">
+          <b id="chatCT">Перед первым вопросом</b>
+          <p>Ваши сообщения, мерки, размер и цветотип отправляются ИИ-стилисту в интернет, чтобы он мог ответить. Фото и лицо не отправляются никогда.</p>
+          <div class="row"><button type="button" class="primary" id="chatAgree">Согласен</button><button type="button" id="chatDecline">Отмена</button></div>
+        </div>
+        <form class="chat-form" id="chatForm" autocomplete="off">
+          <label class="sr" for="chatInput">Сообщение стилисту</label>
+          <textarea id="chatInput" rows="1" maxlength="800" placeholder="Напишите стилисту…"></textarea>
+          <button type="submit" id="chatSend" class="send" aria-label="Отправить"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l16-8-6 16-2.5-6.5z"/></svg></button>
+        </form>
+      </div>
+      <h3 class="sec-title">Подбор по фигуре</h3>
+      <div class="ctype">
+        <div class="ct-main"><span class="ct-label">Ваш цветотип</span><span class="ct-name" id="ctName">Осень</span><small id="ctAbout"></small></div>
+        <label class="ct-sel" for="ctSel">Изменить
+          <select id="ctSel"><option value="auto">Авто</option><option value="spring">Весна</option><option value="summer">Лето</option><option value="autumn">Осень</option><option value="winter">Зима</option></select></label>
+      </div>
+      <ul class="palette" id="palette" aria-label="Ваши цвета"></ul>
+      <p class="note" id="ctAvoid"></p>
+      <div class="advice">
+        <p class="adv-shape"><span>Фигура</span><b id="advShape"></b></p>
+        <p id="advFocus"></p>
+        <p class="note" id="advAvoid"></p>
+        <p class="note" id="advHeight"></p>
+      </div>
+      <h3 class="sec-title" id="stLbl">Стиль</h3>
+      <div class="chips" role="radiogroup" aria-labelledby="stLbl" id="styleChips"></div>
+      <h3 class="sec-title" id="seLbl">Сезон</h3>
+      <div class="seg three" role="radiogroup" aria-labelledby="seLbl" id="seasonSeg"></div>
+      <div id="outfits" class="outfits"></div>
+      <button type="button" id="outfitOff" class="ghost" hidden>Снять образ с модели</button>
+      <p class="note">Цветотип определяется по цвету кожи, волос и глаз на вкладке «Лицо». Советы стилиста — ориентир, а не правило: носите то, в чём вам хорошо.</p>
+    </section>
+
+    <!-- СКАН -->
+    <section class="panel" id="p-scan" role="tabpanel" aria-labelledby="t-scan" tabindex="-1" hidden>
+      <h2 class="sec-title">Скан по фото</h2>
+      <p class="lead">Программа сама найдёт фигуру на фото и снимет мерки. Масштаб — ваш рост: <b><span id="scanH">178</span> см</b> <button type="button" class="link" id="editH">изменить</button></p>
+      <ol class="howto">
+        <li>Облегающая одежда, без обуви, волосы убраны с плеч.</li>
+        <li>Стоять прямо, руки чуть в стороны, ноги на ширине плеч.</li>
+        <li>Телефон на уровне пояса в 2–3 м, в кадре всё тело.</li>
+      </ol>
+      <div class="shot" id="shotFront">
+        <div class="shot-head"><span class="num">1</span><div><b>Фото спереди</b><small>обязательно</small></div></div>
+        <div class="row">
+          <button type="button" class="primary" data-cam="front">Камера с таймером</button>
+          <label class="btn">Выбрать фото<input type="file" accept="image/*" data-file="front"></label>
+        </div>
+        <p class="status" data-status="front" role="status"></p>
+        <canvas class="preview" data-prev="front" hidden aria-hidden="true"></canvas>
+      </div>
+      <div class="shot" id="shotSide">
+        <div class="shot-head"><span class="num">2</span><div><b>Фото сбоку</b><small>точнее обхваты</small></div></div>
+        <div class="row">
+          <button type="button" data-cam="side">Камера с таймером</button>
+          <label class="btn">Выбрать фото<input type="file" accept="image/*" data-file="side"></label>
+        </div>
+        <p class="status" data-status="side" role="status"></p>
+        <canvas class="preview" data-prev="side" hidden aria-hidden="true"></canvas>
+      </div>
+      <div class="scanres" id="scanRes" hidden>
+        <h3 class="sec-title">Результат скана</h3>
+        <table><thead><tr><th scope="col">Мерка</th><th scope="col">Скан</th><th scope="col">Сейчас</th></tr></thead><tbody id="scanRows"></tbody></table>
+        <div class="row">
+          <button type="button" class="primary" id="scanApply">Применить мерки</button>
+          <button type="button" id="scanManual">Поправить вручную</button>
+        </div>
+      </div>
+      <p class="note">Фото обрабатываются только на этом устройстве и никуда не отправляются. Точность ±3–5 см, с фото сбоку — выше.</p>
+      <p class="note">Скан — визуальный помощник. Без зрения удобнее ввести мерки голосом на вкладке «Мерки».</p>
+    </section>
+
+    <!-- ЛИЦО -->
+    <section class="panel" id="p-face" role="tabpanel" aria-labelledby="t-face" tabindex="-1" hidden>
+      <h2 class="sec-title">Своё лицо</h2>
+      <div class="row">
+        <button type="button" class="primary" id="faceCamBtn">Селфи</button>
+        <label class="btn">Выбрать фото<input type="file" accept="image/*" id="faceFile"></label>
+      </div>
+      <p class="status" id="faceMsg" role="status"></p>
+      <div class="facebox" id="faceBox" hidden>
+        <canvas id="facePrev" width="384" height="544" tabindex="0" role="img" aria-label="Положение лица. Перетащите фото или используйте стрелки."></canvas>
+        <div class="facectl">
+          <p class="note">Глаза — на пунктир, лицо — в овал.</p>
+          <label for="fZoom">Масштаб</label><input id="fZoom" type="range" min="0.4" max="4" step="0.01" value="1">
+          <label for="fRot">Наклон</label><input id="fRot" type="range" min="-30" max="30" step="1" value="0">
+          <button type="button" id="faceDel" class="ghost">Убрать лицо</button>
+        </div>
+      </div>
+      <h3 class="sec-title" id="modelLbl">3D-модель</h3>
+      <div class="seg" role="radiogroup" aria-labelledby="modelLbl">
+        <button type="button" role="radio" data-model="built" aria-checked="true">Встроенная</button>
+        <button type="button" role="radio" data-model="real" aria-checked="false">Реалистичная</button>
+      </div>
+      <p class="status" id="tplMsg" role="status"></p>
+      <div class="row">
+        <label class="btn">Загрузить модель из MakeHuman<input type="file" id="tplFile" multiple accept=".obj,.mtl,.png,.jpg,.jpeg"></label>
+        <button type="button" class="ghost" id="tplDel" hidden>Удалить модель</button>
+      </div>
+      <p class="note">Реалистичная модель подгоняется под все ваши мерки. Как её получить: бесплатная программа MakeHuman → «Экспорт» → формат OBJ, имя <b>man</b> или <b>woman</b>. Выберите здесь сразу все файлы экспорта (.obj, .mtl и картинки из папки textures). Модель запоминается на устройстве.</p>
+      <h3 class="sec-title" id="skinLbl">Кожа</h3>
+      <div class="swatches" role="radiogroup" aria-labelledby="skinLbl" id="skinSw"></div>
+      <h3 class="sec-title" id="hairLbl">Волосы</h3>
+      <div class="swatches" role="radiogroup" aria-labelledby="hairLbl" id="hairSw"></div>
+      <h3 class="sec-title" id="eyeLbl">Глаза</h3>
+      <div class="swatches" role="radiogroup" aria-labelledby="eyeLbl" id="eyeSw"></div>
+      <p class="note">Фото лица хранится только на этом устройстве.</p>
+    </section>
+
+    <!-- ДОСТУПНОСТЬ -->
+    <section class="panel" id="p-access" role="tabpanel" aria-labelledby="t-access" tabindex="-1" hidden>
+      <h2 class="sec-title">Доступность</h2>
+      <div class="toggles">
+        <button type="button" class="toggle" id="tgTts" aria-pressed="false"><span><b>Озвучка</b><small>Подсказки и результат вслух, с субтитрами</small></span><i aria-hidden="true"></i></button>
+        <button type="button" class="toggle" id="tgWiz" aria-pressed="false"><span><b>Пошаговый ввод</b><small>Одна мерка на экране, «Далее» и Enter</small></span><i aria-hidden="true"></i></button>
+        <button type="button" class="toggle" id="tgBig" aria-pressed="false"><span><b>Крупный текст</b><small>Увеличить шрифт и кнопки</small></span><i aria-hidden="true"></i></button>
+        <button type="button" class="toggle" id="tgHc" aria-pressed="false"><span><b>Высокий контраст</b><small>Жёлтое на чёрном</small></span><i aria-hidden="true"></i></button>
+        <button type="button" class="toggle" id="tgTapes" aria-pressed="true"><span><b>Ленты на модели</b><small>Показывать замеры груди, талии и бёдер</small></span><i aria-hidden="true"></i></button>
+        <button type="button" class="toggle" id="tgCap" aria-pressed="true"><span><b>Субтитры</b><small>Все сообщения текстом внизу экрана</small></span><i aria-hidden="true"></i></button>
+        <button type="button" class="toggle" id="tgMusic" aria-pressed="false"><span><b>Фоновая музыка</b><small>Спокойная мелодия, тише во время озвучки</small></span><i aria-hidden="true"></i></button>
+        <label class="music-vol">Громкость музыки<input type="range" id="musicVol" min="0" max="100" value="50"></label>
+      </div>
+      <h3 class="sec-title" id="themeLbl">Тема</h3>
+      <div class="seg three" role="radiogroup" aria-labelledby="themeLbl">
+        <button type="button" role="radio" data-theme-set="auto" aria-checked="true">Как в системе</button>
+        <button type="button" role="radio" data-theme-set="light" aria-checked="false">Светлая</button>
+        <button type="button" role="radio" data-theme-set="dark" aria-checked="false">Тёмная</button>
+      </div>
+      <p class="note">Приложение работает с TalkBack и VoiceOver. Модель можно вращать стрелками, когда она в фокусе.</p>
+      <button type="button" id="aboutBtn" class="wide-btn">О программе</button>
+    </section>
+
+    <!-- МАГАЗИНЫ -->
+    <section class="panel" id="p-shop" role="tabpanel" aria-labelledby="t-shop" tabindex="-1" hidden>
+      <section class="cart" id="cartBox" aria-labelledby="cartH">
+        <div class="cart-head"><h2 class="sec-title" id="cartH">Корзина · <span id="cartN">0</span></h2>
+          <button type="button" class="link" id="cartClear" hidden>Очистить</button></div>
+        <p class="note" id="cartEmpty">Здесь будут вещи, которые вам понравились. Нажмите «В корзину» у вещи в поиске, в примерке или у образа стилиста.</p>
+        <ul class="cart-list" id="cartList"></ul>
+        <p class="note">Покупка — на сайте магазина: откройте товар по ссылке или найдите его с вашим размером. Корзина хранится только на этом устройстве.</p>
+      </section>
+      <h2 class="sec-title">Поиск в магазинах</h2>
+      <p class="lead">Опишите, что ищете, — программа добавит ваш размер и откроет поиск на маркетплейсах.</p>
+      <form class="shop-form" id="shopForm" autocomplete="off">
+        <label class="f-name" for="shopQ">Что ищете?</label>
+        <div class="shop-row">
+          <input id="shopQ" type="search" maxlength="200" placeholder="Например: синие джинсы или платье на свадьбу" enterkeyhint="search">
+          <button type="submit" id="shopGo" class="primary">Найти</button>
+        </div>
+        <div class="chat-chips" id="shopChips">
+          <button type="button">Джинсы на каждый день</button>
+          <button type="button">Наряд на свадьбу</button>
+          <button type="button">Зимняя куртка</button>
+          <button type="button">Белые кроссовки</button>
+          <button type="button">Костюм для офиса</button>
+        </div>
+        <div class="shop-opts">
+          <label>Страна магазинов
+            <select id="shopRegion">
+              <option value="BE">Бельгия</option><option value="NL">Нидерланды</option><option value="DE">Германия</option>
+              <option value="FR">Франция</option><option value="PL">Польша</option><option value="UK">Великобритания</option><option value="ES">Испания</option><option value="IT">Италия</option><option value="PT">Португалия</option><option value="AT">Австрия</option><option value="CH">Швейцария</option><option value="IE">Ирландия</option><option value="SE">Швеция</option><option value="DK">Дания</option><option value="CZ">Чехия</option><option value="LT">Литва</option><option value="LV">Латвия</option><option value="EE">Эстония</option><option value="RU">Россия</option>
+            </select></label>
+          <label>Что это
+            <select id="shopCat">
+              <option value="auto">Определить само</option><option value="top">Верх</option><option value="bottom">Брюки, юбка, шорты</option>
+              <option value="jeans">Джинсы</option><option value="dress">Платье</option><option value="outer">Верхняя одежда</option>
+              <option value="shoes">Обувь</option><option value="hat">Головной убор</option><option value="bra">Бюстгальтер</option><option value="acc">Аксессуар</option>
+            </select></label>
+        </div>
+        <details class="shop-filters" id="shopFilters">
+          <summary>Фильтры: цена, цвет, бренд</summary>
+          <div class="shop-opts">
+            <label><span><span>Цена от</span> (<span class="cur" data-noi18n>€</span>)</span><input id="shopPmin" type="number" min="0" step="1" inputmode="numeric" placeholder="0"></label>
+            <label><span><span>Цена до</span> (<span class="cur" data-noi18n>€</span>)</span><input id="shopPmax" type="number" min="0" step="1" inputmode="numeric" placeholder="∞"></label>
+            <label>Цвет
+              <select id="shopColor">
+                <option value="">Любой</option><option value="black">Чёрный</option><option value="white">Белый</option><option value="gray">Серый</option>
+                <option value="blue">Синий</option><option value="beige">Бежевый</option><option value="brown">Коричневый</option><option value="green">Зелёный</option>
+                <option value="red">Красный</option><option value="pink">Розовый</option><option value="yellow">Жёлтый</option><option value="purple">Фиолетовый</option><option value="orange">Оранжевый</option>
+              </select></label>
+            <label>Бренд<input id="shopBrand" type="text" maxlength="40" placeholder="Например: Levi's" autocomplete="off"></label>
+          </div>
+          <label class="shop-chk"><input type="checkbox" id="shopSizeF" checked> Сразу включать фильтр моего размера на сайте магазина</label>
+          <button type="button" class="link" id="shopFReset">Сбросить фильтры</button>
+        </details>
+        <details class="shop-filters" id="shopBrands">
+          <summary>Ваш размер в брендах</summary>
+          <p class="note">По официальным таблицам размеров брендов и вашим меркам. Нажмите на бренд — он подставится в поиск.</p>
+          <table class="brand-tbl"><thead><tr><th scope="col">Бренд</th><th scope="col">Верх</th><th scope="col">Низ</th><th scope="col">Джинсы</th></tr></thead><tbody></tbody></table>
+          <p class="note">Если вы между размерами — берите больший для свободной посадки.</p>
+        </details>
+        <p class="note"><span id="shopMode"></span></p>
+      </form>
+      <p class="status" id="shopStatus" role="status"></p>
+      <div id="shopResults" class="shop-results" hidden></div>
+      <p class="note">Ваш размер уже в запросе. На сайте магазина отметьте размер в фильтре и сверьтесь с таблицей размеров бренда. Программа не получает денег от магазинов и не передаёт им ваши данные.</p>
+    </section>
+    </div>
+  </aside>
+
+  <nav class="tabs" role="tablist" aria-label="Разделы">
+    <button type="button" role="tab" id="t-measure" aria-controls="p-measure" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="8" width="19" height="8" rx="1.5"/><path d="M6 8v3M9 8v2M12 8v3M15 8v2M18 8v3"/></svg><span>Мерки</span></button>
+    <button type="button" role="tab" id="t-style" aria-controls="p-style" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3l3 2 3-2 5 3-2 5-2-1v11H8V10l-2 1-2-5z"/></svg><span>Стиль</span></button>
+    <button type="button" role="tab" id="t-scan" aria-controls="p-scan" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/><circle cx="12" cy="8" r="2"/><path d="M9 20v-5l-1-3h8l-1 3v5"/></svg><span>Скан</span></button>
+    <button type="button" role="tab" id="t-face" aria-controls="p-face" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M8.5 15a4.5 4.5 0 0 0 7 0"/></svg><span>Лицо</span></button>
+    <button type="button" role="tab" id="t-access" aria-controls="p-access" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.5" r="1.8"/><path d="M5 8l7 1.5L19 8M12 9.5V14M12 14l-3 7M12 14l3 7"/></svg><span>Доступ</span></button>
+    <button type="button" role="tab" id="t-shop" aria-controls="p-shop" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6zM9 8V7a3 3 0 0 1 6 0v1"/></svg><span>Магазины</span><span class="cart-count tab-count" hidden aria-hidden="true">0</span></button>
+  </nav>
+</div>
+
+<!-- Приветствие -->
+<div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="wTitle">
+  <div class="wbox">
+    <button type="button" class="icon wclose" id="wClose" aria-label="Закрыть"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="w-hero">
+      <span class="w-logo" aria-hidden="true"><span class="brand-tape"></span></span>
+      <p class="w-greet" id="wGreet">Добрый день!</p>
+      <h2 id="wTitle" tabindex="-1">Это «Проекция» — ваш помощник по размерам и стилю</h2>
+      <p class="w-lead">Узнайте точный размер, примерьте образы на своей 3D-фигуре и найдите одежду, которая сядет как надо.</p>
+    </div>
+    <ul class="w-feats">
+      <li><b>Мерки и 3D-фигура</b><span>Введите или продиктуйте мерки — фигура строится точно по ним, а программа считает ваш размер одежды и обуви.</span></li>
+      <li><b>Скан по фото</b><span>Сфотографируйтесь в полный рост — программа сама снимет мерки. Фото остаются на устройстве.</span></li>
+      <li><b>ИИ-стилист</b><span>Спросите, как у живого стилиста: что надеть на событие, какие цвета вам идут. Он знает вашу фигуру и цветотип и сразу показывает образ на модели.</span></li>
+      <li><b>Поиск в магазинах</b><span>Опишите, что ищете, — программа добавит ваш размер и откроет поиск на Zalando, Amazon, Vinted и других площадках.</span></li>
+    </ul>
+    <div class="w-pick">
+      <p class="w-q">Язык</p>
+      <div class="w-langs" id="wLangs"></div>
+      <p class="w-q">Чью фигуру строим?</p>
+      <div class="w-gender"><button type="button" id="wg-m" aria-pressed="true">Мужчина</button><button type="button" id="wg-f" aria-pressed="false">Женщина</button></div>
+    </div>
+    <button type="button" class="primary w-start" id="wStart">Начать</button>
+    <p class="note w-foot">Мерки и фото хранятся только на вашем устройстве. Это окно можно открыть снова: «Доступ» → «О программе».</p>
+  </div>
+</div>
+
+<!-- Примерка вещи -->
+<div class="modal tryon" id="tryDlg" hidden role="dialog" aria-modal="true" aria-labelledby="tryHead">
+  <div class="mbox">
+    <div class="mhead"><h2 id="tryHead" tabindex="-1">Примерить товар</h2><button type="button" class="icon" id="tryX" aria-label="Закрыть"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="try-name"><b id="tryTitle2"></b></p>
+    <label class="file-btn">Загрузить фото или скриншот товара<input type="file" id="tryFile" accept="image/*"></label>
+    <p class="note">Сохраните фото товара с сайта магазина или сделайте скриншот. Программа возьмёт с него цвет вещи. Если ИИ-стилист подключён и вы дали согласие в чате, фото товара отправляется ему для разбора — не загружайте сюда свои фото.</p>
+    <canvas id="tryCanvas" hidden aria-label="Фото товара. Коснитесь вещи, чтобы взять её цвет."></canvas>
+    <p class="note" id="tryPick" hidden>Коснитесь вещи на фото, чтобы взять её цвет.</p>
+    <div class="try-grid">
+      <label>Что это<select id="tryKind">
+        <option value="top">Верх</option><option value="bottom">Брюки, юбка, шорты</option><option value="jeans">Джинсы</option>
+        <option value="dress">Платье</option><option value="outer">Верхняя одежда</option><option value="shoes">Обувь</option></select></label>
+      <label>Цвет<span class="color-row"><span class="swatch" id="trySwatch" aria-hidden="true"></span><input type="color" id="tryColor" value="#2f56a6"></span></label>
+      <label id="tryRowSleeve">Рукав<select id="trySleeve"><option value="l">Длинный</option><option value="s">Короткий</option></select></label>
+      <label id="tryRowCut" hidden>Фасон<select id="tryCut"><option value="t">Брюки</option><option value="sh">Шорты</option><option value="sk">Юбка</option></select></label>
+      <label id="tryRowLen" hidden>Длина<select id="tryLen"><option value="j">Куртка</option><option value="c">Пальто</option></select></label>
+    </div>
+    <label class="try-url">Ссылка на товар (необязательно)<input type="url" id="tryUrl" inputmode="url" placeholder="https://www.zalando.be/…" maxlength="500"></label>
+    <p class="status" id="tryMsg" role="status"></p>
+    <div class="row"><button type="button" class="primary" id="tryWear">Надеть</button><button type="button" id="tryCart">В корзину</button><button type="button" id="tryCancel">Отмена</button></div>
+    <p class="note">Модель показывает вид и цвет вещи. Точную посадку проверяйте по таблице размеров магазина.</p>
+  </div>
+</div>
+
+<!-- Камера -->
+<div class="modal" id="cam" hidden role="dialog" aria-modal="true" aria-labelledby="camTitle">
+  <div class="mbox">
+    <div class="mhead"><h2 id="camTitle">Камера</h2><button type="button" class="icon" id="camClose" aria-label="Закрыть камеру"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="note" id="camHint"></p>
+    <div class="camview">
+      <video id="camVideo" playsinline muted autoplay></video>
+      <div class="guide body" id="camGuide" aria-hidden="true"><span class="g-top">макушка</span><span class="g-bot">стопы</span><span class="g-oval"></span></div>
+      <div id="camCount" aria-live="assertive"></div>
+    </div>
+    <div class="row">
+      <button id="camShot" type="button" class="primary">Снять</button>
+      <label class="timer" for="camTimer">Таймер
+        <select id="camTimer"><option value="0">без</option><option value="3">3 с</option><option value="5">5 с</option><option value="10">10 с</option><option value="15">15 с</option></select></label>
+      <button id="camFlip" type="button">Сменить камеру</button>
+    </div>
+    <p class="status" id="camMsg" role="status"></p>
+  </div>
+</div>
+
+<!-- Ручные точки -->
+<div class="modal" id="manual" hidden role="dialog" aria-modal="true" aria-labelledby="manTitle">
+  <div class="mbox">
+    <div class="mhead"><h2 id="manTitle">Отметить вручную</h2><button type="button" class="icon" id="manClose" aria-label="Закрыть"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <p class="stepline" id="manStep" aria-live="polite"></p>
+    <div class="manwrap"><canvas id="manCv"></canvas></div>
+    <div class="row">
+      <button type="button" id="manUndo" disabled>Отменить точку</button>
+      <button type="button" class="primary" id="manDone" hidden>Готово</button>
+    </div>
+    <p class="note">Прижмите палец, подвиньте под увеличением и отпустите.</p>
+  </div>
+</div>
+
+<div id="live" class="sr" aria-live="polite" aria-atomic="true"></div>
+<div id="caption" hidden role="status"><span class="who" id="capWho"></span><span id="capText"></span></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/native.js"></script>
+<script src="js/body.js"></script>
+<script src="js/template.js"></script>
+<script src="js/viewer.js"></script>
+<script src="js/scan.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/stylist.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/profiles.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/tryon.js"></script>
+<script src="js/brands.js"></script>
+<script src="js/shop.js"></script>
+<script src="js/geo.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/deals.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/photofit.js"></script>
+<script src="js/aitryon.js"></script>
+<script src="js/welcome.js"></script>
+<script src="js/music.js"></script>
+</body>
+</html>

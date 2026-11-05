@@ -1,0 +1,1020 @@
+## общее
+Langue
+Aller aux mesures
+Proekciya
+Proekciya — trouver sa taille de vêtements
+Modèle humain
+Modèle 3D
+Construction de la silhouette
+La 3D n'est pas disponible sur cet appareil
+Les mesures, la taille et le scan fonctionnent
+Affichage du modèle
+Corps
+Vêtements
+Hologramme
+Réduire ou agrandir le panneau
+Rubriques
+Fermer
+Fermer la caméra
+Rotation automatique
+Réinitialiser la vue
+Mesures
+Style
+Scan
+Visage
+Accès
+## размер
+Taille recommandée
+Taille
+Haut
+Bas
+Jean
+Chemise
+col #
+manche #
+Soutien-gorge
+Chaussures
+Couvre-chef
+Silhouette
+Lire à voix haute
+Partager
+Enregistrer
+Résultat
+Taille selon la grille européenne
+La coupe varie selon les marques — consultez le guide des tailles du magasin
+européenne #
+russe #
+largeur #
+longueur #
+## мерки
+Mesures, cm
+Étape # sur #
+Sexe
+Homme
+Femme
+homme
+femme
+Taille
+cm
+#–# cm
+# cm
+Sans chaussures, du sol au sommet de la tête
+Tour de cou
+Cou
+À la base du cou — pour les chemises
+Largeur d'épaules
+Épaules
+Dans le dos, entre les points extérieurs des épaules
+Tour de poitrine
+Poitrine
+Au niveau le plus fort, ruban à l'horizontale
+Tour sous-poitrine
+Sous-poitrine
+Juste sous la poitrine — pour le soutien-gorge
+Tour de taille
+Taille
+À l'endroit le plus fin
+Tour de hanches
+Hanches
+Au niveau le plus fort des fesses
+Tour de cuisse
+Cuisse
+Une jambe, à l'endroit le plus large — pour les pantalons
+Longueur de manche
+Manche
+De l'épaule au poignet, le bras légèrement plié
+Longueur de jambe
+Entrejambe
+Le long de la couture intérieure, de l'entrejambe au sol
+Tour de tête
+Tête
+Sur le front au-dessus des sourcils — pour les bonnets
+Longueur du pied
+Pied
+Du talon au plus long orteil — pour les chaussures
+taille
+tour de cou
+largeur d'épaules
+tour de poitrine
+tour sous-poitrine
+tour de taille
+tour de hanches
+tour de cuisse
+longueur de manche
+longueur de jambe
+tour de tête
+longueur du pied
+Moins
+Plus
+curseur
+← Retour
+Suivant →
+Terminé
+Dicter les mesures
+Réinitialiser
+Réinitialisation
+Modifié
+Saisissez un nombre en chiffres, par exemple #
+Autorisé de # à # cm
+Valeur fixée à #
+Mesures remplacées par des valeurs types — vous pouvez les modifier
+Mesures réinitialisées aux valeurs types
+Actuellement
+Changez avec les flèches
+Toutes les mesures sont saisies
+Le résultat est en haut du panneau
+# centimètre
+# centimètres
+# centimètres
+## фигура
+Sablier
+Poire
+Triangle inversé
+Pomme
+Rectangle
+Athlétique
+Ronde
+Triangle
+Droite
+Silhouette masculine
+Silhouette féminine
+taille # centimètres
+poitrine #
+taille #
+hanches # centimètres
+Avec le visage de la photo
+Dans la tenue «%»
+XXS
+XS
+S
+M
+L
+XL
+XXL
+3XL
+4XL
+## сохранить и поделиться
+Proekciya — mes mesures
+Date
+masculin
+féminin
+Mes mesures
+Enregistrer les mesures
+Mesures copiées — collez-les dans un message
+Copié
+Impossible de partager
+Essayez «%»
+Erreur
+Fichier merki.txt enregistré dans «%»
+Téléchargements
+Enregistré
+Impossible d'enregistrer le fichier
+## голос
+J'écoute…
+Saisie vocale
+Dites vos mesures
+Entendu : «%»
+Aucune mesure trouvée — dites une mesure et un nombre
+Noté
+La saisie vocale n'est pas disponible
+Je n'ai pas compris
+Réessayez
+La reconnaissance vocale n'est pas disponible
+Installez l'application «Google» et la saisie vocale
+Pas d'accès au microphone
+Autorisez-le dans les réglages de l'application
+Autorisez-le pour ce site
+La saisie vocale n'est pas disponible ici
+Touchez le champ et utilisez le micro du clavier
+## вид и модель
+Vue
+corps
+habillé
+hologramme
+Simple
+Réaliste
+Modèle simple
+Modèle réaliste
+Modèle masculin chargé (intégré à l'application)
+Modèle féminin chargé (intégré à l'application)
+Modèle masculin chargé
+Modèle féminin chargé
+Le modèle réaliste (homme) n'est pas encore chargé
+Le modèle réaliste (femme) n'est pas encore chargé
+Charger un modèle MakeHuman
+Supprimer le modèle
+Chargez d'abord un modèle MakeHuman
+Lecture du modèle…
+Modèle chargé et ajusté à vos mesures
+Impossible de charger le modèle
+Il faut un export OBJ de MakeHuman en pose A
+Impossible d'ajuster le modèle
+Modèle supprimé
+Le modèle réaliste s'ajuste à toutes vos mesures
+Pour obtenir le vôtre : le logiciel gratuit MakeHuman → «Export» → format OBJ, nom
+ou
+Sélectionnez ici tous les fichiers d'export en même temps (.obj, .mtl et les images du dossier textures)
+Le modèle est mémorisé sur l'appareil
+## лицо
+Votre visage
+Selfie
+Les yeux sur les pointillés, le visage dans l'ovale
+Échelle
+Inclinaison
+# degrés
+Retirer le visage
+Visage retiré
+Photo du visage ajoutée
+Déplacez-la dans l'aperçu : les yeux sur les pointillés
+Position du visage
+Faites glisser la photo ou utilisez les flèches
+La photo du visage reste uniquement sur cet appareil
+Peau
+Cheveux
+Yeux
+très claire
+claire
+moyenne
+mate
+foncée
+très foncée
+noirs
+châtain foncé
+châtain clair
+blonds
+roux
+gris
+marron
+noisette
+verts
+bleus
+gris
+## скан
+Scan par photo
+L'application trouve la silhouette sur la photo et prend les mesures toute seule
+L'échelle, c'est votre taille
+modifier
+Vêtements près du corps, sans chaussures, cheveux dégagés des épaules
+Se tenir droit, bras légèrement écartés, pieds à la largeur des épaules
+Téléphone à hauteur de taille à #–# m, tout le corps dans le cadre
+Photo de face
+obligatoire
+Caméra avec minuteur
+Choisir une photo
+Photo de profil
+tours plus précis
+Résultat du scan
+Mesure
+Appliquer les mesures
+Corriger à la main
+Les photos sont traitées uniquement sur cet appareil et ne sont envoyées nulle part
+Précision ±#–# cm, meilleure avec une photo de profil
+Le scan est une aide visuelle
+Sans la vue, il est plus simple de dicter les mesures dans l'onglet «%»
+Aucune photo choisie
+Impossible d'ouvrir la photo
+Le format HEIC n'est pas pris en charge — choisissez JPG
+Impossible de lire le fichier
+Silhouette trouvée
+Le scan automatique n'a pas fonctionné
+Touchez «%» et marquez les points sur la photo
+Touchez «%»
+Scan prêt à partir de deux photos
+Scan prêt à partir de la photo de face
+Scan prêt à partir des points marqués
+Mesures du scan appliquées
+Ajoutez d'abord une photo de face
+Marquez
+— point # sur #
+Tous les points sont marqués
+Le sommet de la tête et le sol sont trop proches — annulez les points et recommencez
+le sommet de la tête
+le sol entre les pieds
+bord gauche des épaules
+bord droit des épaules
+bord gauche de la poitrine (aux aisselles)
+bord droit de la poitrine
+bord gauche de la taille (le plus fin)
+bord droit de la taille
+bord gauche des hanches (le plus large)
+bord droit des hanches
+entrejambe (là où les jambes se rejoignent)
+Téléchargement de la reconnaissance de silhouette (environ 10 Mo, une seule fois)…
+Préparation de la reconnaissance de silhouette…
+Scan automatique indisponible : pas d'internet pour le premier téléchargement de la reconnaissance
+Marquez les points à la main ou connectez-vous à internet
+Recherche de la silhouette sur la photo…
+Aucune personne trouvée sur la photo
+Il faut une photo en pied sur un fond uni
+Impossible de détourer la silhouette
+La silhouette n'est pas entièrement visible
+Il faut voir le sommet de la tête et les pieds
+Une partie du corps n'est pas visible
+Placez-vous entièrement dans le cadre, bras légèrement écartés
+## камера
+Caméra
+sommet de la tête
+pieds
+Prendre
+Minuteur
+sans
+# s
+Changer de caméra
+Marquer à la main
+Annuler le point
+Appuyez, déplacez sous la loupe et relâchez
+Activation de la caméra…
+Pas d'accès à la caméra
+Autorisez la caméra dans les réglages du navigateur pour ce site
+Aucune caméra trouvée
+Impossible d'activer la caméra
+Utilisez le bouton «%» ou «%»
+Prendre une photo
+La caméra n'est pas encore prête
+Placez le téléphone à hauteur de taille et reculez de #–# m
+Le sommet de la tête à la ligne du haut, les pieds à celle du bas
+Touchez «%», le minuteur vous laisse le temps de vous placer
+Le visage dans l'ovale, regardez droit dans l'objectif, lumière uniforme de face
+## доступность
+Accessibilité
+Lecture vocale
+Conseils et résultat à voix haute, avec sous-titres
+Saisie pas à pas
+Une mesure par écran, «%» et Entrée
+Suivant
+Grand texte
+Police et boutons plus grands
+Contraste élevé
+Jaune sur noir
+Rubans sur le modèle
+Afficher les mesures de poitrine, taille et hanches
+Sous-titres
+Tous les messages en texte en bas de l'écran
+Thème
+Comme le système
+Clair
+Sombre
+L'application fonctionne avec TalkBack et VoiceOver
+Le modèle peut être tourné avec les flèches lorsqu'il a le focus
+## стилист
+Styliste
+Votre type de couleurs
+Vos couleurs
+Modifier
+Auto
+Printemps
+Été
+Automne
+Hiver
+Saison
+Printemps/automne
+déterminé automatiquement
+À éviter près du visage
+À éviter
+Tenues mises à jour
+Tenue «%» sur le modèle
+Tenue «%»
+Essayer sur le modèle
+Retirer la tenue du modèle
+Le type de couleurs dépend de la couleur de la peau, des cheveux et des yeux dans l'onglet «%»
+Les conseils du styliste sont un repère, pas une règle : portez ce dans quoi vous vous sentez bien
+Décontracté
+Smart casual
+Professionnel
+Sport
+Streetwear
+Soirée
+Robe
+Vêtement d'extérieur
+Accessoire
+couleur
+manche # cm
+tour #
+longueur # cm
+longueur d'entrejambe # cm
+couleurs chaudes, claires et pures
+couleurs froides, douces et sourdes
+couleurs chaudes, profondes et naturelles
+couleurs froides, vives et contrastées
+café
+sable
+ivoire
+denim clair
+corail
+turquoise
+vert printemps
+jaune doré
+pêche
+graphite
+gris-bleu
+blanc lait
+denim moyen
+vieux rose
+vert d'eau
+lavande
+sauge
+framboise sourde
+chocolat
+kaki
+crème
+denim foncé
+terracotta
+moutarde
+olive
+bordeaux
+bleu canard foncé
+noir
+gris froid
+blanc
+indigo
+rouge
+bleu roi
+émeraude
+fuchsia
+bleu glacier
+le noir près du visage, le gris froid, le fuchsia
+orange, moutarde, blanc pur et noir
+pastels glacés, néons et roses froids
+beige, orange, moutarde, tons chauds sourds
+## советы по фигуре
+Soulignez la taille — c'est votre principal atout
+ajusté, cache-cœur ou col en V
+taille haute, ajusté
+cintrée, portefeuille ou ceinturée
+cintré, ceinturé
+L'oversize informe et les pièces droites et amples masquent vos proportions
+Attirez le regard vers le haut : haut clair ou vif, bas foncé et sobre
+clair ou vif, encolure bateau, détails aux épaules
+foncé, droit ou légèrement évasé
+ligne A, accent sur les épaules et le décolleté
+mi-cuisse ou plus long, épaules marquées
+Bas clairs moulants, poches et détails sur les hanches, vestes courtes au niveau des hanches
+Équilibrez les épaules : haut simple, volume et couleur en bas
+simple, col en V, sans volume aux épaules
+ample ou clair : pantalon large, trapèze
+col en V et jupe évasée
+sans épaulettes, raglan
+Épaulettes, manches bouffantes, rayures horizontales sur la poitrine
+Allongez la silhouette : verticales, col en V, tissus qui ne collent pas au ventre
+ample, col en V, longueur hanches
+droit, taille mi-haute
+droite ou empire, en tissu épais
+droit, long, sans ceinture
+Ceinture à la taille, maille moulante, vestes courtes et amples
+Créez une taille : ceintures, basque, superpositions
+à basque, drapé ou ceinturé
+taille haute, jupes avec du volume
+ceinturée ou portefeuille
+ceinturé, veste cintrée
+Pièces droites d'une seule longueur des épaules aux hanches
+Mettez en valeur le V : ajusté, pas moulant
+cintré (slim fit)
+fuselé ou droit
+court, ajusté
+Les vêtements amples — ils ajoutent du volume à la taille
+Allongez la silhouette : haut uni foncé, lignes verticales
+coupe droite (regular fit), uni
+droit, longueur hanches
+Pièces moulantes, rayures horizontales, vestes courtes à la taille
+Élargissez les épaules : épaules structurées, haut clair, bas foncé
+clair, avec des détails sur la poitrine
+foncé, droit
+épaules marquées, bomber, veste
+Pantalons clairs étroits et vestes qui s'arrêtent aux hanches
+Ajoutez du volume aux épaules et superposez
+ajusté, en superposition
+droit ou légèrement fuselé
+avec du volume aux épaules
+Les tenues unies sans superposition paraissent plates
+Petite taille : une seule couleur de la tête aux pieds, taille haute, vêtements d'extérieur courts, chaussures assorties au bas
+Grande taille : manteaux longs, superpositions contrastées, pantalons larges et grands détails
+Taille moyenne : toutes les longueurs conviennent, veillez à l'équilibre entre haut et bas
+## образы
+Sweat et jean
+Sweat
+Jean droit
+Veste de travail (surchemise)
+Baskets en toile
+Sac à dos
+Polo et chino
+Polo en maille
+Chino
+Mocassins en daim
+Lunettes de soleil
+Décontracté chaud
+Pull en grosse maille
+Parka
+Bottines en cuir
+Bonnet
+Chemise portée dehors
+Chemise oxford
+Montre à bracelet cuir
+Veste sans cravate
+T-shirt ou pull fin
+Pantalon en laine
+Veste souple non doublée
+Mocassins
+Ceinture en cuir assortie aux chaussures
+Le lin en été
+Chemise en lin
+Pantalon en lin ou en coton
+Mocassins sans chaussettes
+Ceinture tressée
+Col roulé et manteau
+Col roulé fin
+Pantalon à pinces
+Manteau aux genoux
+Chelsea boots
+Écharpe en laine
+Costume classique
+Pantalon de costume
+Veste de costume
+Richelieus
+Cravate
+Habillé sans cravate
+Chemise à col italien
+Pantalon
+Blazer
+Derbies
+Porte-documents
+Costume et manteau
+Pantalon en laine
+Manteau Chesterfield
+Gants en cuir
+Pour la salle de sport
+T-shirt en tissu respirant
+Short d'entraînement
+Chaussures de salle
+Sac de sport
+Sport en ville
+Sweat à capuche
+Jogging
+Coupe-vent
+Chaussures de running
+Casquette
+Course en hiver
+Sous-couche thermique et polaire
+Collant chaud
+Doudoune légère
+Baskets à semelle crantée
+Bonnet et gants
+Oversize et cargo
+T-shirt oversize
+Pantalon cargo
+Bombers
+Baskets massives
+Street d'été
+T-shirt imprimé
+Short cargo
+Baskets
+Sac bandoulière
+Street d'hiver
+Jean large
+Doudoune volumineuse
+Baskets montantes
+Bonnet
+Costume de soirée
+Veste en laine ou en velours
+Richelieus vernis
+Pochette
+Rendez-vous
+Veste en cuir
+Montre
+Soirée d'été
+Chemise à manches courtes
+Bracelet
+Jean et trench
+Haut rayé à manches longues
+Trench
+Cabas
+Robe chemise
+Robe chemise mi-longue
+Sandales
+Sac tressé
+Pull et jupe mi-longue
+Pull
+Jupe mi-longue
+Manteau
+Bottes hautes
+Écharpe
+T-shirt et pantalon large
+T-shirt basique
+Pantalon large
+Mules ou baskets
+Petit sac
+Chemisier et pantalon
+Chemisier en soie
+Ceinture fine
+Veste et robe
+Robe en maille mi-longue
+Veste
+Escarpins à petit talon
+Boucles d'oreilles
+Col roulé
+Jupe crayon ou pantalon droit
+Bottines
+Sac structuré
+Tailleur-pantalon
+Chemisier ou top
+Pantalon de tailleur
+Escarpins
+Sac de travail
+Robe fourreau
+Brassière et T-shirt
+Legging
+Gourde
+Survêtement
+Balade d'hiver
+Veste polaire
+Legging chaud
+Doudoune
+Baskets d'hiver
+Bandeau
+Sweat à capuche et cargo
+Sweat à capuche oversize
+Sac banane
+Top et short
+Top court ou T-shirt
+Short en jean
+Robe nuisette
+Robe nuisette mi-longue
+Veste sur les épaules
+Sandales à talons
+Pochette
+Petite robe
+Robe ajustée
+Boucles d'oreilles voyantes
+Combinaison
+Combinaison à jambes larges
+Chaussures à talons
+## ии-стилист
+Demandez au styliste
+Le styliste IA connaît vos mesures, votre silhouette et votre type de couleurs ·
+en ligne
+mode démo
+Effacer
+Conversation avec le styliste
+Demandez ce que vous voulez : quoi porter pour un événement, quelles couleurs vous vont, comment associer les pièces
+Que porter pour un mariage en été ?
+Quelles couleurs me vont ?
+Composez une tenue pour le bureau
+Que cacher, que mettre en valeur ?
+Avant votre première question
+Vos messages, mesures, taille et type de couleurs sont envoyés au styliste IA par internet pour qu'il puisse répondre
+Les photos et votre visage ne sont jamais envoyés
+J'accepte
+Annuler
+Message au styliste
+Écrivez au styliste…
+Envoyer
+Conseils pour votre silhouette
+Le styliste écrit
+Le styliste n'est pas disponible pour le moment
+Vérifiez votre connexion internet et réessayez
+Mode démo : le styliste IA n'est pas encore connecté, c'est le styliste intégré qui répond
+Votre taille
+silhouette «%»
+type de couleurs «%»
+Styliste IA
+## приветствие и магазины
+Bonjour
+Bon après-midi
+Bonsoir
+Bonne nuit
+Voici «%» — votre assistant taille et style
+Trouvez votre taille exacte, essayez des tenues sur votre silhouette 3D et trouvez des vêtements qui tombent parfaitement
+Mesures et silhouette 3D
+Saisissez ou dictez vos mesures — la silhouette est construite exactement d'après elles et l'application calcule vos tailles de vêtements et de chaussures
+Prenez-vous en photo en pied — l'application prend vos mesures toute seule
+Les photos restent sur votre appareil
+Demandez comme à un vrai styliste : quoi porter pour un événement, quelles couleurs vous vont
+Il connaît votre silhouette et votre type de couleurs et montre aussitôt la tenue sur le modèle
+Recherche en boutique
+Décrivez ce que vous cherchez — l'application ajoute votre taille et lance la recherche sur Zalando, Amazon, Vinted et d'autres boutiques
+Quelle silhouette créer ?
+Commencer
+Les mesures et les photos restent uniquement sur votre appareil
+Vous pouvez rouvrir cette fenêtre : «%» → «%»
+À propos
+Boutiques
+Décrivez ce que vous cherchez — l'application ajoute votre taille et lance la recherche dans les boutiques en ligne
+Que cherchez-vous ?
+Par exemple : un jean bleu ou une robe de mariage
+Rechercher
+Jean de tous les jours
+Tenue de mariage
+Veste d'hiver
+Baskets blanches
+Costume de bureau
+Pays des boutiques
+Belgique
+Pays-Bas
+Allemagne
+France
+Pologne
+Royaume-Uni
+Russie
+Type d'article
+Détecter automatiquement
+Pantalon, jupe, short
+Le styliste IA rédige la recherche dans la langue des boutiques du pays choisi
+Sans le styliste IA, votre texte part tel quel — écrivez dans la langue des boutiques
+Les articles des tenues du styliste sont traduits automatiquement
+Le styliste IA rédige la recherche…
+IA indisponible — recherche avec votre texte
+Recherche
+Votre taille est déjà dans la recherche
+Sur le site de la boutique, cochez votre taille dans le filtre et consultez le guide des tailles de la marque
+L'application ne reçoit pas d'argent des boutiques et ne leur transmet pas vos données
+Recherches proposées
+Comment fonctionne le styliste IA
+Il connaît vos mesures, votre taille, votre silhouette et votre type de couleurs
+Il répond dans votre langue et propose des tenues à essayer tout de suite sur le modèle 3D
+Il vous dit quoi chercher et trouve des articles à votre taille dans les boutiques
+Il ne parle que de style et de vêtements
+Les photos ne sont jamais envoyées
+Trouver en boutique
+## примерка
+Essayer un produit d'après une photo
+Essayer d'après la photo du produit
+Article du site d'une boutique
+Importer une photo ou une capture du produit
+Enregistrez la photo du produit sur le site de la boutique ou faites une capture d'écran
+L'application en prendra la couleur de l'article
+Photo du produit
+Touchez l'article pour prendre sa couleur
+Touchez l'article sur la photo pour prendre sa couleur
+Couleur
+Longue
+Courte
+Coupe
+Short
+Jupe
+Longueur
+Veste
+Enfiler
+Le modèle montre le type et la couleur de l'article
+Vérifiez la coupe exacte dans le guide des tailles de la boutique
+Couleur prise sur la photo
+Touchez l'article sur la photo pour affiner
+Couleur choisie
+Le styliste IA examine le produit…
+L'IA a reconnu l'article
+Vérifiez puis touchez «%»
+Choisissez vous-même le type d'article
+Cet article ne peut pas encore être montré sur le modèle — seulement hauts, bas, robes, vêtements d'extérieur et chaussures
+«%» est sur le modèle
+Essayage
+Si le styliste IA est connecté et que vous avez accepté dans le chat, la photo du produit lui est envoyée pour analyse — n'importez pas ici de photos de vous
+## корзина
+Panier
+Les articles qui vous plaisent apparaîtront ici
+Touchez «%» sur un article dans la recherche, dans l'essayage ou sur une tenue du styliste
+Ajouter au panier
+Tout mettre sur le modèle
+L'achat se fait sur le site de la boutique : ouvrez le produit par son lien ou trouvez-le à votre taille
+Le panier est conservé uniquement sur cet appareil
+Ouvrir le produit
+Retirer
+Retirer du panier
+Lien du produit (facultatif)
+Le lien doit commencer par https://
+«%» est dans le panier
+«%» est déjà dans le panier
+«%» retiré du panier
+La tenue «%» est dans le panier
+articles : #
+Panier vidé
+Tenue du panier
+Article de
+Essayer
+## примерочная по фото
+Cabine d'essayage photo
+Importez une photo de vous en pied — vous pourrez y essayer des vêtements des boutiques et les ajuster à la main
+Se tenir droit, face à l'appareil, bras légèrement écartés
+Vêtements près du corps, lumière uniforme, fond uni
+Tout le corps dans le cadre — de la tête aux pieds
+Se prendre en photo
+La photo reste sur cet appareil et n'est envoyée nulle part
+Ajouter un article
+Enregistrer l'image
+Tout retirer
+Autre photo
+Largeur
+Rotation
+Transparence
+Gomme
+Restaurer
+Pinceau
+Monter d'un calque
+Descendre d'un calque
+Recommencer
+Retirer l'article
+Déplacez l'article avec le doigt, étirez-le et tournez-le à deux doigts ou avec la poignée jaune dans le coin
+Cabine d'essayage photo : votre photo avec les articles
+Les flèches déplacent l'article choisi, plus et moins changent sa taille
+Silhouette non reconnue — placez l'article à la main
+Importez d'abord une photo de vous en pied
+«%» est sur la photo
+Ajustez-le avec le doigt ou la poignée dans le coin
+Le fond du produit n'est pas uni — effacez le surplus avec la gomme
+«%» retiré
+Tous les articles retirés
+Photo importée
+Ajoutez un article : «%» ou depuis le panier
+Votre photo
+Image de l'essayage enregistrée
+Proekciya — essayage
+Article
+Importez une photo ou une capture du produit — l'article apparaîtra sur votre photo
+Importez d'abord une photo de vous en pied sur l'écran principal
+Le panier ne contient aucun article avec une photo du produit
+Ajoutez-les via «%»
+Cabine d'essayage
+Plus de réglages
+Thème clair
+Thème sombre
+Ma photo
+ma photo
+Retoucher le fond
+Effacer
+Retouche du fond
+Votre projection d'après photo
+Chargez une photo de vous en pied — l'application retire le fond et vous apparaissez à l'écran à la place du modèle
+Vous pouvez essayer des articles des boutiques sur la photo
+Suppression du fond de la photo… Cela peut prendre jusqu'à une minute
+Suppression du fond de la photo
+Fond retiré (mode rapide)
+Pour un résultat précis, lancez le module de suppression du fond sur votre ordinateur
+Fond non retiré
+le module de suppression du fond n'est pas lancé et il n'y a pas d'internet pour la reconnaissance
+Effacez le fond avec le bouton «%»
+Votre photo est maintenant la projection
+Ajoutez un article ou retouchez le fond au pinceau
+Retirer la photo
+Photo retirée
+La projection redevient le modèle 3D
+Filtres : prix, couleur, marque
+Prix à partir de
+Prix jusqu'à
+Toutes
+Noir
+Blanc
+Gris
+Bleu
+Beige
+Marron
+Vert
+Rouge
+Rose
+Jaune
+Violet
+Orange
+Marque
+Par exemple : Levi's
+Appliquer directement le filtre de ma taille sur le site de la boutique
+Réinitialiser les filtres
+taille
+prix
+Filtres déjà appliqués
+Sans styliste IA, la requête est traduite à l'aide d'un dictionnaire de vêtements et de couleurs
+Il vaut mieux écrire les requêtes complexes dans la langue des boutiques
+La requête a été traduite dans la langue des boutiques
+Écrivez la requête dans la langue des boutiques pour un résultat plus précis
+Votre taille selon les marques
+D'après les guides des tailles officiels des marques et vos mensurations
+Touchez une marque pour l'ajouter à la recherche
+Si vous êtes entre deux tailles, prenez la plus grande pour une coupe plus ample
+Taille selon le guide de la marque
+Recommencer
+Oui, tout effacer
+Vos mensurations, photo, cabine d'essayage, panier et réglages seront effacés
+Appuyez à nouveau sur «%» dans les # secondes
+Scanner
+Scan terminé
+Pas maintenant
+Scan terminé
+L'IA analyse votre silhouette
+Scanner indisponible
+Le scan n'a pas fonctionné
+Tenez-vous droit, entièrement dans le cadre, bras légèrement écartés
+Si votre taille est différente, corrigez-la dans «Mesures» et relancez le scan
+Scanner
+Activer la musique
+Couper la musique
+Musique de fond
+Une mélodie calme, plus douce pendant la lecture vocale
+Volume de la musique
+Musique activée
+Musique coupée
+Essayage IA
+Avant / après
+Depuis ma photo
+Le prochain article sera essayé sur votre photo d'origine
+Pour vous montrer avec cet article, votre photo et celle de l'article seront envoyées au service d'essayage IA FASHN (via fal.ai)
+Il renvoie une image prête
+Un essayage coûte environ 7 centimes
+La photo ne sert qu'à cet essayage
+Sans accord, l'essayage classique est utilisé : l'article est posé sur la photo dans l'application
+J'accepte, essayer
+Essayage classique
+Patientez, l'essayage précédent est en cours
+L'IA essaie l'article
+généralement 10 à 30 secondes
+La clé du service d'essayage n'est pas définie
+La clé du service d'essayage est invalide ou le solde est épuisé
+Le service n'a pas répondu à temps
+essayé
+Le prochain article du panier s'ajoutera par-dessus
+L'essayage n'a pas fonctionné
+À qui
+Enregistrer les modifications
+Revenir à l'enregistré
++ Nouvelle personne
+Prénom, par ex. Anna
+Créer
+Renommer
+Supprimer cette personne
+Mesures pas encore enregistrées
+Modifications non enregistrées
+enregistré
+Mesures enregistrées
+Mesures mises à jour
+Mesures enregistrées rétablies
+Nouvelle personne
+Saisissez les mesures et appuyez sur «Enregistrer les mesures»
+Vraiment supprimer
+Supprimé
+Vers un fichier
+Moi
+Essayez une autre photo sur un fond uni
+Essayer un article
+Chargez une photo de vous en pied — l'application retire le fond, analyse votre silhouette et affiche vos tailles
+Silhouette non reconnue
+placez-vous entièrement dans le cadre
+Cet appareil ne partage pas sa position
+Accès à la position refusé
+Impossible de déterminer la position
+magasin de vêtements
+Magasins selon votre position
+Détecter ma position
+Mettre à jour la position
+Magasins de vêtements sur la carte
+Magasins de vêtements du pays
+Près de vous
+La position sert uniquement au pays, à la météo et aux magasins proches
+Elle est conservée sur cet appareil
+Vous êtes ici
+Autorisez l'accès à la position : l'application affichera les magasins de votre pays et près de vous.
+Recherche de magasins proches…
+Touchez un magasin pour l'itinéraire.
+Aucun magasin de vêtements à moins de 2 km. Consultez la carte.
+Le serveur de cartes ne répond pas. Ouvrez «Magasins de vêtements sur la carte».
+Détection de la position…
+Position
+Météo et quoi porter
+Voir la météo
+Lire à voix haute
+Chaque matin, lire la météo au premier toucher
+Détecter la position et la météo
+Actualiser
+Chargement de la météo…
+La météo ne s'est pas chargée
+Promotions et soldes
+L'agent IA cherche sur internet les nouvelles des magasins de votre pays et indique où et quand acheter moins cher.
+Trouver des promos
+Vérifier les promos une fois par jour et me prévenir
+Détails
+Sources
+Vérifié
+La recherche de promos nécessite le serveur IA : ajoutez la clé (voir README, «Styliste IA»).
+L'IA cherche des promos… généralement 20 à 60 secondes
+Promos
+Aucune promo récente trouvée
+Impossible de trouver des promos
+Places de marché et grands magasins
+Vêtements du quotidien
+Marques
+Sport
+Lingerie
+Espagne
+Italie
+Portugal
+Autriche
+Suisse
+Irlande
+Suède
+Danemark
+Tchéquie
+Lituanie
+Lettonie
+Estonie
+Vêtements pour enfants
+Rayon
+# km
+Grands magasins et centres commerciaux
+Seconde main
+site
+Touchez un magasin pour l'ouvrir sur la carte.
+Données
+Aucun magasin dans ce rayon. Agrandissez le rayon ou consultez la carte.

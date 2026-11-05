@@ -1,0 +1,1020 @@
+## общее
+Language
+Skip to measurements
+Proekciya
+Proekciya — clothing size finder
+Human model
+3D model
+Building the figure
+3D is not available on this device
+Measurements, size and scan still work
+Model view
+Body
+Clothes
+Hologram
+Collapse or expand the panel
+Sections
+Close
+Close camera
+Auto-rotate
+Reset view
+Measures
+Style
+Scan
+Face
+Access
+## размер
+Recommended size
+Size
+Top
+Bottom
+Jeans
+Shirt
+collar #
+sleeve #
+Bra
+Shoes
+Hat
+Body shape
+Read aloud
+Share
+Save
+Result
+Size on the European chart
+Fit varies between brands — check the shop's size chart
+European #
+Russian #
+width #
+length #
+## мерки
+Measurements, cm
+Step # of #
+Sex
+Man
+Woman
+man
+woman
+Height
+cm
+#–# cm
+# cm
+Without shoes, from floor to the top of the head
+Neck
+Neck
+At the base of the neck — for shirts
+Shoulder width
+Shoulders
+Across the back between the outer points of the shoulders
+Chest
+Chest
+Around the fullest part, tape horizontal
+Underbust
+Underbust
+Right under the bust — for bras
+Waist
+Waist
+At the narrowest point
+Hips
+Hips
+Around the fullest part of the buttocks
+Thigh
+Thigh
+One leg, at the widest point — for trousers
+Sleeve length
+Sleeve
+From shoulder to wrist with the arm slightly bent
+Leg length
+Inseam
+Along the inside seam, from crotch to floor
+Head
+Head
+Across the forehead above the eyebrows — for hats
+Foot length
+Foot
+From heel to the longest toe — for shoes
+height
+neck
+shoulder width
+chest
+underbust
+waist
+hips
+thigh
+sleeve length
+leg length
+head
+foot length
+Less
+More
+slider
+← Back
+Next →
+Done
+Say measurements
+Reset
+Reset
+Changed
+Enter a number in digits, for example #
+Allowed from # to # cm
+Set to #
+Measurements replaced with typical ones — you can change them
+Measurements reset to typical ones
+Now
+Switch with the arrow keys
+All measurements entered
+Result is at the top of the panel
+# centimetre
+# centimetres
+# centimetres
+## фигура
+Hourglass
+Pear
+Inverted triangle
+Apple
+Rectangle
+Athletic
+Rounded
+Triangle
+Straight
+Male figure
+Female figure
+height # centimetres
+chest #
+waist #
+hips # centimetres
+With face from photo
+Wearing «%»
+XXS
+XS
+S
+M
+L
+XL
+XXL
+3XL
+4XL
+## сохранить и поделиться
+Proekciya — my measurements
+Date
+male
+female
+My measurements
+Save measurements
+Measurements copied — paste them into a message
+Copied
+Could not share
+Try «%»
+Error
+File merki.txt saved to «%»
+Downloads
+Saved
+Could not save the file
+## голос
+Listening…
+Voice input
+Say your measurements
+Heard: «%»
+No measurements found — say a measurement and a number
+Recorded
+Voice input is not available
+Didn't catch that
+Please try again
+Speech recognition is not available
+Install the «Google» app and voice input
+No access to the microphone
+Allow it in the app settings
+Allow it for this site
+Voice input is not available here
+Tap the field and use the microphone on the keyboard
+## вид и модель
+View
+body
+in clothes
+hologram
+Simple
+Realistic
+Simple model
+Realistic model
+Male model loaded (built into the app)
+Female model loaded (built into the app)
+Male model loaded
+Female model loaded
+Realistic model (man) is not loaded yet
+Realistic model (woman) is not loaded yet
+Load a model from MakeHuman
+Delete model
+Load a model from MakeHuman first
+Reading the model…
+Model loaded and fitted to your measurements
+Could not load the model
+An OBJ export from MakeHuman in A-pose is needed
+Could not fit the model
+Model deleted
+The realistic model is fitted to all your measurements
+How to get your own: the free MakeHuman program → «Export» → OBJ format, name
+or
+Select all export files here at once (.obj, .mtl and the images from the textures folder)
+The model is remembered on this device
+## лицо
+Your face
+Selfie
+Eyes on the dotted line, face in the oval
+Scale
+Tilt
+# degrees
+Remove face
+Face removed
+Face photo added
+Move it in the preview: eyes on the dotted line
+Face position
+Drag the photo or use the arrow keys
+The face photo is stored only on this device
+Skin
+Hair
+Eyes
+very fair
+fair
+medium
+olive
+dark
+very dark
+black
+dark brown
+light brown
+blond
+red
+grey
+brown
+hazel
+green
+blue
+grey
+## скан
+Scan from photo
+The app finds the figure in the photo and takes the measurements itself
+Scale is your height
+change
+Tight clothes, no shoes, hair off the shoulders
+Stand straight, arms slightly out, feet shoulder-width apart
+Phone at waist height #–# m away, whole body in the frame
+Front photo
+required
+Camera with timer
+Choose photo
+Side photo
+more accurate girths
+Scan result
+Measure
+Apply measurements
+Adjust manually
+Photos are processed only on this device and are not sent anywhere
+Accuracy ±#–# cm, higher with a side photo
+The scan is a visual helper
+Without sight it is easier to enter measurements by voice on the «%» tab
+No photo selected
+Could not open the photo
+HEIC format is not supported — choose JPG
+Could not read the file
+Figure found
+Automatic scan did not work
+Tap «%» and mark the points on the photo
+Tap «%»
+Scan ready from two photos
+Scan ready from the front photo
+Scan ready from the marked points
+Scan measurements applied
+Add a front photo first
+Mark
+— point # of #
+All points marked
+Top of head and floor are too close — undo the points and mark them again
+the top of the head
+the floor between the feet
+left edge of the shoulders
+right edge of the shoulders
+left edge of the chest (at the armpits)
+right edge of the chest
+left edge of the waist (narrowest)
+right edge of the waist
+left edge of the hips (widest)
+right edge of the hips
+crotch (where the legs meet)
+Downloading figure recognition from the internet (about 10 MB, once)…
+Preparing figure recognition…
+Automatic scan unavailable: no internet for the first download of recognition
+Mark the points manually or connect to the internet
+Looking for the figure in the photo…
+No person found in the photo
+A full-length shot on a plain background is needed
+Could not separate the silhouette
+The figure is not fully visible
+Both the top of the head and the feet are needed
+Part of the body is not visible
+Stand fully in the frame, arms slightly out
+## камера
+Camera
+top of head
+feet
+Shoot
+Timer
+off
+# s
+Switch camera
+Mark manually
+Undo point
+Hold your finger, move it under the magnifier and release
+Turning on the camera…
+No access to the camera
+Allow the camera in the browser settings for this site
+Camera not found
+Could not turn on the camera
+Use the «%» or «%» button
+Take photo
+The camera is not ready yet
+Put the phone at waist height and step back #–# m
+Top of the head at the upper line, feet at the lower line
+Tap «%», the timer gives you time to get in place
+Face in the oval, look straight into the camera, even light from the front
+## доступность
+Accessibility
+Voice output
+Hints and results read aloud, with subtitles
+Step-by-step input
+One measurement per screen, «%» and Enter
+Next
+Large text
+Bigger font and buttons
+High contrast
+Yellow on black
+Tapes on the model
+Show chest, waist and hip measurements
+Subtitles
+All messages as text at the bottom of the screen
+Theme
+System
+Light
+Dark
+The app works with TalkBack and VoiceOver
+The model can be rotated with the arrow keys when it has focus
+## стилист
+Stylist
+Your colour type
+Your colours
+Change
+Auto
+Spring
+Summer
+Autumn
+Winter
+Season
+Spring/autumn
+detected automatically
+Better avoid near the face
+Avoid
+Outfits updated
+Outfit «%» on the model
+Outfit «%»
+Try on the model
+Take the outfit off the model
+The colour type is based on the skin, hair and eye colour on the «%» tab
+The stylist's advice is a guide, not a rule: wear what you feel good in
+Casual
+Smart casual
+Business
+Sporty
+Streetwear
+Evening
+Dress
+Outerwear
+Accessory
+colour
+sleeve # cm
+girth #
+length # cm
+inseam # cm
+warm, light and clear colours
+cool, soft, muted colours
+warm, deep, natural colours
+cool, bright and contrasting colours
+coffee
+sand
+ivory
+light denim
+coral
+turquoise
+spring green
+golden yellow
+peach
+graphite
+grey-blue
+milk white
+mid denim
+dusty rose
+sea green
+lavender
+sage
+muted raspberry
+chocolate
+khaki
+cream
+dark denim
+terracotta
+mustard
+olive
+burgundy
+dark teal
+black
+cool grey
+white
+indigo
+red
+royal blue
+emerald
+fuchsia
+icy blue
+black near the face, cool grey, fuchsia
+orange, mustard, pure white and black
+icy pastels, neon and cool pinks
+beige, orange, mustard, muted warm tones
+## советы по фигуре
+Emphasise the waist — it is your main advantage
+fitted, wrap or V-neck
+high rise, fitted
+fitted, wrap or belted
+fitted, belted
+Shapeless oversize and straight baggy pieces hide your proportions
+Draw the eye up: light or bright top, dark calm bottom
+light or bright, boat neck, details on the shoulders
+dark, straight or slightly flared
+A-line, focus on the shoulders and neckline
+mid-thigh or longer, with defined shoulders
+Light tight bottoms, pockets and details on the hips, short jackets ending at the hips
+Balance the shoulders: simple top, volume and colour below
+simple, V-neck, no volume on the shoulders
+full or light: wide trousers, A-line
+V-neck with a flared skirt
+no shoulder pads, raglan
+Shoulder pads, puff sleeves, horizontal stripes on the chest
+Lengthen the silhouette: verticals, V-neck, fabrics that don't cling to the tummy
+loose, V-neck, hip length
+straight, mid rise
+straight or empire, in a dense fabric
+straight, long, no belt
+Belt at the waist, clingy knitwear, short boxy jackets
+Create a waist: belts, peplum, layering
+peplum, draping or belted
+high rise, full skirts
+belted or wrap
+belted, tailored jacket
+Straight pieces of one length from shoulders to hips
+Show off the V-shape: fitted, not skin-tight
+fitted (slim fit)
+tapered or straight
+short, fitted
+Baggy pieces — they add volume at the waist
+Lengthen the silhouette: plain dark top, vertical lines
+straight cut (regular fit), plain
+single-breasted, hip length
+Clingy pieces, horizontal stripes, short jackets ending at the waist
+Broaden the shoulders: structured shoulders, light top, dark bottom
+light, with details on the chest
+dark, straight
+with defined shoulders, bomber, blazer
+Narrow light trousers and jackets ending at the hips
+Add volume to the shoulders and layer up
+fitted, layered
+straight or slightly tapered
+with volume on the shoulders
+Plain outfits without layers look flat
+Petite: one colour head to toe, high rise, cropped outerwear, shoes matching the bottom
+Tall: long coats, contrasting layers, wide trousers and bold details work well
+Average height: any length works, keep the top and bottom in balance
+## образы
+Sweatshirt and jeans
+Sweatshirt
+Straight jeans
+Work jacket (overshirt)
+Canvas sneakers
+Backpack
+Polo and chinos
+Knit polo
+Chinos
+Suede loafers
+Sunglasses
+Warm casual
+Chunky knit jumper
+Parka
+Leather boots
+Beanie
+Untucked shirt
+Oxford shirt
+Watch on a leather strap
+Blazer without a tie
+T-shirt or fine jumper
+Wool trousers
+Soft unlined blazer
+Loafers
+Leather belt matching the shoes
+Linen in summer
+Linen shirt
+Linen or cotton trousers
+Loafers without socks
+Woven belt
+Roll-neck and coat
+Fine roll-neck
+Pleated trousers
+Knee-length coat
+Chelsea boots
+Wool scarf
+Classic suit
+Suit trousers
+Suit jacket
+Oxfords
+Tie
+Formal without a tie
+Shirt with a cutaway collar
+Trousers
+Blazer
+Derby shoes
+Briefcase
+Suit and coat
+Wool trousers
+Chesterfield coat
+Leather gloves
+For the gym
+T-shirt in breathable fabric
+Training shorts
+Gym trainers
+Sports bag
+Sport in the city
+Hoodie
+Joggers
+Windbreaker
+Running shoes
+Cap
+Winter run
+Thermal top and fleece
+Insulated tights
+Light down jacket
+Trainers with grippy soles
+Hat and gloves
+Oversize and cargo
+Oversized T-shirt
+Cargo trousers
+Bomber jacket
+Chunky trainers
+Summer street
+Graphic T-shirt
+Cargo shorts
+Trainers
+Crossbody bag
+Winter street
+Wide-leg jeans
+Puffer jacket
+High-top trainers
+Beanie
+Evening suit
+Wool or velvet blazer
+Patent oxfords
+Pocket square
+Date
+Leather jacket
+Watch
+Summer evening
+Short-sleeve shirt
+Bracelet
+Jeans and trench
+Striped long-sleeve top
+Trench coat
+Tote bag
+Shirt dress
+Midi shirt dress
+Sandals
+Woven bag
+Jumper and midi skirt
+Jumper
+Midi skirt
+Coat
+Knee-high boots
+Scarf
+T-shirt and wide trousers
+Basic T-shirt
+Wide trousers
+Mules or sneakers
+Small bag
+Blouse and trousers
+Silk blouse
+Thin belt
+Jacket and dress
+Knit midi dress
+Jacket
+Low-heel pumps
+Earrings
+Roll-neck
+Pencil skirt or straight trousers
+Ankle boots
+Structured bag
+Trouser suit
+Blouse or top
+Suit trousers
+Pumps
+Work bag
+Sheath dress
+Sports bra and T-shirt
+Leggings
+Water bottle
+Tracksuit
+Winter walk
+Fleece jacket
+Insulated leggings
+Down jacket
+Winter trainers
+Headband
+Hoodie and cargo
+Oversized hoodie
+Belt bag
+Top and shorts
+Cropped top or T-shirt
+Denim shorts
+Slip dress
+Midi slip dress
+Jacket over the shoulders
+Heeled sandals
+Clutch
+Little dress
+Fitted dress
+Statement earrings
+Jumpsuit
+Wide-leg jumpsuit
+Heels
+## ии-стилист
+Ask the stylist
+The AI stylist knows your measurements, body shape and colour type ·
+online
+demo mode
+Clear
+Conversation with the stylist
+Ask anything: what to wear to an event, which colours suit you, how to combine pieces
+What should I wear to a summer wedding?
+Which colours suit me?
+Put together an office outfit
+What should I hide and what should I highlight?
+Before your first question
+Your messages, measurements, size and colour type are sent to the AI stylist over the internet so it can answer
+Photos and your face are never sent
+I agree
+Cancel
+Message to the stylist
+Write to the stylist…
+Send
+Advice for your figure
+The stylist is typing
+The stylist is not available right now
+Check your internet connection and try again
+Demo mode: the AI stylist is not connected yet, the built-in stylist is answering
+Your size
+body shape «%»
+colour type «%»
+AI stylist
+## приветствие и магазины
+Good morning
+Good afternoon
+Good evening
+Good night
+This is «%» — your size and style assistant
+Find your exact size, try outfits on your own 3D figure and find clothes that fit just right
+Measurements and 3D figure
+Type or dictate your measurements — the figure is built exactly from them, and the app works out your clothing and shoe sizes
+Take a full-length photo — the app takes your measurements itself
+Photos stay on your device
+Ask it like a real stylist: what to wear to an event, which colours suit you
+It knows your figure and colour type and shows the outfit on the model right away
+Shop search
+Describe what you're looking for — the app adds your size and opens the search on Zalando, Amazon, Vinted and other shops
+Whose figure are we building?
+Start
+Measurements and photos are stored only on your device
+You can open this window again: «%» → «%»
+About the app
+Shops
+Describe what you're looking for — the app adds your size and opens the search in online shops
+What are you looking for?
+For example: blue jeans or a wedding dress
+Search
+Everyday jeans
+Wedding outfit
+Winter jacket
+White trainers
+Office suit
+Shop country
+Belgium
+Netherlands
+Germany
+France
+Poland
+United Kingdom
+Russia
+Item type
+Detect automatically
+Trousers, skirt, shorts
+The AI stylist writes the query in the language of the chosen country's shops
+Without the AI stylist your text goes to the shop as typed — write in the shops' language
+Items from the stylist's outfits are translated automatically
+The AI stylist is writing the query…
+AI unavailable — searching with your text
+Query
+Your size is already in the query
+On the shop's site, tick your size in the filter and check the brand's size chart
+The app takes no money from shops and does not share your data with them
+Query options found
+How the AI stylist works
+It knows your measurements, size, figure and colour type from the app
+It answers in your language and suggests outfits you can try on the 3D model right away
+It tells you what to look for and finds items in your size in the shops
+It only talks about style and clothes
+Photos are never sent
+Find in shops
+## примерка
+Try on a product from a photo
+Try on from a product photo
+Item from a shop's website
+Upload a product photo or screenshot
+Save the product photo from the shop's website or take a screenshot
+The app will take the item's colour from it
+Product photo
+Tap the item to take its colour
+Tap the item in the photo to take its colour
+Colour
+Long
+Short
+Cut
+Shorts
+Skirt
+Length
+Jacket
+Put on
+The model shows the item's type and colour
+Check the exact fit in the shop's size chart
+Colour taken from the photo
+Tap the item in the photo to refine it
+Colour selected
+The AI stylist is looking at the product…
+The AI recognised the item
+Check and tap «%»
+Choose the item type yourself
+This item can't be shown on the model yet — only tops, bottoms, dresses, outerwear and shoes
+«%» is on the model
+Try-on
+If the AI stylist is connected and you agreed in the chat, the product photo is sent to it for analysis — don't upload photos of yourself here
+## корзина
+Cart
+Items you like will appear here
+Tap «%» on an item in search, in the try-on or on a stylist's outfit
+Add to cart
+Put everything on the model
+Buying happens on the shop's website: open the product by its link or find it in your size
+The cart is stored only on this device
+Open product
+Remove
+Remove from cart
+Product link (optional)
+The link must start with https://
+«%» is in the cart
+«%» is already in the cart
+«%» removed from the cart
+Outfit «%» is in the cart
+items: #
+Cart cleared
+Outfit from the cart
+Item from
+Try on
+## примерочная по фото
+Photo fitting room
+Upload a full-length photo of yourself — you can put clothes from shops on it and adjust them by hand
+Stand straight, facing the camera, arms slightly out
+Tight clothes, even light, plain background
+Your whole body in the frame — from head to feet
+Take a photo
+The photo stays on this device and is not sent anywhere
+Add item
+Save picture
+Take everything off
+Another photo
+Width
+Rotation
+Transparency
+Eraser
+Restore
+Brush
+Layer up
+Layer down
+Reset
+Take off item
+Move the item with your finger, stretch and rotate it with two fingers or the yellow handle in the corner
+Photo fitting room: your photo with the items on it
+Arrow keys move the selected item, plus and minus change its size
+Figure not recognised — place the item by hand
+First upload a full-length photo of yourself
+«%» is on the photo
+Adjust it with your finger or the corner handle
+The product background isn't plain — erase the extra with the eraser
+«%» taken off
+All items taken off
+Photo uploaded
+Add an item: «%» or from the cart
+Your photo
+Fitting picture saved
+Proekciya — fitting
+Item
+Upload a product photo or screenshot — the item will appear on your photo
+First upload a full-length photo of yourself on the main screen
+There are no items with a product photo in the cart
+Add them via «%»
+Fitting room
+More settings
+Light theme
+Dark theme
+My photo
+my photo
+Fix background
+Erase
+Background editing
+Your projection from a photo
+Upload a full-length photo of yourself — the app removes the background and you appear on screen instead of the model
+You can try on items from shops on the photo
+Removing the photo background… This may take up to a minute
+Removing the photo background
+Background removed (quick mode)
+For a precise result, start the background removal module on your laptop
+Background not removed
+the background removal module is not running and there is no internet for recognition
+Erase the background with the «%» button
+Your photo is now the projection
+Add an item or fix the background with the brush
+Remove photo
+Photo removed
+The projection is the 3D model again
+Filters: price, colour, brand
+Price from
+Price up to
+Any
+Black
+White
+Grey
+Blue
+Beige
+Brown
+Green
+Red
+Pink
+Yellow
+Purple
+Orange
+Brand
+For example: Levi's
+Apply my size filter on the shop's website right away
+Reset filters
+size
+price
+Filters already applied
+Without the AI stylist, the request is translated using a dictionary of items and colours
+Complex requests are best written in the shops' language
+The request has been translated into the shops' language
+Write the request in the shops' language for more accurate results
+Your size in brands
+Based on the brands' official size charts and your measurements
+Tap a brand to add it to the search
+If you are between sizes, choose the larger one for a looser fit
+Size from the brand's chart
+Start over
+Yes, erase everything
+Your measurements, photo, fitting room, cart and settings will be erased
+Press «%» again within # seconds
+Scan
+Scan complete
+Not now
+Scan finished
+AI is scanning your body
+Scanner unavailable
+The scan didn't work
+Stand straight, fully in frame, arms slightly away from your body
+If your height is different, correct it under «Measurements» and scan again
+Scanner
+Turn music on
+Turn music off
+Background music
+A calm melody, quieter while the voice is speaking
+Music volume
+Music on
+Music off
+AI try-on
+Before / after
+From my photo
+The next item will be tried on your original photo
+To show you wearing this item, your photo and the item's photo will be sent to the FASHN AI try-on service (via fal.ai)
+It returns a finished picture
+One try-on costs about 7 cents
+The photo is used only for this try-on
+Without consent the regular try-on is used: the item is placed on the photo inside the app
+I agree, try it on
+Regular try-on
+Please wait, the previous try-on is still running
+AI is trying the item on
+usually 10–30 seconds
+The try-on service key is not set
+The try-on service key is invalid or the account balance has run out
+The service didn't respond in time
+tried on
+The next item from the cart will be added on top
+The try-on didn't work
+Whose measurements
+Save changes
+Restore saved
++ New person
+Name, e.g. Anna
+Create
+Rename
+Delete this person
+Measurements not saved yet
+There are unsaved changes
+saved
+Measurements saved
+Measurements updated
+Saved measurements restored
+New person
+Enter the measurements and press «Save measurements»
+Really delete
+Deleted
+To file
+Me
+Try another photo against a plain background
+Try on an item
+Upload a full-length photo of yourself — the app removes the background, scans your body and shows your sizes
+Body not recognised
+stand fully in the frame
+This device doesn't share its location
+Location access is blocked
+Couldn't determine your location
+clothing store
+Shops near your location
+Detect my location
+Update location
+Clothing shops on the map
+Clothing shops in the country
+Near you
+Your location is used only to pick the country, the weather and nearby shops
+It is stored on this device
+You are here
+Allow location access and the app will show shops in your country and near you.
+Looking for shops nearby…
+Tap a shop to open directions.
+No clothing shops found within 2 km. Check the map.
+The map server isn't responding right now. Open «Clothing shops on the map».
+Detecting location…
+Location
+Weather and what to wear
+Get the weather
+Read aloud
+Every morning, read the forecast aloud on the first tap
+Detect location and weather
+Refresh
+Loading the forecast…
+The forecast didn't load
+Discounts and sales
+The AI agent searches the web for fresh news from shops in your country and tells you where and when to buy for less.
+Find discounts
+Check for discounts once a day and tell me
+More
+Sources
+Checked
+Discount search needs the AI server: add the key (see README, «AI stylist» section).
+AI is looking for discounts… usually 20–60 seconds
+Discounts
+No fresh discounts found
+Couldn't find discounts
+Marketplaces and department stores
+Everyday clothing
+Brands
+Sport
+Underwear
+Spain
+Italy
+Portugal
+Austria
+Switzerland
+Ireland
+Sweden
+Denmark
+Czechia
+Lithuania
+Latvia
+Estonia
+Children's clothing
+Radius
+# km
+Department stores and malls
+Second-hand
+website
+Tap a shop to open it on the map.
+Data
+No shops found in this radius. Increase the radius or check the map.

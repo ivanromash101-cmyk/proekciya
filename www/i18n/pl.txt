@@ -1,0 +1,1020 @@
+## общее
+Język
+Przejdź do wymiarów
+Proekciya
+Proekciya — dobór rozmiaru ubrań
+Model człowieka
+Model 3D
+Tworzę sylwetkę
+3D nie jest dostępne na tym urządzeniu
+Wymiary, rozmiar i skan działają
+Widok modelu
+Ciało
+Ubranie
+Hologram
+Zwiń lub rozwiń panel
+Sekcje
+Zamknij
+Zamknij aparat
+Autoobrót
+Przywróć widok
+Wymiary
+Styl
+Skan
+Twarz
+Dostęp
+## размер
+Zalecany rozmiar
+Rozmiar
+Góra
+Dół
+Dżinsy
+Koszula
+kołnierzyk #
+rękaw #
+Biustonosz
+Buty
+Nakrycie głowy
+Sylwetka
+Przeczytaj
+Udostępnij
+Zapisz
+Wynik
+Rozmiar według tabeli europejskiej
+Kroje różnią się między markami — sprawdź tabelę rozmiarów sklepu
+europejski #
+rosyjski #
+szerokość #
+długość #
+## мерки
+Wymiary, cm
+Krok # z #
+Płeć
+Mężczyzna
+Kobieta
+mężczyzna
+kobieta
+Wzrost
+cm
+#–# cm
+# cm
+Bez butów, od podłogi do czubka głowy
+Obwód szyi
+Szyja
+U nasady szyi — do koszul
+Szerokość ramion
+Ramiona
+Po plecach między skrajnymi punktami ramion
+Obwód klatki piersiowej
+Klatka
+W najszerszym miejscu, taśma poziomo
+Obwód pod biustem
+Pod biustem
+Tuż pod biustem — do biustonosza
+Obwód talii
+Talia
+W najwęższym miejscu
+Obwód bioder
+Biodra
+W najszerszym miejscu pośladków
+Obwód uda
+Udo
+Jedna noga, najszersze miejsce — do spodni
+Długość rękawa
+Rękaw
+Od ramienia do nadgarstka przy lekko zgiętej ręce
+Długość nogi
+Krok
+Wzdłuż wewnętrznego szwu, od krocza do podłogi
+Obwód głowy
+Głowa
+Przez czoło nad brwiami — do czapek
+Długość stopy
+Stopa
+Od pięty do najdłuższego palca — do butów
+wzrost
+obwód szyi
+szerokość ramion
+obwód klatki piersiowej
+obwód pod biustem
+obwód talii
+obwód bioder
+obwód uda
+długość rękawa
+długość nogi
+obwód głowy
+długość stopy
+Mniej
+Więcej
+suwak
+← Wstecz
+Dalej →
+Gotowe
+Podyktuj wymiary
+Resetuj
+Reset
+Zmieniono
+Wpisz liczbę cyframi, na przykład #
+Dozwolone od # do # cm
+Ustawiono #
+Wymiary zastąpiono typowymi — możesz je zmienić
+Przywrócono typowe wymiary
+Teraz
+Przełączaj strzałkami
+Wszystkie wymiary wpisane
+Wynik jest na górze panelu
+# centymetr
+# centymetry
+# centymetrów
+## фигура
+Klepsydra
+Gruszka
+Odwrócony trójkąt
+Jabłko
+Prostokąt
+Atletyczna
+Okrągła
+Trójkąt
+Prosta
+Sylwetka męska
+Sylwetka kobieca
+wzrost # centymetrów
+klatka #
+talia #
+biodra # centymetrów
+Z twarzą ze zdjęcia
+W stylizacji «%»
+XXS
+XS
+S
+M
+L
+XL
+XXL
+3XL
+4XL
+## сохранить и поделиться
+Proekciya — moje wymiary
+Data
+męska
+żeńska
+Moje wymiary
+Zapisz wymiary
+Wymiary skopiowane — wklej je do wiadomości
+Skopiowano
+Nie udało się udostępnić
+Spróbuj «%»
+Błąd
+Plik merki.txt zapisano w «%»
+Pobrane
+Zapisano
+Nie udało się zapisać pliku
+## голос
+Słucham…
+Wprowadzanie głosowe
+Podaj wymiary
+Usłyszano: «%»
+Nie znaleziono wymiarów — podaj wymiar i liczbę
+Zapisano
+Wprowadzanie głosowe jest niedostępne
+Nie dosłyszałem
+Spróbuj jeszcze raz
+Rozpoznawanie mowy jest niedostępne
+Zainstaluj aplikację «Google» i wprowadzanie głosowe
+Brak dostępu do mikrofonu
+Zezwól na to w ustawieniach aplikacji
+Zezwól na to dla tej strony
+Wprowadzanie głosowe nie jest tu dostępne
+Dotknij pola i użyj mikrofonu na klawiaturze
+## вид и модель
+Widok
+ciało
+w ubraniu
+hologram
+Prosty
+Realistyczny
+Prosty model
+Realistyczny model
+Model mężczyzny załadowany (wbudowany w aplikację)
+Model kobiety załadowany (wbudowany w aplikację)
+Model mężczyzny załadowany
+Model kobiety załadowany
+Realistyczny model (mężczyzna) nie jest jeszcze załadowany
+Realistyczny model (kobieta) nie jest jeszcze załadowany
+Załaduj model z MakeHuman
+Usuń model
+Najpierw załaduj model z MakeHuman
+Wczytuję model…
+Model załadowany i dopasowany do twoich wymiarów
+Nie udało się załadować modelu
+Potrzebny jest eksport OBJ z MakeHuman w pozie A
+Nie udało się dopasować modelu
+Model usunięty
+Realistyczny model dopasowuje się do wszystkich twoich wymiarów
+Jak zdobyć własny: darmowy program MakeHuman → «Eksport» → format OBJ, nazwa
+lub
+Wybierz tu od razu wszystkie pliki eksportu (.obj, .mtl i obrazy z folderu textures)
+Model zostaje zapamiętany na urządzeniu
+## лицо
+Własna twarz
+Selfie
+Oczy na linii przerywanej, twarz w owalu
+Skala
+Nachylenie
+# stopni
+Usuń twarz
+Twarz usunięta
+Dodano zdjęcie twarzy
+Przesuń je w podglądzie: oczy na linii przerywanej
+Położenie twarzy
+Przeciągnij zdjęcie lub użyj strzałek
+Zdjęcie twarzy jest przechowywane tylko na tym urządzeniu
+Skóra
+Włosy
+Oczy
+bardzo jasna
+jasna
+średnia
+śniada
+ciemna
+bardzo ciemna
+czarne
+ciemnobrązowe
+jasnobrązowe
+blond
+rude
+siwe
+brązowe
+piwne
+zielone
+niebieskie
+szare
+## скан
+Skan ze zdjęcia
+Aplikacja sama znajdzie sylwetkę na zdjęciu i zmierzy wymiary
+Skalą jest twój wzrost
+zmień
+Obcisłe ubranie, bez butów, włosy zebrane z ramion
+Stań prosto, ręce lekko odsunięte, stopy na szerokość ramion
+Telefon na wysokości pasa w odległości #–# m, całe ciało w kadrze
+Zdjęcie z przodu
+wymagane
+Aparat z samowyzwalaczem
+Wybierz zdjęcie
+Zdjęcie z boku
+dokładniejsze obwody
+Wynik skanu
+Wymiar
+Zastosuj wymiary
+Popraw ręcznie
+Zdjęcia są przetwarzane tylko na tym urządzeniu i nigdzie nie są wysyłane
+Dokładność ±#–# cm, ze zdjęciem z boku większa
+Skan to pomoc wizualna
+Bez wzroku łatwiej podać wymiary głosem w zakładce «%»
+Nie wybrano zdjęcia
+Nie udało się otworzyć zdjęcia
+Format HEIC nie jest obsługiwany — wybierz JPG
+Nie udało się odczytać pliku
+Znaleziono sylwetkę
+Automatyczny skan nie zadziałał
+Dotknij «%» i zaznacz punkty na zdjęciu
+Dotknij «%»
+Skan gotowy z dwóch zdjęć
+Skan gotowy ze zdjęcia z przodu
+Skan gotowy z zaznaczonych punktów
+Zastosowano wymiary ze skanu
+Najpierw dodaj zdjęcie z przodu
+Zaznacz
+— punkt # z #
+Wszystkie punkty zaznaczone
+Czubek głowy i podłoga są za blisko — cofnij punkty i zaznacz je ponownie
+czubek głowy
+podłogę między stopami
+lewą krawędź ramion
+prawą krawędź ramion
+lewą krawędź klatki (przy pachach)
+prawą krawędź klatki
+lewą krawędź talii (najwęższe miejsce)
+prawą krawędź talii
+lewą krawędź bioder (najszersze miejsce)
+prawą krawędź bioder
+krocze (gdzie schodzą się nogi)
+Pobieram rozpoznawanie sylwetki z internetu (około 10 MB, jednorazowo)…
+Przygotowuję rozpoznawanie sylwetki…
+Automatyczny skan niedostępny: brak internetu do pierwszego pobrania rozpoznawania
+Zaznacz punkty ręcznie lub połącz się z siecią
+Szukam sylwetki na zdjęciu…
+Na zdjęciu nie znaleziono osoby
+Potrzebne jest zdjęcie całej postaci na jednolitym tle
+Nie udało się wyodrębnić sylwetki
+Sylwetka nie jest widoczna w całości
+Potrzebny jest czubek głowy i stopy
+Część ciała jest niewidoczna
+Stań cały w kadrze, ręce lekko odsunięte
+## камера
+Aparat
+czubek głowy
+stopy
+Zrób zdjęcie
+Samowyzwalacz
+bez
+# s
+Zmień aparat
+Zaznacz ręcznie
+Cofnij punkt
+Przytrzymaj palec, przesuń pod lupą i puść
+Włączam aparat…
+Brak dostępu do aparatu
+Zezwól na aparat w ustawieniach przeglądarki dla tej strony
+Nie znaleziono aparatu
+Nie udało się włączyć aparatu
+Użyj przycisku «%» lub «%»
+Sfotografuj
+Aparat nie jest jeszcze gotowy
+Postaw telefon na wysokości pasa i odejdź na #–# m
+Czubek głowy przy górnej linii, stopy przy dolnej
+Dotknij «%», samowyzwalacz da ci czas, by stanąć
+Twarz w owalu, patrz prosto w obiektyw, równe światło z przodu
+## доступность
+Dostępność
+Czytanie na głos
+Podpowiedzi i wynik na głos, z napisami
+Wprowadzanie krok po kroku
+Jeden wymiar na ekranie, «%» i Enter
+Dalej
+Duży tekst
+Większa czcionka i przyciski
+Wysoki kontrast
+Żółty na czarnym
+Taśmy na modelu
+Pokazuj obwód klatki, talii i bioder
+Napisy
+Wszystkie komunikaty tekstem na dole ekranu
+Motyw
+Jak w systemie
+Jasny
+Ciemny
+Aplikacja działa z TalkBack i VoiceOver
+Model można obracać strzałkami, gdy jest aktywny
+## стилист
+Stylista
+Twój typ kolorystyczny
+Twoje kolory
+Zmień
+Auto
+Wiosna
+Lato
+Jesień
+Zima
+Sezon
+Wiosna/jesień
+określono automatycznie
+Lepiej unikać przy twarzy
+Unikaj
+Stylizacje zaktualizowane
+Stylizacja «%» na modelu
+Stylizacja «%»
+Przymierz na modelu
+Zdejmij stylizację z modelu
+Typ kolorystyczny określa się po kolorze skóry, włosów i oczu w zakładce «%»
+Rady stylisty to wskazówka, a nie reguła: noś to, w czym dobrze się czujesz
+Codzienny
+Smart casual
+Biznesowy
+Sportowy
+Uliczny
+Wieczorowy
+Sukienka
+Odzież wierzchnia
+Dodatek
+kolor
+rękaw # cm
+obwód #
+długość # cm
+długość nogawki # cm
+ciepłe, jasne i czyste kolory
+chłodne, miękkie, przygaszone kolory
+ciepłe, głębokie, naturalne kolory
+chłodne, jaskrawe i kontrastowe kolory
+kawowy
+piaskowy
+kość słoniowa
+jasny denim
+koralowy
+turkusowy
+wiosenna zieleń
+złotożółty
+brzoskwiniowy
+grafitowy
+szaroniebieski
+mleczny
+średni denim
+pudrowy róż
+morski
+lawendowy
+szałwiowy
+przygaszona malina
+czekoladowy
+khaki
+kremowy
+ciemny denim
+terakota
+musztardowy
+oliwkowy
+bordowy
+ciemny morski
+czarny
+chłodny szary
+biały
+indygo
+czerwony
+królewski niebieski
+szmaragdowy
+fuksja
+lodowy błękit
+czerń przy twarzy, chłodny szary, fuksję
+pomarańczowy, musztardowy, czystą biel i czerń
+lodowe pastele, neony i chłodne róże
+beż, pomarańczowy, musztardowy, przygaszone ciepłe tony
+## советы по фигуре
+Podkreślaj talię — to twój największy atut
+dopasowana, kopertowa lub z dekoltem V
+wysoki stan, dopasowane
+taliowana, kopertowa lub z paskiem
+taliowany, z paskiem
+Bezkształtny oversize i proste workowate rzeczy ukrywają proporcje
+Akcent u góry: jasna lub żywa góra, ciemny spokojny dół
+jasna lub żywa, dekolt łódka, detale na ramionach
+ciemne, proste lub lekko rozszerzane
+linia A, akcent na ramiona i dekolt
+do połowy uda lub dłuższa, z wyraźnymi ramionami
+Jasne obcisłe doły, kieszenie i detale na biodrach, krótkie kurtki do linii bioder
+Zrównoważ ramiona: prosta góra, objętość i kolor na dole
+prosta, z dekoltem V, bez objętości na ramionach
+obszerne lub jasne: szerokie spodnie, trapez
+z dekoltem V i rozkloszowaną spódnicą
+bez poduszek, reglan
+Poduszki na ramionach, bufiaste rękawy, poziome paski na piersi
+Wydłużaj sylwetkę: pionowe linie, dekolt V, tkaniny, które nie przylegają do brzucha
+luźna, z dekoltem V, do bioder
+proste, średni stan
+prosta lub empire, z grubszej tkaniny
+prosty, długi, bez paska
+Pasek w talii, obcisła dzianina, krótkie obszerne kurtki
+Stwórz talię: paski, baskinka, warstwy
+z baskinką, drapowaniem lub pod pasek
+wysoki stan, spódnice z objętością
+z paskiem lub kopertowa
+z paskiem, taliowany żakiet
+Proste rzeczy jednej długości od ramion do bioder
+Podkreśl sylwetkę V: rzeczy dopasowane, ale nie obcisłe
+taliowany (slim fit)
+zwężany lub prosty
+krótki, dopasowany
+Workowate rzeczy — dodają objętości w talii
+Wydłużaj sylwetkę: jednolita ciemna góra, pionowe linie
+prosty krój (regular fit), jednolity
+jednorzędowy, do bioder
+Obcisłe rzeczy, poziome paski, krótkie kurtki do talii
+Poszerz ramiona: wyraźne ramiona, jasna góra, ciemny dół
+jasna, z detalami na piersi
+ciemne, proste
+z wyraźnym ramieniem, bomberka, marynarka
+Wąskie jasne spodnie i kurtki kończące się na biodrach
+Dodaj objętości ramionom i noś warstwy
+dopasowana, warstwowo
+proste lub lekko zwężane
+z objętością na ramionach
+Jednolite stylizacje bez warstw wyglądają płasko
+Niski wzrost: jeden kolor od stóp do głów, wysoki stan, krótka odzież wierzchnia, buty w kolorze dołu
+Wysoki wzrost: pasują długie płaszcze, kontrastowe warstwy, szerokie spodnie i duże detale
+Średni wzrost: pasuje każda długość, dbaj o równowagę góry i dołu
+## образы
+Bluza i dżinsy
+Bluza
+Proste dżinsy
+Kurtka robocza (overshirt)
+Trampki
+Plecak
+Polo i chinosy
+Dzianinowa koszulka polo
+Chinosy
+Zamszowe mokasyny
+Okulary przeciwsłoneczne
+Ciepły casual
+Sweter z grubego splotu
+Parka
+Skórzane botki
+Czapka beanie
+Koszula na wierzch
+Koszula oxford
+Zegarek na skórzanym pasku
+Marynarka bez krawata
+T-shirt lub cienki sweter
+Wełniane spodnie
+Miękka marynarka bez podszewki
+Loafersy
+Skórzany pasek w kolorze butów
+Len latem
+Lniana koszula
+Lniane lub bawełniane spodnie
+Loafersy bez skarpet
+Pleciony pasek
+Golf i płaszcz
+Cienki golf
+Spodnie w kant
+Płaszcz do kolan
+Sztyblety
+Wełniany szalik
+Klasyczny garnitur
+Spodnie garniturowe
+Marynarka od garnituru
+Oksfordy
+Krawat
+Elegancko bez krawata
+Koszula z kołnierzykiem kent
+Spodnie
+Blezer
+Derby
+Teczka
+Garnitur i płaszcz
+Spodnie z wełny
+Płaszcz chesterfield
+Skórzane rękawiczki
+Na siłownię
+Koszulka z oddychającej tkaniny
+Spodenki treningowe
+Buty na siłownię
+Torba sportowa
+Sport w mieście
+Bluza z kapturem
+Joggery
+Wiatrówka
+Buty do biegania
+Czapka z daszkiem
+Zimowe bieganie
+Bluza termiczna i polar
+Ocieplane legginsy biegowe
+Lekka kurtka puchowa
+Buty z bieżnikiem
+Czapka i rękawiczki
+Oversize i bojówki
+T-shirt oversize
+Spodnie bojówki
+Bomberka
+Masywne sneakersy
+Letni street
+T-shirt z nadrukiem
+Szorty bojówki
+Sneakersy
+Torba przez ramię
+Zimowy street
+Szerokie dżinsy
+Obszerna kurtka puchowa
+Wysokie sneakersy
+Beanie
+Garnitur wieczorowy
+Marynarka z wełny lub aksamitu
+Lakierowane oksfordy
+Poszetka
+Randka
+Skórzana kurtka
+Zegarek
+Letni wieczór
+Koszula z krótkim rękawem
+Bransoletka
+Dżinsy i trencz
+Bluzka w paski z długim rękawem
+Trencz
+Torba shopper
+Sukienka koszulowa
+Sukienka koszulowa midi
+Sandały
+Pleciona torebka
+Sweter i spódnica midi
+Sweter
+Spódnica midi
+Płaszcz
+Kozaki
+Szal
+T-shirt i szerokie spodnie
+Podstawowy T-shirt
+Szerokie spodnie
+Klapki mule lub trampki
+Mała torebka
+Bluzka i spodnie
+Jedwabna bluzka
+Cienki pasek
+Żakiet i sukienka
+Dzianinowa sukienka midi
+Żakiet
+Czółenka na niskim obcasie
+Kolczyki
+Golf
+Spódnica ołówkowa lub proste spodnie
+Botki
+Sztywna torebka
+Garnitur ze spodniami
+Bluzka lub top
+Spodnie od garnituru
+Czółenka
+Torba do pracy
+Sukienka ołówkowa
+Stanik sportowy i T-shirt
+Legginsy
+Butelka na wodę
+Dres
+Zimowy spacer
+Bluza polarowa
+Ocieplane legginsy
+Kurtka puchowa
+Zimowe sneakersy
+Opaska na głowę
+Bluza i bojówki
+Bluza oversize
+Nerka
+Top i szorty
+Krótki top lub T-shirt
+Szorty dżinsowe
+Sukienka na ramiączkach
+Sukienka na ramiączkach midi
+Żakiet na ramionach
+Sandały na obcasie
+Kopertówka
+Mała sukienka
+Dopasowana sukienka
+Wyraziste kolczyki
+Kombinezon
+Kombinezon z szerokimi nogawkami
+Buty na obcasie
+## ии-стилист
+Zapytaj stylistę
+Stylista AI zna twoje wymiary, sylwetkę i typ kolorystyczny ·
+online
+tryb demo
+Wyczyść
+Rozmowa ze stylistą
+Pytaj o wszystko: w co się ubrać na okazję, jakie kolory ci pasują, jak łączyć rzeczy
+W co się ubrać na letnie wesele?
+Jakie kolory mi pasują?
+Skomponuj strój do biura
+Co ukryć, a co podkreślić?
+Przed pierwszym pytaniem
+Twoje wiadomości, wymiary, rozmiar i typ kolorystyczny są wysyłane przez internet do stylisty AI, żeby mógł odpowiedzieć
+Zdjęcia i twarz nigdy nie są wysyłane
+Zgadzam się
+Anuluj
+Wiadomość do stylisty
+Napisz do stylisty…
+Wyślij
+Porady dla twojej sylwetki
+Stylista pisze
+Stylista jest teraz niedostępny
+Sprawdź internet i spróbuj ponownie
+Tryb demo: stylista AI nie jest jeszcze podłączony, odpowiada wbudowany stylista
+Twój rozmiar
+sylwetka «%»
+typ kolorystyczny «%»
+Stylista AI
+## приветствие и магазины
+Dzień dobry
+Dzień dobry
+Dobry wieczór
+Dobranoc
+To «%» — twój pomocnik od rozmiarów i stylu
+Poznaj dokładny rozmiar, przymierz stylizacje na własnej sylwetce 3D i znajdź ubrania, które dobrze leżą
+Wymiary i sylwetka 3D
+Wpisz lub podyktuj wymiary — sylwetka powstaje dokładnie według nich, a aplikacja oblicza twój rozmiar ubrań i butów
+Zrób zdjęcie całej postaci — aplikacja sama zmierzy wymiary
+Zdjęcia zostają na urządzeniu
+Pytaj jak prawdziwego stylistę: w co się ubrać na okazję, jakie kolory ci pasują
+Zna twoją sylwetkę i typ kolorystyczny i od razu pokazuje stylizację na modelu
+Szukanie w sklepach
+Opisz, czego szukasz — aplikacja doda twój rozmiar i otworzy wyszukiwanie w Zalando, Amazon, Vinted i innych sklepach
+Czyją sylwetkę tworzymy?
+Zaczynamy
+Wymiary i zdjęcia są przechowywane tylko na twoim urządzeniu
+To okno możesz otworzyć ponownie: «%» → «%»
+O aplikacji
+Sklepy
+Opisz, czego szukasz — aplikacja doda twój rozmiar i otworzy wyszukiwanie w sklepach internetowych
+Czego szukasz?
+Na przykład: niebieskie dżinsy albo sukienka na wesele
+Szukaj
+Dżinsy na co dzień
+Strój na wesele
+Kurtka zimowa
+Białe sneakersy
+Garnitur do biura
+Kraj sklepów
+Belgia
+Holandia
+Niemcy
+Francja
+Polska
+Wielka Brytania
+Rosja
+Rodzaj rzeczy
+Rozpoznaj automatycznie
+Spodnie, spódnica, szorty
+Stylista AI napisze zapytanie w języku sklepów wybranego kraju
+Bez stylisty AI twój tekst trafia do sklepu bez zmian — pisz w języku sklepów
+Rzeczy ze stylizacji stylisty tłumaczą się same
+Stylista AI pisze zapytanie…
+AI niedostępne — szukamy według twojego tekstu
+Zapytanie
+Twój rozmiar jest już w zapytaniu
+Na stronie sklepu zaznacz rozmiar w filtrze i sprawdź tabelę rozmiarów marki
+Aplikacja nie bierze pieniędzy od sklepów i nie przekazuje im twoich danych
+Znalezione zapytania
+Jak działa stylista AI
+Zna twoje wymiary, rozmiar, sylwetkę i typ kolorystyczny z aplikacji
+Odpowiada w twoim języku i proponuje stylizacje, które od razu przymierzysz na modelu 3D
+Podpowie, czego szukać, i znajdzie rzeczy w twoim rozmiarze w sklepach
+Mówi tylko o stylu i ubraniach
+Zdjęcia nigdy nie są wysyłane
+Znajdź w sklepach
+## примерка
+Przymierz produkt ze zdjęcia
+Przymierz ze zdjęcia produktu
+Rzecz ze strony sklepu
+Wgraj zdjęcie lub zrzut ekranu produktu
+Zapisz zdjęcie produktu ze strony sklepu lub zrób zrzut ekranu
+Aplikacja weźmie z niego kolor rzeczy
+Zdjęcie produktu
+Dotknij rzeczy, aby wziąć jej kolor
+Dotknij rzeczy na zdjęciu, aby wziąć jej kolor
+Kolor
+Długi
+Krótki
+Fason
+Szorty
+Spódnica
+Długość
+Kurtka
+Załóż
+Model pokazuje rodzaj i kolor rzeczy
+Dokładne dopasowanie sprawdź w tabeli rozmiarów sklepu
+Kolor wzięty ze zdjęcia
+Dotknij rzeczy na zdjęciu, aby go doprecyzować
+Wybrano kolor
+Stylista AI ogląda produkt…
+AI rozpoznało rzecz
+Sprawdź i dotknij «%»
+Wybierz rodzaj rzeczy samodzielnie
+Tej rzeczy nie można jeszcze pokazać na modelu — tylko góry, doły, sukienki, odzież wierzchnią i buty
+«%» jest na modelu
+Przymiarka
+Jeśli stylista AI jest podłączony i wyraziłeś zgodę w czacie, zdjęcie produktu trafia do niego do analizy — nie wgrywaj tu swoich zdjęć
+## корзина
+Koszyk
+Tu pojawią się rzeczy, które ci się podobają
+Dotknij «%» przy rzeczy w wyszukiwaniu, w przymiarce lub przy stylizacji stylisty
+Do koszyka
+Załóż wszystko na model
+Zakup odbywa się na stronie sklepu: otwórz produkt z linku albo znajdź go w swoim rozmiarze
+Koszyk jest przechowywany tylko na tym urządzeniu
+Otwórz produkt
+Usuń
+Usuń z koszyka
+Link do produktu (opcjonalnie)
+Link musi zaczynać się od https://
+«%» jest w koszyku
+«%» jest już w koszyku
+«%» usunięto z koszyka
+Stylizacja «%» jest w koszyku
+rzeczy: #
+Koszyk wyczyszczony
+Stylizacja z koszyka
+Rzecz z
+Przymierz
+## примерочная по фото
+Przymierzalnia ze zdjęcia
+Wgraj swoje zdjęcie całej postaci — możesz na nim przymierzać ubrania ze sklepów i dopasować je ręcznie
+Stań prosto, przodem do aparatu, ręce lekko odsunięte
+Obcisłe ubranie, równe światło, jednolite tło
+Całe ciało w kadrze — od czubka głowy do stóp
+Zrób zdjęcie
+Zdjęcie zostaje na tym urządzeniu i nigdzie nie jest wysyłane
+Dodaj rzecz
+Zapisz obraz
+Zdejmij wszystko
+Inne zdjęcie
+Szerokość
+Obrót
+Przezroczystość
+Gumka
+Przywróć
+Pędzel
+Warstwa wyżej
+Warstwa niżej
+Od nowa
+Zdejmij rzecz
+Przesuwaj rzecz palcem, rozciągaj i obracaj dwoma palcami lub żółtym uchwytem w rogu
+Przymierzalnia ze zdjęcia: twoje zdjęcie z rzeczami
+Strzałki przesuwają wybraną rzecz, plus i minus zmieniają rozmiar
+Sylwetka nierozpoznana — ustaw rzecz ręcznie
+Najpierw wgraj swoje zdjęcie całej postaci
+«%» jest na zdjęciu
+Popraw ją palcem lub uchwytem w rogu
+Tło produktu nie jest jednolite — zetrzyj nadmiar gumką
+«%» zdjęto
+Wszystkie rzeczy zdjęte
+Zdjęcie wgrane
+Dodaj rzecz: «%» lub z koszyka
+Twoje zdjęcie
+Obraz przymiarki zapisany
+Proekciya — przymiarka
+Rzecz
+Wgraj zdjęcie lub zrzut ekranu produktu — rzecz pojawi się na twoim zdjęciu
+Najpierw wgraj na ekranie głównym swoje zdjęcie całej postaci
+W koszyku nie ma rzeczy ze zdjęciem produktu
+Dodaj je przez «%»
+Przymierzalnia
+Więcej ustawień
+Jasny motyw
+Ciemny motyw
+Moje zdjęcie
+moje zdjęcie
+Popraw tło
+Usuń
+Edycja tła
+Twoja projekcja ze zdjęcia
+Wgraj swoje zdjęcie w całej postaci — aplikacja usunie tło i zamiast modelu na ekranie pojawisz się Ty
+Na zdjęciu możesz przymierzać rzeczy ze sklepów
+Usuwam tło ze zdjęcia… To może potrwać do minuty
+Usuwam tło ze zdjęcia
+Tło usunięte szybko
+Aby uzyskać dokładny wynik, uruchom na laptopie moduł usuwania tła
+Tło nie zostało usunięte
+moduł usuwania tła nie działa i nie ma internetu do rozpoznawania
+Usuń tło przyciskiem «%»
+Twoje zdjęcie jest teraz projekcją
+Dodaj rzecz lub popraw tło pędzlem
+Usuń zdjęcie
+Zdjęcie usunięte
+Projekcja to znowu model 3D
+Filtry: cena, kolor, marka
+Cena od
+Cena do
+Dowolny
+Czarny
+Biały
+Szary
+Niebieski
+Beżowy
+Brązowy
+Zielony
+Czerwony
+Różowy
+Żółty
+Fioletowy
+Pomarańczowy
+Marka
+Na przykład: Levi's
+Od razu włączać filtr mojego rozmiaru na stronie sklepu
+Wyczyść filtry
+rozmiar
+cena
+Od razu z filtrami
+Bez stylisty AI zapytanie jest tłumaczone według słownika rzeczy i kolorów
+Złożone zapytania lepiej pisać w języku sklepów
+Zapytanie przetłumaczono na język sklepów
+Pisz zapytanie w języku sklepów — wyniki będą dokładniejsze
+Twój rozmiar w markach
+Według oficjalnych tabel rozmiarów marek i Twoich wymiarów
+Dotknij marki — zostanie dodana do wyszukiwania
+Jeśli jesteś pomiędzy rozmiarami, wybierz większy dla luźniejszego kroju
+Rozmiar według tabeli marki
+Zacznij od nowa
+Tak, usuń wszystko
+Zostaną usunięte wymiary, zdjęcie, przymierzalnia, koszyk i ustawienia
+Naciśnij «%» ponownie w ciągu # sekund
+Skanuj
+Skan gotowy
+Nie teraz
+Skan zakończony
+AI skanuje sylwetkę
+Skaner niedostępny
+Skan się nie udał
+Stań prosto, cały w kadrze, ręce lekko odsunięte
+Jeśli wzrost jest inny, popraw go w «Wymiarach» i zeskanuj ponownie
+Skaner
+Włącz muzykę
+Wyłącz muzykę
+Muzyka w tle
+Spokojna melodia, ciszej podczas czytania na głos
+Głośność muzyki
+Muzyka włączona
+Muzyka wyłączona
+Przymierzalnia AI
+Przed / po
+Od mojego zdjęcia
+Następna rzecz zostanie przymierzona na Twoim oryginalnym zdjęciu
+Aby pokazać Cię w tej rzeczy, Twoje zdjęcie i zdjęcie rzeczy zostaną wysłane do usługi przymierzania AI FASHN (przez fal.ai)
+Zwróci gotowy obraz
+Jedna przymiarka kosztuje około 7 centów
+Zdjęcie służy tylko do tej przymiarki
+Bez zgody używana jest zwykła przymiarka — rzecz jest nakładana na zdjęcie w aplikacji
+Zgadzam się, przymierz
+Zwykła przymiarka
+Poczekaj, trwa poprzednia przymiarka
+AI przymierza rzecz
+zwykle 10–30 sekund
+Nie ustawiono klucza usługi przymierzania
+Klucz usługi przymierzania jest nieprawidłowy lub skończyły się środki na koncie
+Usługa nie odpowiedziała na czas
+przymierzono
+Następna rzecz z koszyka zostanie nałożona na wierzch
+Przymiarka się nie udała
+Czyje wymiary
+Zapisz zmiany
+Przywróć zapisane
++ Nowa osoba
+Imię, np. Anna
+Utwórz
+Zmień nazwę
+Usuń tę osobę
+Wymiary jeszcze nie zapisane
+Są niezapisane zmiany
+zapisano
+Wymiary zapisane
+Wymiary zaktualizowane
+Przywrócono zapisane wymiary
+Nowa osoba
+Wpisz wymiary i naciśnij «Zapisz wymiary»
+Na pewno usunąć
+Usunięto
+Do pliku
+Ja
+Spróbuj innego zdjęcia na jednolitym tle
+Przymierz rzecz
+Wgraj swoje zdjęcie w całej postaci — aplikacja usunie tło, zeskanuje sylwetkę i pokaże Twoje rozmiary
+Nie rozpoznano sylwetki
+stań cały w kadrze
+To urządzenie nie udostępnia lokalizacji
+Dostęp do lokalizacji zablokowany
+Nie udało się ustalić lokalizacji
+sklep odzieżowy
+Sklepy według Twojej lokalizacji
+Ustal lokalizację
+Aktualizuj lokalizację
+Sklepy odzieżowe na mapie
+Sklepy odzieżowe w kraju
+W pobliżu
+Lokalizacja służy tylko do wyboru kraju, pogody i sklepów w pobliżu
+Jest przechowywana na tym urządzeniu
+Jesteś tutaj
+Zezwól na dostęp do lokalizacji — aplikacja pokaże sklepy w Twoim kraju i w pobliżu.
+Szukam sklepów w pobliżu…
+Dotknij sklepu, aby otworzyć trasę.
+W promieniu 2 km nie znaleziono sklepów odzieżowych. Zobacz na mapie.
+Serwer map nie odpowiada. Otwórz «Sklepy odzieżowe na mapie».
+Ustalam lokalizację…
+Lokalizacja
+Pogoda i co założyć
+Sprawdź pogodę
+Przeczytaj na głos
+Każdego ranka czytaj prognozę przy pierwszym dotknięciu
+Ustal lokalizację i pogodę
+Odśwież
+Ładuję prognozę…
+Prognoza się nie załadowała
+Rabaty i wyprzedaże
+Agent AI szuka w internecie nowości sklepów w Twoim kraju i podpowiada, gdzie i kiedy kupić taniej.
+Znajdź rabaty
+Sprawdzaj rabaty raz dziennie i powiadamiaj
+Więcej
+Źródła
+Sprawdzono
+Wyszukiwanie rabatów działa z serwerem AI: dodaj klucz (zob. README, «Stylista AI»).
+AI szuka rabatów… zwykle 20–60 sekund
+Rabaty
+Nie znaleziono nowych rabatów
+Nie udało się znaleźć rabatów
+Marketplace'y i domy towarowe
+Odzież na co dzień
+Marki
+Sport
+Bielizna
+Hiszpania
+Włochy
+Portugalia
+Austria
+Szwajcaria
+Irlandia
+Szwecja
+Dania
+Czechy
+Litwa
+Łotwa
+Estonia
+Odzież dziecięca
+Promień
+# km
+Domy towarowe i centra handlowe
+Second-hand
+strona
+Dotknij sklepu, aby otworzyć go na mapie.
+Dane
+W tym promieniu nie znaleziono sklepów. Zwiększ promień lub zobacz na mapie.

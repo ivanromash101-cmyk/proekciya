@@ -1,0 +1,1020 @@
+## общее
+Sprache
+Zu den Maßen
+Proekciya
+Proekciya — Kleidergröße finden
+Menschliches Modell
+3D-Modell
+Figur wird erstellt
+3D ist auf diesem Gerät nicht verfügbar
+Maße, Größe und Scan funktionieren trotzdem
+Modellansicht
+Körper
+Kleidung
+Hologramm
+Bereich ein- oder ausklappen
+Bereiche
+Schließen
+Kamera schließen
+Automatisch drehen
+Ansicht zurücksetzen
+Maße
+Stil
+Scan
+Gesicht
+Zugang
+## размер
+Empfohlene Größe
+Größe
+Oberteil
+Unterteil
+Jeans
+Hemd
+Kragen #
+Ärmel #
+BH
+Schuhe
+Kopfbedeckung
+Figur
+Vorlesen
+Teilen
+Speichern
+Ergebnis
+Größe nach europäischer Tabelle
+Die Passform unterscheidet sich je nach Marke — prüfen Sie die Größentabelle des Shops
+europäisch #
+russisch #
+Weite #
+Länge #
+## мерки
+Maße, cm
+Schritt # von #
+Geschlecht
+Mann
+Frau
+Mann
+Frau
+Körpergröße
+cm
+#–# cm
+# cm
+Ohne Schuhe, vom Boden bis zum Scheitel
+Halsumfang
+Hals
+Am Halsansatz — für Hemden
+Schulterbreite
+Schultern
+Über den Rücken zwischen den äußeren Schulterpunkten
+Brustumfang
+Brust
+An der stärksten Stelle, Maßband waagerecht
+Unterbrustumfang
+Unterbrust
+Direkt unter der Brust — für den BH
+Taillenumfang
+Taille
+An der schmalsten Stelle
+Hüftumfang
+Hüfte
+An der stärksten Stelle des Gesäßes
+Oberschenkelumfang
+Oberschenkel
+Ein Bein, an der breitesten Stelle — für Hosen
+Ärmellänge
+Ärmel
+Von der Schulter bis zum Handgelenk bei leicht gebeugtem Arm
+Beinlänge
+Schrittlänge
+Entlang der Innennaht, vom Schritt bis zum Boden
+Kopfumfang
+Kopf
+Über die Stirn oberhalb der Augenbrauen — für Mützen
+Fußlänge
+Fuß
+Von der Ferse bis zum längsten Zeh — für Schuhe
+Körpergröße
+Halsumfang
+Schulterbreite
+Brustumfang
+Unterbrustumfang
+Taillenumfang
+Hüftumfang
+Oberschenkelumfang
+Ärmellänge
+Beinlänge
+Kopfumfang
+Fußlänge
+Weniger
+Mehr
+Schieberegler
+← Zurück
+Weiter →
+Fertig
+Maße ansagen
+Zurücksetzen
+Zurückgesetzt
+Geändert
+Geben Sie eine Zahl in Ziffern ein, zum Beispiel #
+Erlaubt von # bis # cm
+Auf # gesetzt
+Maße durch typische Werte ersetzt — Sie können sie ändern
+Maße auf typische Werte zurückgesetzt
+Aktuell
+Mit den Pfeiltasten wechseln
+Alle Maße eingegeben
+Das Ergebnis steht oben im Bereich
+# Zentimeter
+# Zentimeter
+# Zentimeter
+## фигура
+Sanduhr
+Birne
+Umgekehrtes Dreieck
+Apfel
+Rechteck
+Athletisch
+Rundlich
+Dreieck
+Gerade
+Männliche Figur
+Weibliche Figur
+Größe # Zentimeter
+Brust #
+Taille #
+Hüfte # Zentimeter
+Mit Gesicht vom Foto
+Im Outfit «%»
+XXS
+XS
+S
+M
+L
+XL
+XXL
+3XL
+4XL
+## сохранить и поделиться
+Proekciya — meine Maße
+Datum
+männlich
+weiblich
+Meine Maße
+Maße speichern
+Maße kopiert — fügen Sie sie in eine Nachricht ein
+Kopiert
+Teilen nicht möglich
+Versuchen Sie «%»
+Fehler
+Datei merki.txt in «%» gespeichert
+Downloads
+Gespeichert
+Datei konnte nicht gespeichert werden
+## голос
+Ich höre zu…
+Spracheingabe
+Nennen Sie Ihre Maße
+Gehört: «%»
+Keine Maße gefunden — nennen Sie ein Maß und eine Zahl
+Eingetragen
+Spracheingabe ist nicht verfügbar
+Nicht verstanden
+Bitte noch einmal versuchen
+Spracherkennung ist nicht verfügbar
+Installieren Sie die App «Google» und die Spracheingabe
+Kein Zugriff auf das Mikrofon
+Erlauben Sie es in den App-Einstellungen
+Erlauben Sie es für diese Website
+Spracheingabe ist hier nicht verfügbar
+Tippen Sie auf das Feld und nutzen Sie das Mikrofon der Tastatur
+## вид и модель
+Ansicht
+Körper
+in Kleidung
+Hologramm
+Einfach
+Realistisch
+Einfaches Modell
+Realistisches Modell
+Männliches Modell geladen (in der App enthalten)
+Weibliches Modell geladen (in der App enthalten)
+Männliches Modell geladen
+Weibliches Modell geladen
+Realistisches Modell (Mann) ist noch nicht geladen
+Realistisches Modell (Frau) ist noch nicht geladen
+Modell aus MakeHuman laden
+Modell löschen
+Laden Sie zuerst ein Modell aus MakeHuman
+Modell wird gelesen…
+Modell geladen und an Ihre Maße angepasst
+Modell konnte nicht geladen werden
+Ein OBJ-Export aus MakeHuman in A-Pose wird benötigt
+Modell konnte nicht angepasst werden
+Modell gelöscht
+Das realistische Modell wird an alle Ihre Maße angepasst
+So erhalten Sie ein eigenes: das kostenlose Programm MakeHuman → «Export» → Format OBJ, Name
+oder
+Wählen Sie hier alle Exportdateien auf einmal (.obj, .mtl und die Bilder aus dem Ordner textures)
+Das Modell wird auf dem Gerät gespeichert
+## лицо
+Eigenes Gesicht
+Selfie
+Augen auf die gestrichelte Linie, Gesicht ins Oval
+Maßstab
+Neigung
+# Grad
+Gesicht entfernen
+Gesicht entfernt
+Gesichtsfoto hinzugefügt
+Verschieben Sie es in der Vorschau: Augen auf die gestrichelte Linie
+Position des Gesichts
+Ziehen Sie das Foto oder nutzen Sie die Pfeiltasten
+Das Gesichtsfoto bleibt nur auf diesem Gerät
+Haut
+Haare
+Augen
+sehr hell
+hell
+mittel
+gebräunt
+dunkel
+sehr dunkel
+schwarz
+dunkelbraun
+hellbraun
+blond
+rot
+grau
+braun
+haselnuss
+grün
+blau
+grau
+## скан
+Scan per Foto
+Die App findet die Figur auf dem Foto und nimmt die Maße selbst
+Der Maßstab ist Ihre Körpergröße
+ändern
+Enge Kleidung, ohne Schuhe, Haare weg von den Schultern
+Gerade stehen, Arme leicht abgespreizt, Füße schulterbreit
+Handy auf Hüfthöhe in #–# m Abstand, der ganze Körper im Bild
+Foto von vorn
+erforderlich
+Kamera mit Timer
+Foto auswählen
+Foto von der Seite
+genauere Umfänge
+Scan-Ergebnis
+Maß
+Maße übernehmen
+Von Hand korrigieren
+Fotos werden nur auf diesem Gerät verarbeitet und nirgendwohin gesendet
+Genauigkeit ±#–# cm, mit Seitenfoto höher
+Der Scan ist eine visuelle Hilfe
+Ohne Sehvermögen ist es einfacher, die Maße im Tab «%» per Sprache einzugeben
+Kein Foto ausgewählt
+Foto konnte nicht geöffnet werden
+Das Format HEIC wird nicht unterstützt — wählen Sie JPG
+Datei konnte nicht gelesen werden
+Figur gefunden
+Der automatische Scan hat nicht funktioniert
+Tippen Sie auf «%» und markieren Sie die Punkte auf dem Foto
+Tippen Sie auf «%»
+Scan fertig aus zwei Fotos
+Scan fertig aus dem Foto von vorn
+Scan fertig aus den markierten Punkten
+Maße aus dem Scan übernommen
+Fügen Sie zuerst ein Foto von vorn hinzu
+Markieren Sie
+— Punkt # von #
+Alle Punkte markiert
+Scheitel und Boden liegen zu nah beieinander — Punkte rückgängig machen und neu markieren
+den Scheitel
+den Boden zwischen den Füßen
+linker Rand der Schultern
+rechter Rand der Schultern
+linker Rand der Brust (an den Achseln)
+rechter Rand der Brust
+linker Rand der Taille (schmalste Stelle)
+rechter Rand der Taille
+linker Rand der Hüfte (breiteste Stelle)
+rechter Rand der Hüfte
+Schritt (wo die Beine zusammenlaufen)
+Figurerkennung wird aus dem Internet geladen (etwa 10 MB, einmalig)…
+Figurerkennung wird vorbereitet…
+Automatischer Scan nicht verfügbar: kein Internet für den ersten Download der Erkennung
+Markieren Sie die Punkte von Hand oder verbinden Sie sich mit dem Internet
+Figur wird auf dem Foto gesucht…
+Keine Person auf dem Foto gefunden
+Nötig ist eine Ganzkörperaufnahme vor einfarbigem Hintergrund
+Die Silhouette konnte nicht freigestellt werden
+Die Figur ist nicht vollständig sichtbar
+Scheitel und Füße müssen zu sehen sein
+Ein Teil des Körpers ist nicht sichtbar
+Stellen Sie sich ganz ins Bild, Arme leicht abgespreizt
+## камера
+Kamera
+Scheitel
+Füße
+Aufnehmen
+Timer
+aus
+# s
+Kamera wechseln
+Von Hand markieren
+Punkt rückgängig
+Finger halten, unter der Lupe verschieben und loslassen
+Kamera wird eingeschaltet…
+Kein Zugriff auf die Kamera
+Erlauben Sie die Kamera in den Browsereinstellungen für diese Website
+Keine Kamera gefunden
+Kamera konnte nicht eingeschaltet werden
+Nutzen Sie die Taste «%» oder «%»
+Foto aufnehmen
+Die Kamera ist noch nicht bereit
+Stellen Sie das Handy auf Hüfthöhe und treten Sie #–# m zurück
+Scheitel an der oberen Linie, Füße an der unteren
+Tippen Sie auf «%», der Timer gibt Ihnen Zeit, sich aufzustellen
+Gesicht im Oval, direkt in die Kamera schauen, gleichmäßiges Licht von vorn
+## доступность
+Barrierefreiheit
+Sprachausgabe
+Hinweise und Ergebnis laut, mit Untertiteln
+Schrittweise Eingabe
+Ein Maß pro Bildschirm, «%» und Enter
+Weiter
+Große Schrift
+Größere Schrift und Tasten
+Hoher Kontrast
+Gelb auf Schwarz
+Maßbänder am Modell
+Brust-, Taillen- und Hüftmaße anzeigen
+Untertitel
+Alle Meldungen als Text unten am Bildschirm
+Design
+Wie im System
+Hell
+Dunkel
+Die App funktioniert mit TalkBack und VoiceOver
+Das Modell lässt sich mit den Pfeiltasten drehen, wenn es den Fokus hat
+## стилист
+Stilberatung
+Ihr Farbtyp
+Ihre Farben
+Ändern
+Auto
+Frühling
+Sommer
+Herbst
+Winter
+Saison
+Frühling/Herbst
+automatisch bestimmt
+Besser nicht in Gesichtsnähe
+Vermeiden
+Outfits aktualisiert
+Outfit «%» am Modell
+Outfit «%»
+Am Modell anprobieren
+Outfit vom Modell nehmen
+Der Farbtyp ergibt sich aus Haut-, Haar- und Augenfarbe im Tab «%»
+Die Tipps der Stilberatung sind eine Orientierung, keine Regel: Tragen Sie, worin Sie sich wohlfühlen
+Freizeit
+Smart Casual
+Business
+Sportlich
+Streetwear
+Abend
+Kleid
+Oberbekleidung
+Accessoire
+Farbe
+Ärmel # cm
+Umfang #
+Länge # cm
+Schrittlänge # cm
+warme, helle und klare Farben
+kühle, sanfte, gedämpfte Farben
+warme, tiefe, natürliche Farben
+kühle, leuchtende und kontrastreiche Farben
+Kaffee
+Sand
+Elfenbein
+heller Denim
+Koralle
+Türkis
+Frühlingsgrün
+Goldgelb
+Pfirsich
+Graphit
+Graublau
+Milchweiß
+mittlerer Denim
+Altrosa
+Meeresgrün
+Lavendel
+Salbei
+gedämpftes Himbeerrot
+Schokolade
+Khaki
+Creme
+dunkler Denim
+Terrakotta
+Senf
+Oliv
+Bordeaux
+dunkles Petrol
+Schwarz
+kühles Grau
+Weiß
+Indigo
+Rot
+Königsblau
+Smaragd
+Fuchsia
+Eisblau
+Schwarz am Gesicht, kühles Grau, Fuchsia
+Orange, Senf, reines Weiß und Schwarz
+eisige Pastelltöne, Neon und kühle Rosatöne
+Beige, Orange, Senf, gedämpfte warme Töne
+## советы по фигуре
+Betonen Sie die Taille — sie ist Ihr größter Vorzug
+figurnah, Wickelschnitt oder V-Ausschnitt
+hohe Leibhöhe, figurnah
+tailliert, Wickelschnitt oder mit Gürtel
+tailliert, mit Gürtel
+Formloses Oversize und gerade, weite Teile verstecken die Proportionen
+Den Blick nach oben lenken: helles oder kräftiges Oberteil, dunkles ruhiges Unterteil
+hell oder kräftig, U-Boot-Ausschnitt, Details an den Schultern
+dunkel, gerade oder leicht ausgestellt
+A-Linie, Akzent auf Schultern und Dekolleté
+bis zur Mitte des Oberschenkels oder länger, mit betonten Schultern
+Helle enge Hosen, Taschen und Details an der Hüfte, kurze Jacken bis zur Hüfte
+Schultern ausgleichen: schlichtes Oberteil, Volumen und Farbe unten
+schlicht, V-Ausschnitt, ohne Volumen an den Schultern
+weit oder hell: weite Hosen, A-Linie
+mit V-Ausschnitt und ausgestelltem Rock
+ohne Schulterpolster, Raglan
+Schulterpolster, Puffärmel, Querstreifen auf der Brust
+Silhouette strecken: Vertikalen, V-Ausschnitt, Stoffe, die am Bauch nicht anliegen
+locker, V-Ausschnitt, hüftlang
+gerade, mittlere Leibhöhe
+gerade oder Empire, aus festem Stoff
+gerade, lang, ohne Gürtel
+Gürtel an der Taille, enger Strick, kurze weite Jacken
+Taille schaffen: Gürtel, Schößchen, Lagenlook
+mit Schößchen, Drapierung oder Gürtel
+hohe Leibhöhe, Röcke mit Volumen
+mit Gürtel oder Wickelschnitt
+mit Gürtel, taillierter Blazer
+Gerade Teile in einer Länge von den Schultern bis zur Hüfte
+Die V-Form betonen: figurnah, nicht hauteng
+tailliert (Slim Fit)
+schmal zulaufend oder gerade
+kurz, figurnah
+Weite Teile — sie tragen an der Taille auf
+Silhouette strecken: einfarbiges dunkles Oberteil, vertikale Linien
+gerader Schnitt (Regular Fit), einfarbig
+einreihig, hüftlang
+Enge Teile, Querstreifen, kurze Jacken bis zur Taille
+Schultern verbreitern: betonte Schultern, helles Oberteil, dunkles Unterteil
+hell, mit Details auf der Brust
+dunkel, gerade
+mit betonter Schulter, Bomber, Sakko
+Schmale helle Hosen und Jacken, die an der Hüfte enden
+Volumen an den Schultern und Lagenlook
+figurnah, in Lagen
+gerade oder leicht zulaufend
+mit Volumen an den Schultern
+Einfarbige Outfits ohne Lagen wirken flach
+Kleine Größe: ein Farbton von Kopf bis Fuß, hohe Leibhöhe, kurze Oberbekleidung, Schuhe im Ton des Unterteils
+Große Größe: lange Mäntel, kontrastreiche Lagen, weite Hosen und große Details passen gut
+Mittlere Größe: jede Länge passt, achten Sie auf die Balance von oben und unten
+## образы
+Sweatshirt und Jeans
+Sweatshirt
+Gerade Jeans
+Arbeitsjacke (Overshirt)
+Canvas-Sneaker
+Rucksack
+Polo und Chino
+Strickpolo
+Chino
+Wildleder-Mokassins
+Sonnenbrille
+Warmer Freizeitlook
+Grobstrickpullover
+Parka
+Lederstiefel
+Beanie
+Hemd über der Hose
+Oxfordhemd
+Uhr mit Lederarmband
+Sakko ohne Krawatte
+T-Shirt oder feiner Pullover
+Wollhose
+Weiches, ungefüttertes Sakko
+Loafer
+Ledergürtel passend zu den Schuhen
+Leinen im Sommer
+Leinenhemd
+Leinen- oder Baumwollhose
+Loafer ohne Socken
+Geflochtener Gürtel
+Rollkragen und Mantel
+Feiner Rollkragenpullover
+Bundfaltenhose
+Knielanger Mantel
+Chelsea Boots
+Wollschal
+Klassischer Anzug
+Anzughose
+Anzugsakko
+Oxford-Schuhe
+Krawatte
+Formell ohne Krawatte
+Hemd mit Haifischkragen
+Hose
+Blazer
+Derby-Schuhe
+Aktentasche
+Anzug und Mantel
+Wollhose
+Chesterfield-Mantel
+Lederhandschuhe
+Fürs Fitnessstudio
+T-Shirt aus atmungsaktivem Stoff
+Trainingsshorts
+Fitnessschuhe
+Sporttasche
+Sport in der Stadt
+Hoodie
+Jogginghose
+Windjacke
+Laufschuhe
+Kappe
+Winterlauf
+Thermoshirt und Fleece
+Gefütterte Tights
+Leichte Daunenjacke
+Sneaker mit Profilsohle
+Mütze und Handschuhe
+Oversize und Cargo
+Oversize-T-Shirt
+Cargohose
+Bomberjacke
+Chunky Sneaker
+Sommer-Streetstyle
+T-Shirt mit Print
+Cargoshorts
+Sneaker
+Umhängetasche
+Winter-Streetstyle
+Weite Jeans
+Voluminöse Daunenjacke
+High-Top-Sneaker
+Beanie
+Abendanzug
+Sakko aus Wolle oder Samt
+Lack-Oxfords
+Einstecktuch
+Date
+Lederjacke
+Uhr
+Sommerabend
+Kurzarmhemd
+Armband
+Jeans und Trenchcoat
+Gestreiftes Langarmshirt
+Trenchcoat
+Shopper
+Hemdblusenkleid
+Midi-Hemdblusenkleid
+Sandalen
+Geflochtene Tasche
+Pullover und Midirock
+Pullover
+Midirock
+Mantel
+Hohe Stiefel
+Schal
+T-Shirt und weite Hose
+Basic-T-Shirt
+Weite Hose
+Mules oder Sneaker
+Kleine Tasche
+Bluse und Hose
+Seidenbluse
+Schmaler Gürtel
+Blazer und Kleid
+Strick-Midikleid
+Blazer
+Pumps mit niedrigem Absatz
+Ohrringe
+Rollkragenpullover
+Bleistiftrock oder gerade Hose
+Stiefeletten
+Strukturierte Tasche
+Hosenanzug
+Bluse oder Top
+Anzughose
+Pumps
+Business-Tasche
+Etuikleid
+Sport-BH und T-Shirt
+Leggings
+Trinkflasche
+Trainingsanzug
+Winterspaziergang
+Fleecejacke
+Gefütterte Leggings
+Daunenjacke
+Winter-Sneaker
+Stirnband
+Hoodie und Cargo
+Oversize-Hoodie
+Gürteltasche
+Top und Shorts
+Bauchfreies Top oder T-Shirt
+Jeansshorts
+Slipdress
+Midi-Slipdress
+Blazer über den Schultern
+Sandaletten mit Absatz
+Clutch
+Kleines Kleid
+Figurbetontes Kleid
+Auffällige Ohrringe
+Jumpsuit
+Jumpsuit mit weitem Bein
+Absatzschuhe
+## ии-стилист
+Fragen Sie die Stilberatung
+Die KI-Stilberatung kennt Ihre Maße, Figur und Ihren Farbtyp ·
+online
+Demomodus
+Leeren
+Gespräch mit der Stilberatung
+Fragen Sie, was Sie möchten: was Sie zu einem Anlass tragen, welche Farben Ihnen stehen, wie Sie Teile kombinieren
+Was ziehe ich zu einer Sommerhochzeit an?
+Welche Farben stehen mir?
+Stellen Sie ein Büro-Outfit zusammen
+Was verstecken, was betonen?
+Vor Ihrer ersten Frage
+Ihre Nachrichten, Maße, Größe und Ihr Farbtyp werden über das Internet an die KI-Stilberatung gesendet, damit sie antworten kann
+Fotos und Ihr Gesicht werden nie gesendet
+Einverstanden
+Abbrechen
+Nachricht an die Stilberatung
+Schreiben Sie der Stilberatung…
+Senden
+Tipps für Ihre Figur
+Die Stilberatung schreibt
+Die Stilberatung ist gerade nicht erreichbar
+Prüfen Sie die Internetverbindung und versuchen Sie es erneut
+Demomodus: Die KI-Stilberatung ist noch nicht verbunden, es antwortet die eingebaute Stilberatung
+Ihre Größe
+Figur «%»
+Farbtyp «%»
+KI-Stilberatung
+## приветствие и магазины
+Guten Morgen
+Guten Tag
+Guten Abend
+Gute Nacht
+Das ist «%» — Ihr Assistent für Größe und Stil
+Finden Sie Ihre genaue Größe, probieren Sie Outfits an Ihrer 3D-Figur an und finden Sie Kleidung, die richtig sitzt
+Maße und 3D-Figur
+Geben Sie Ihre Maße ein oder sprechen Sie sie — die Figur entsteht genau danach, und die App berechnet Ihre Kleider- und Schuhgröße
+Machen Sie ein Ganzkörperfoto — die App nimmt Ihre Maße selbst
+Fotos bleiben auf Ihrem Gerät
+Fragen Sie wie bei einer echten Stilberatung: was Sie zu einem Anlass tragen, welche Farben Ihnen stehen
+Sie kennt Ihre Figur und Ihren Farbtyp und zeigt das Outfit sofort am Modell
+Suche in Shops
+Beschreiben Sie, was Sie suchen — die App ergänzt Ihre Größe und öffnet die Suche bei Zalando, Amazon, Vinted und anderen Shops
+Wessen Figur erstellen wir?
+Los geht's
+Maße und Fotos werden nur auf Ihrem Gerät gespeichert
+Dieses Fenster können Sie erneut öffnen: «%» → «%»
+Über die App
+Shops
+Beschreiben Sie, was Sie suchen — die App ergänzt Ihre Größe und öffnet die Suche in Online-Shops
+Was suchen Sie?
+Zum Beispiel: blaue Jeans oder ein Hochzeitskleid
+Suchen
+Jeans für jeden Tag
+Outfit für eine Hochzeit
+Winterjacke
+Weiße Sneaker
+Anzug fürs Büro
+Land der Shops
+Belgien
+Niederlande
+Deutschland
+Frankreich
+Polen
+Vereinigtes Königreich
+Russland
+Art des Artikels
+Automatisch erkennen
+Hose, Rock, Shorts
+Die KI-Stilberatung schreibt die Suche in der Sprache der Shops im gewählten Land
+Ohne KI-Stilberatung geht Ihr Text unverändert an den Shop — schreiben Sie in der Sprache der Shops
+Artikel aus den Outfits der Stilberatung werden automatisch übersetzt
+Die KI-Stilberatung erstellt die Suche…
+KI nicht verfügbar — Suche mit Ihrem Text
+Suche
+Ihre Größe ist schon in der Suche
+Wählen Sie im Shop Ihre Größe im Filter und prüfen Sie die Größentabelle der Marke
+Die App erhält kein Geld von Shops und gibt Ihre Daten nicht an sie weiter
+Gefundene Suchvorschläge
+So funktioniert die KI-Stilberatung
+Sie kennt Ihre Maße, Größe, Figur und Ihren Farbtyp aus der App
+Sie antwortet in Ihrer Sprache und schlägt Outfits vor, die Sie sofort am 3D-Modell anprobieren können
+Sie sagt, wonach Sie suchen sollen, und findet Artikel in Ihrer Größe in den Shops
+Sie spricht nur über Stil und Kleidung
+Fotos werden nie gesendet
+In Shops finden
+## примерка
+Produkt per Foto anprobieren
+Per Produktfoto anprobieren
+Artikel von der Website eines Shops
+Produktfoto oder Screenshot hochladen
+Speichern Sie das Produktfoto von der Shop-Website oder machen Sie einen Screenshot
+Die App übernimmt daraus die Farbe des Artikels
+Produktfoto
+Tippen Sie auf den Artikel, um seine Farbe zu übernehmen
+Tippen Sie auf den Artikel im Foto, um seine Farbe zu übernehmen
+Farbe
+Lang
+Kurz
+Schnitt
+Shorts
+Rock
+Länge
+Jacke
+Anziehen
+Das Modell zeigt Art und Farbe des Artikels
+Prüfen Sie die genaue Passform in der Größentabelle des Shops
+Farbe aus dem Foto übernommen
+Tippen Sie auf den Artikel im Foto, um sie anzupassen
+Farbe gewählt
+Die KI-Stilberatung schaut sich das Produkt an…
+Die KI hat den Artikel erkannt
+Prüfen Sie und tippen Sie auf «%»
+Wählen Sie die Art des Artikels selbst
+Dieser Artikel kann noch nicht am Modell gezeigt werden — nur Oberteile, Unterteile, Kleider, Oberbekleidung und Schuhe
+«%» ist am Modell
+Anprobe
+Wenn die KI-Stilberatung verbunden ist und Sie im Chat zugestimmt haben, wird das Produktfoto zur Analyse an sie gesendet — laden Sie hier keine Fotos von sich hoch
+## корзина
+Warenkorb
+Hier erscheinen Artikel, die Ihnen gefallen
+Tippen Sie bei einem Artikel in der Suche, bei der Anprobe oder bei einem Outfit der Stilberatung auf «%»
+In den Warenkorb
+Alles am Modell anziehen
+Gekauft wird auf der Website des Shops: öffnen Sie das Produkt über den Link oder suchen Sie es in Ihrer Größe
+Der Warenkorb wird nur auf diesem Gerät gespeichert
+Produkt öffnen
+Entfernen
+Aus dem Warenkorb entfernen
+Link zum Produkt (optional)
+Der Link muss mit https:// beginnen
+«%» ist im Warenkorb
+«%» ist schon im Warenkorb
+«%» aus dem Warenkorb entfernt
+Outfit «%» ist im Warenkorb
+Artikel: #
+Warenkorb geleert
+Outfit aus dem Warenkorb
+Artikel von
+Anprobieren
+## примерочная по фото
+Foto-Umkleide
+Laden Sie ein Ganzkörperfoto von sich hoch — darauf können Sie Kleidung aus Shops anprobieren und von Hand anpassen
+Gerade stehen, zur Kamera gewandt, Arme leicht abgespreizt
+Enge Kleidung, gleichmäßiges Licht, einfarbiger Hintergrund
+Der ganze Körper im Bild — vom Scheitel bis zu den Füßen
+Foto machen
+Das Foto bleibt auf diesem Gerät und wird nirgendwohin gesendet
+Artikel hinzufügen
+Bild speichern
+Alles ausziehen
+Anderes Foto
+Breite
+Drehung
+Transparenz
+Radierer
+Wiederherstellen
+Pinsel
+Ebene nach oben
+Ebene nach unten
+Neu platzieren
+Artikel ausziehen
+Verschieben Sie den Artikel mit dem Finger, ziehen und drehen Sie ihn mit zwei Fingern oder dem gelben Griff in der Ecke
+Foto-Umkleide: Ihr Foto mit den Artikeln darauf
+Pfeiltasten verschieben den gewählten Artikel, Plus und Minus ändern die Größe
+Figur nicht erkannt — platzieren Sie den Artikel von Hand
+Laden Sie zuerst ein Ganzkörperfoto von sich hoch
+«%» ist auf dem Foto
+Passen Sie ihn mit dem Finger oder dem Griff in der Ecke an
+Der Produkthintergrund ist nicht einfarbig — radieren Sie das Überflüssige weg
+«%» ausgezogen
+Alle Artikel ausgezogen
+Foto hochgeladen
+Fügen Sie einen Artikel hinzu: «%» oder aus dem Warenkorb
+Ihr Foto
+Anprobe-Bild gespeichert
+Proekciya — Anprobe
+Artikel
+Laden Sie ein Produktfoto oder einen Screenshot hoch — der Artikel erscheint auf Ihrem Foto
+Laden Sie zuerst auf dem Hauptbildschirm ein Ganzkörperfoto von sich hoch
+Im Warenkorb sind keine Artikel mit Produktfoto
+Fügen Sie sie über «%» hinzu
+Umkleide
+Weitere Einstellungen
+Helles Design
+Dunkles Design
+Mein Foto
+mein Foto
+Hintergrund korrigieren
+Radieren
+Hintergrund bearbeiten
+Ihre Projektion aus einem Foto
+Laden Sie ein Ganzkörperfoto hoch — die App entfernt den Hintergrund und Sie erscheinen statt des Modells auf dem Bildschirm
+Auf dem Foto können Sie Kleidung aus Shops anprobieren
+Hintergrund wird entfernt… Das kann bis zu einer Minute dauern
+Hintergrund wird entfernt
+Hintergrund schnell entfernt
+Für ein genaues Ergebnis starten Sie auf dem Laptop das Modul zur Hintergrundentfernung
+Hintergrund nicht entfernt
+das Modul zur Hintergrundentfernung läuft nicht und es gibt kein Internet für die Erkennung
+Radieren Sie den Hintergrund mit der Schaltfläche «%»
+Ihr Foto ist jetzt die Projektion
+Fügen Sie ein Teil hinzu oder korrigieren Sie den Hintergrund mit dem Pinsel
+Foto entfernen
+Foto entfernt
+Die Projektion ist wieder das 3D-Modell
+Filter: Preis, Farbe, Marke
+Preis ab
+Preis bis
+Beliebig
+Schwarz
+Weiß
+Grau
+Blau
+Beige
+Braun
+Grün
+Rot
+Rosa
+Gelb
+Lila
+Orange
+Marke
+Zum Beispiel: Levi's
+Meinen Größenfilter direkt auf der Shop-Website anwenden
+Filter zurücksetzen
+Größe
+Preis
+Filter bereits gesetzt
+Ohne KI-Stylisten wird die Suche mit einem Wörterbuch für Kleidung und Farben übersetzt
+Komplexe Suchen schreiben Sie besser in der Sprache der Shops
+Die Suche wurde in die Sprache der Shops übersetzt
+Schreiben Sie die Suche in der Sprache der Shops — so wird sie genauer
+Ihre Größe bei Marken
+Nach den offiziellen Größentabellen der Marken und Ihren Maßen
+Tippen Sie auf eine Marke, um sie in die Suche zu übernehmen
+Wenn Sie zwischen zwei Größen liegen, wählen Sie die größere für eine lockerere Passform
+Größe laut Tabelle der Marke
+Neu beginnen
+Ja, alles löschen
+Ihre Maße, Ihr Foto, die Umkleide, der Warenkorb und die Einstellungen werden gelöscht
+Drücken Sie innerhalb von # Sekunden erneut auf «%»
+Scannen
+Scan fertig
+Nicht jetzt
+Scan abgeschlossen
+KI scannt Ihre Figur
+Scanner nicht verfügbar
+Scan fehlgeschlagen
+Stehen Sie gerade, ganz im Bild, Arme leicht vom Körper weg
+Wenn Ihre Größe anders ist, korrigieren Sie sie unter «Maße» und scannen Sie erneut
+Scanner
+Musik einschalten
+Musik ausschalten
+Hintergrundmusik
+Eine ruhige Melodie, leiser während der Sprachausgabe
+Musiklautstärke
+Musik an
+Musik aus
+KI-Anprobe
+Vorher / nachher
+Von meinem Foto
+Das nächste Teil wird auf Ihrem Originalfoto anprobiert
+Um Sie in diesem Teil zu zeigen, werden Ihr Foto und das Foto des Teils an den KI-Anprobedienst FASHN (über fal.ai) gesendet
+Er liefert ein fertiges Bild zurück
+Eine Anprobe kostet etwa 7 Cent
+Das Foto wird nur für diese Anprobe verwendet
+Ohne Zustimmung wird die normale Anprobe genutzt: Das Teil wird in der App auf das Foto gelegt
+Einverstanden, anprobieren
+Normale Anprobe
+Bitte warten, die vorige Anprobe läuft noch
+KI probiert das Teil an
+meist 10–30 Sekunden
+Der Schlüssel des Anprobedienstes fehlt
+Der Schlüssel des Anprobedienstes ist ungültig oder das Guthaben ist aufgebraucht
+Der Dienst hat nicht rechtzeitig geantwortet
+anprobiert
+Das nächste Teil aus dem Warenkorb kommt darüber
+Die Anprobe hat nicht geklappt
+Wessen Maße
+Änderungen speichern
+Gespeicherte zurückholen
++ Neue Person
+Name, z. B. Anna
+Anlegen
+Umbenennen
+Diese Person löschen
+Maße noch nicht gespeichert
+Es gibt ungespeicherte Änderungen
+gespeichert
+Maße gespeichert
+Maße aktualisiert
+Gespeicherte Maße wiederhergestellt
+Neue Person
+Geben Sie die Maße ein und drücken Sie «Maße speichern»
+Wirklich löschen
+Gelöscht
+In Datei
+Ich
+Versuchen Sie ein anderes Foto vor einfarbigem Hintergrund
+Teil anprobieren
+Laden Sie ein Ganzkörperfoto hoch — die App entfernt den Hintergrund, scannt Ihre Figur und zeigt Ihre Größen
+Figur nicht erkannt
+stellen Sie sich ganz ins Bild
+Dieses Gerät teilt keinen Standort
+Standortzugriff verweigert
+Standort konnte nicht ermittelt werden
+Bekleidungsgeschäft
+Geschäfte an Ihrem Standort
+Standort ermitteln
+Standort aktualisieren
+Bekleidungsgeschäfte auf der Karte
+Bekleidungsgeschäfte im Land
+In Ihrer Nähe
+Der Standort dient nur für Land, Wetter und Geschäfte in der Nähe
+Er wird auf diesem Gerät gespeichert
+Sie sind hier
+Erlauben Sie den Standortzugriff, dann zeigt die App Geschäfte in Ihrem Land und in der Nähe.
+Suche Geschäfte in der Nähe…
+Tippen Sie auf ein Geschäft für die Route.
+Keine Bekleidungsgeschäfte im Umkreis von 2 km. Sehen Sie auf der Karte nach.
+Der Kartenserver antwortet gerade nicht. Öffnen Sie «Bekleidungsgeschäfte auf der Karte».
+Standort wird ermittelt…
+Standort
+Wetter und was anziehen
+Wetter abrufen
+Vorlesen
+Jeden Morgen beim ersten Tippen die Vorhersage vorlesen
+Standort und Wetter ermitteln
+Aktualisieren
+Vorhersage wird geladen…
+Vorhersage nicht geladen
+Rabatte und Sales
+Der KI-Agent sucht im Internet nach Neuigkeiten der Geschäfte in Ihrem Land und sagt, wo und wann es günstiger ist.
+Rabatte finden
+Einmal täglich Rabatte prüfen und melden
+Mehr
+Quellen
+Geprüft
+Die Rabattsuche braucht den KI-Server: Schlüssel hinzufügen (siehe README, «KI-Stylist»).
+KI sucht Rabatte… meist 20–60 Sekunden
+Rabatte
+Keine aktuellen Rabatte gefunden
+Rabattsuche fehlgeschlagen
+Marktplätze und Kaufhäuser
+Alltagsmode
+Marken
+Sport
+Wäsche
+Spanien
+Italien
+Portugal
+Österreich
+Schweiz
+Irland
+Schweden
+Dänemark
+Tschechien
+Litauen
+Lettland
+Estland
+Kinderkleidung
+Umkreis
+# km
+Kaufhäuser und Einkaufszentren
+Secondhand
+Website
+Tippen Sie auf ein Geschäft, um es auf der Karte zu öffnen.
+Daten
+In diesem Umkreis keine Geschäfte. Umkreis vergrößern oder auf der Karte nachsehen.

@@ -1,0 +1,1020 @@
+## общее
+Taal
+Naar de maten
+Proekciya
+Proekciya — kledingmaat vinden
+Menselijk model
+3D-model
+Figuur wordt opgebouwd
+3D is niet beschikbaar op dit toestel
+Maten, maat en scan werken wel
+Weergave van het model
+Lichaam
+Kleding
+Hologram
+Paneel in- of uitklappen
+Onderdelen
+Sluiten
+Camera sluiten
+Automatisch draaien
+Beeld herstellen
+Maten
+Stijl
+Scan
+Gezicht
+Toegang
+## размер
+Aanbevolen maat
+Maat
+Boven
+Onder
+Jeans
+Overhemd
+boord #
+mouw #
+Beha
+Schoenen
+Hoofddeksel
+Figuur
+Voorlezen
+Delen
+Opslaan
+Resultaat
+Maat volgens de Europese tabel
+De pasvorm verschilt per merk — controleer de maattabel van de winkel
+Europees #
+Russisch #
+breedte #
+lengte #
+## мерки
+Maten, cm
+Stap # van #
+Geslacht
+Man
+Vrouw
+man
+vrouw
+Lengte
+cm
+#–# cm
+# cm
+Zonder schoenen, van de vloer tot de kruin
+Halsomtrek
+Hals
+Aan de basis van de hals — voor overhemden
+Schouderbreedte
+Schouders
+Over de rug tussen de buitenste punten van de schouders
+Borstomtrek
+Borst
+Over het breedste punt, meetlint horizontaal
+Onderborstomtrek
+Onderborst
+Net onder de borst — voor een beha
+Tailleomtrek
+Taille
+Op het smalste punt
+Heupomtrek
+Heupen
+Over het breedste punt van de billen
+Dijomtrek
+Dij
+Eén been, op het breedste punt — voor broeken
+Mouwlengte
+Mouw
+Van schouder tot pols met de arm licht gebogen
+Beenlengte
+Binnenbeen
+Langs de binnennaad, van kruis tot vloer
+Hoofdomtrek
+Hoofd
+Over het voorhoofd boven de wenkbrauwen — voor mutsen
+Voetlengte
+Voet
+Van de hiel tot de langste teen — voor schoenen
+lengte
+halsomtrek
+schouderbreedte
+borstomtrek
+onderborstomtrek
+tailleomtrek
+heupomtrek
+dijomtrek
+mouwlengte
+beenlengte
+hoofdomtrek
+voetlengte
+Minder
+Meer
+schuifregelaar
+← Terug
+Volgende →
+Klaar
+Maten inspreken
+Herstellen
+Herstel
+Gewijzigd
+Voer een getal in cijfers in, bijvoorbeeld #
+Toegestaan van # tot # cm
+Ingesteld op #
+Maten vervangen door standaardwaarden — u kunt ze aanpassen
+Maten teruggezet naar standaardwaarden
+Nu
+Wissel met de pijltjestoetsen
+Alle maten ingevuld
+Het resultaat staat bovenaan het paneel
+# centimeter
+# centimeter
+# centimeter
+## фигура
+Zandloper
+Peer
+Omgekeerde driehoek
+Appel
+Rechthoek
+Atletisch
+Rond
+Driehoek
+Recht
+Mannelijk figuur
+Vrouwelijk figuur
+lengte # centimeter
+borst #
+taille #
+heupen # centimeter
+Met gezicht van foto
+In de outfit «%»
+XXS
+XS
+S
+M
+L
+XL
+XXL
+3XL
+4XL
+## сохранить и поделиться
+Proekciya — mijn maten
+Datum
+man
+vrouw
+Mijn maten
+Maten opslaan
+Maten gekopieerd — plak ze in een bericht
+Gekopieerd
+Delen is niet gelukt
+Probeer «%»
+Fout
+Bestand merki.txt opgeslagen in «%»
+Downloads
+Opgeslagen
+Het bestand kon niet worden opgeslagen
+## голос
+Ik luister…
+Spraakinvoer
+Zeg uw maten
+Gehoord: «%»
+Geen maten gevonden — noem een maat en een getal
+Genoteerd
+Spraakinvoer is niet beschikbaar
+Niet verstaan
+Probeer het opnieuw
+Spraakherkenning is niet beschikbaar
+Installeer de app «Google» en spraakinvoer
+Geen toegang tot de microfoon
+Sta dit toe in de app-instellingen
+Sta dit toe voor deze site
+Spraakinvoer is hier niet beschikbaar
+Tik op het veld en gebruik de microfoon op het toetsenbord
+## вид и модель
+Weergave
+lichaam
+in kleding
+hologram
+Eenvoudig
+Realistisch
+Eenvoudig model
+Realistisch model
+Mannelijk model geladen (ingebouwd in de app)
+Vrouwelijk model geladen (ingebouwd in de app)
+Mannelijk model geladen
+Vrouwelijk model geladen
+Realistisch model (man) is nog niet geladen
+Realistisch model (vrouw) is nog niet geladen
+Model laden uit MakeHuman
+Model verwijderen
+Laad eerst een model uit MakeHuman
+Model wordt gelezen…
+Model geladen en aangepast aan uw maten
+Het model kon niet worden geladen
+Een OBJ-export uit MakeHuman in A-houding is nodig
+Het model kon niet worden aangepast
+Model verwijderd
+Het realistische model wordt aangepast aan al uw maten
+Zo krijgt u uw eigen model: het gratis programma MakeHuman → «Export» → formaat OBJ, naam
+of
+Kies hier alle exportbestanden tegelijk (.obj, .mtl en de afbeeldingen uit de map textures)
+Het model wordt op dit toestel onthouden
+## лицо
+Eigen gezicht
+Selfie
+Ogen op de stippellijn, gezicht in het ovaal
+Schaal
+Kanteling
+# graden
+Gezicht verwijderen
+Gezicht verwijderd
+Gezichtsfoto toegevoegd
+Verschuif hem in de voorvertoning: ogen op de stippellijn
+Positie van het gezicht
+Sleep de foto of gebruik de pijltjestoetsen
+De gezichtsfoto wordt alleen op dit toestel bewaard
+Huid
+Haar
+Ogen
+zeer licht
+licht
+gemiddeld
+getint
+donker
+zeer donker
+zwart
+donkerbruin
+lichtbruin
+blond
+rood
+grijs
+bruin
+hazelnoot
+groen
+blauw
+grijs
+## скан
+Scan via foto
+De app vindt zelf het figuur op de foto en neemt de maten
+De schaal is uw lengte
+wijzigen
+Nauwsluitende kleding, geen schoenen, haar van de schouders
+Rechtop staan, armen iets opzij, voeten op schouderbreedte
+Telefoon op heuphoogte op #–# m, het hele lichaam in beeld
+Foto van voren
+verplicht
+Camera met timer
+Foto kiezen
+Foto van opzij
+nauwkeurigere omtrekken
+Scanresultaat
+Maat
+Maten toepassen
+Handmatig aanpassen
+Foto's worden alleen op dit toestel verwerkt en nergens naartoe gestuurd
+Nauwkeurigheid ±#–# cm, met een zijfoto hoger
+De scan is een visueel hulpmiddel
+Zonder zicht is het makkelijker de maten in te spreken op het tabblad «%»
+Geen foto gekozen
+De foto kon niet worden geopend
+HEIC-formaat wordt niet ondersteund — kies JPG
+Het bestand kon niet worden gelezen
+Figuur gevonden
+De automatische scan is niet gelukt
+Tik op «%» en markeer de punten op de foto
+Tik op «%»
+Scan klaar op basis van twee foto's
+Scan klaar op basis van de foto van voren
+Scan klaar op basis van de gemarkeerde punten
+Maten uit de scan toegepast
+Voeg eerst een foto van voren toe
+Markeer
+— punt # van #
+Alle punten gemarkeerd
+Kruin en vloer liggen te dicht bij elkaar — maak de punten ongedaan en markeer opnieuw
+de kruin
+de vloer tussen de voeten
+linkerrand van de schouders
+rechterrand van de schouders
+linkerrand van de borst (bij de oksels)
+rechterrand van de borst
+linkerrand van de taille (smalste punt)
+rechterrand van de taille
+linkerrand van de heupen (breedste punt)
+rechterrand van de heupen
+kruis (waar de benen samenkomen)
+Figuurherkenning wordt van internet geladen (ongeveer 10 MB, eenmalig)…
+Figuurherkenning wordt voorbereid…
+Automatische scan niet beschikbaar: geen internet voor de eerste download van de herkenning
+Markeer de punten handmatig of maak verbinding met internet
+Figuur zoeken op de foto…
+Geen persoon gevonden op de foto
+Een foto ten voeten uit tegen een effen achtergrond is nodig
+Het silhouet kon niet worden uitgesneden
+Het figuur is niet helemaal zichtbaar
+Zowel de kruin als de voeten zijn nodig
+Een deel van het lichaam is niet zichtbaar
+Ga helemaal in beeld staan, armen iets opzij
+## камера
+Camera
+kruin
+voeten
+Opnemen
+Timer
+uit
+# s
+Camera wisselen
+Handmatig markeren
+Punt ongedaan maken
+Houd uw vinger ingedrukt, verschuif onder het vergrootglas en laat los
+Camera wordt ingeschakeld…
+Geen toegang tot de camera
+Sta de camera toe in de browserinstellingen voor deze site
+Geen camera gevonden
+De camera kon niet worden ingeschakeld
+Gebruik de knop «%» of «%»
+Foto maken
+De camera is nog niet klaar
+Zet de telefoon op heuphoogte en ga #–# m achteruit
+Kruin bij de bovenste lijn, voeten bij de onderste
+Tik op «%», de timer geeft u tijd om te gaan staan
+Gezicht in het ovaal, kijk recht in de camera, gelijkmatig licht van voren
+## доступность
+Toegankelijkheid
+Voorleesfunctie
+Tips en resultaat hardop, met ondertitels
+Stap-voor-stap invoer
+Eén maat per scherm, «%» en Enter
+Volgende
+Grote tekst
+Groter lettertype en grotere knoppen
+Hoog contrast
+Geel op zwart
+Meetlinten op het model
+Toon borst-, taille- en heupmaten
+Ondertitels
+Alle meldingen als tekst onderaan het scherm
+Thema
+Zoals het systeem
+Licht
+Donker
+De app werkt met TalkBack en VoiceOver
+Het model kan met de pijltjestoetsen worden gedraaid als het focus heeft
+## стилист
+Stylist
+Uw kleurtype
+Uw kleuren
+Wijzigen
+Auto
+Lente
+Zomer
+Herfst
+Winter
+Seizoen
+Lente/herfst
+automatisch bepaald
+Liever vermijden bij het gezicht
+Vermijden
+Outfits bijgewerkt
+Outfit «%» op het model
+Outfit «%»
+Passen op het model
+Outfit van het model halen
+Het kleurtype wordt bepaald door de kleur van huid, haar en ogen op het tabblad «%»
+Het advies van de stylist is een richtlijn, geen regel: draag waar u zich goed in voelt
+Casual
+Smart casual
+Zakelijk
+Sportief
+Streetwear
+Avond
+Jurk
+Bovenkleding
+Accessoire
+kleur
+mouw # cm
+omtrek #
+lengte # cm
+binnenbeenlengte # cm
+warme, lichte en heldere kleuren
+koele, zachte, gedempte kleuren
+warme, diepe, natuurlijke kleuren
+koele, felle en contrasterende kleuren
+koffie
+zand
+ivoor
+licht denim
+koraal
+turkoois
+lentegroen
+goudgeel
+perzik
+grafiet
+grijsblauw
+melkwit
+middel denim
+oudroze
+zeegroen
+lavendel
+salie
+gedempt framboos
+chocolade
+kaki
+crème
+donker denim
+terracotta
+mosterd
+olijf
+bordeaux
+donker petrol
+zwart
+koel grijs
+wit
+indigo
+rood
+koningsblauw
+smaragd
+fuchsia
+ijsblauw
+zwart bij het gezicht, koel grijs, fuchsia
+oranje, mosterd, zuiver wit en zwart
+ijzige pasteltinten, neon en koele roze tinten
+beige, oranje, mosterd, gedempte warme tinten
+## советы по фигуре
+Benadruk de taille — dat is uw grootste troef
+aansluitend, overslag of V-hals
+hoge taille, aansluitend
+getailleerd, overslag of met ceintuur
+getailleerd, met ceintuur
+Vormeloze oversize en rechte, wijde stukken verbergen uw proporties
+Trek de aandacht naar boven: licht of fel bovenstuk, donker rustig onderstuk
+licht of fel, boothals, details op de schouders
+donker, recht of licht uitlopend
+A-lijn, accent op schouders en decolleté
+tot halverwege de dij of langer, met duidelijke schouders
+Lichte strakke broeken, zakken en details op de heupen, korte jasjes tot de heup
+Breng de schouders in balans: eenvoudig bovenstuk, volume en kleur onderaan
+eenvoudig, V-hals, geen volume op de schouders
+volumineus of licht: wijde broek, A-lijn
+met V-hals en uitlopende rok
+zonder schoudervullingen, raglan
+Schoudervullingen, pofmouwen, horizontale strepen op de borst
+Verleng het silhouet: verticale lijnen, V-hals, stoffen die niet om de buik spannen
+los, V-hals, tot de heup
+recht, middelhoge taille
+recht of empire, van stevige stof
+recht, lang, zonder ceintuur
+Riem in de taille, strak breiwerk, korte wijde jasjes
+Creëer een taille: riemen, schootje, laagjes
+met schootje, drapering of ceintuur
+hoge taille, rokken met volume
+met ceintuur of overslag
+met ceintuur, getailleerd jasje
+Rechte stukken van één lengte van schouders tot heupen
+Benadruk de V-vorm: aansluitend, niet strak
+getailleerd (slim fit)
+taps toelopend of recht
+kort, aansluitend
+Wijde stukken — ze geven volume in de taille
+Verleng het silhouet: effen donker bovenstuk, verticale lijnen
+rechte snit (regular fit), effen
+enkelrijs, tot de heup
+Strakke stukken, horizontale strepen, korte jasjes tot de taille
+Verbreed de schouders: gestructureerde schouders, licht boven, donker onder
+licht, met details op de borst
+donker, recht
+met duidelijke schouder, bomber, colbert
+Smalle lichte broeken en jasjes die op de heupen eindigen
+Voeg volume toe aan de schouders en draag laagjes
+aansluitend, in laagjes
+recht of licht taps
+met volume op de schouders
+Effen outfits zonder laagjes ogen vlak
+Klein: één kleur van top tot teen, hoge taille, korte bovenkleding, schoenen in de kleur van het onderstuk
+Lang: lange jassen, contrasterende laagjes, wijde broeken en grote details staan goed
+Gemiddelde lengte: elke lengte past, let op de balans tussen boven en onder
+## образы
+Sweater en jeans
+Sweater
+Rechte jeans
+Werkjas (overshirt)
+Canvas sneakers
+Rugzak
+Polo en chino
+Gebreide polo
+Chino
+Suède mocassins
+Zonnebril
+Warm casual
+Grofgebreide trui
+Parka
+Leren boots
+Beanie
+Overhemd over de broek
+Oxford-overhemd
+Horloge met leren band
+Colbert zonder das
+T-shirt of fijne trui
+Wollen broek
+Zacht colbert zonder voering
+Loafers
+Leren riem in de kleur van de schoenen
+Linnen in de zomer
+Linnen overhemd
+Linnen of katoenen broek
+Loafers zonder sokken
+Gevlochten riem
+Coltrui en jas
+Fijne coltrui
+Pantalon met vouw
+Jas tot de knie
+Chelsea boots
+Wollen sjaal
+Klassiek pak
+Pantalon van het pak
+Colbert van het pak
+Oxfords
+Stropdas
+Formeel zonder das
+Overhemd met cutaway-kraag
+Broek
+Blazer
+Derby's
+Aktetas
+Pak en jas
+Wollen pantalon
+Chesterfield-jas
+Leren handschoenen
+Voor de sportschool
+T-shirt van ademende stof
+Trainingsshort
+Sportschoenen voor de gym
+Sporttas
+Sport in de stad
+Hoodie
+Joggingbroek
+Windjack
+Hardloopschoenen
+Pet
+Winterse looprit
+Thermoshirt en fleece
+Gevoerde tights
+Lichte donsjas
+Sneakers met profielzool
+Muts en handschoenen
+Oversize en cargo
+Oversized T-shirt
+Cargobroek
+Bomberjack
+Chunky sneakers
+Zomerse street
+T-shirt met print
+Cargoshort
+Sneakers
+Crossbodytas
+Winterse street
+Wijde jeans
+Volumineuze donsjas
+Hoge sneakers
+Beanie
+Avondpak
+Colbert van wol of fluweel
+Lakleren oxfords
+Pochet
+Afspraakje
+Leren jas
+Horloge
+Zomeravond
+Overhemd met korte mouwen
+Armband
+Jeans en trenchcoat
+Gestreepte longsleeve
+Trenchcoat
+Shopper
+Blousejurk
+Midi-blousejurk
+Sandalen
+Gevlochten tas
+Trui en midirok
+Trui
+Midirok
+Jas
+Hoge laarzen
+Sjaal
+T-shirt en wijde broek
+Basic T-shirt
+Wijde broek
+Muiltjes of sneakers
+Klein tasje
+Blouse en broek
+Zijden blouse
+Smalle riem
+Jasje en jurk
+Gebreide midijurk
+Jasje
+Pumps met lage hak
+Oorbellen
+Coltrui
+Kokerrok of rechte broek
+Enkellaarsjes
+Gestructureerde tas
+Broekpak
+Blouse of top
+Broek van het pak
+Pumps
+Werktas
+Kokerjurk
+Sportbeha en T-shirt
+Legging
+Drinkfles
+Trainingspak
+Winterwandeling
+Fleecevest
+Gevoerde legging
+Donsjas
+Wintersneakers
+Hoofdband
+Hoodie en cargo
+Oversized hoodie
+Heuptas
+Top en short
+Kort topje of T-shirt
+Jeansshort
+Slipdress
+Midi-slipdress
+Jasje over de schouders
+Sandalen met hak
+Clutch
+Klein jurkje
+Aansluitende jurk
+Opvallende oorbellen
+Jumpsuit
+Jumpsuit met wijde pijpen
+Pumps met hak
+## ии-стилист
+Vraag het de stylist
+De AI-stylist kent uw maten, figuur en kleurtype ·
+online
+demomodus
+Wissen
+Gesprek met de stylist
+Vraag wat u wilt: wat u naar een gelegenheid draagt, welke kleuren u staan, hoe u stukken combineert
+Wat trek ik aan naar een zomerbruiloft?
+Welke kleuren staan mij?
+Stel een outfit voor kantoor samen
+Wat verberg ik en wat benadruk ik?
+Voor uw eerste vraag
+Uw berichten, maten, maat en kleurtype worden via internet naar de AI-stylist gestuurd zodat die kan antwoorden
+Foto's en uw gezicht worden nooit verstuurd
+Akkoord
+Annuleren
+Bericht aan de stylist
+Schrijf de stylist…
+Versturen
+Advies voor uw figuur
+De stylist typt
+De stylist is nu niet bereikbaar
+Controleer uw internetverbinding en probeer het opnieuw
+Demomodus: de AI-stylist is nog niet gekoppeld, de ingebouwde stylist antwoordt
+Uw maat
+figuur «%»
+kleurtype «%»
+AI-stylist
+## приветствие и магазины
+Goedemorgen
+Goedemiddag
+Goedenavond
+Goedenacht
+Dit is «%» — uw assistent voor maat en stijl
+Ken uw exacte maat, pas outfits op uw eigen 3D-figuur en vind kleding die echt goed zit
+Maten en 3D-figuur
+Typ of spreek uw maten in — de figuur wordt er precies naar gebouwd en de app berekent uw kleding- en schoenmaat
+Maak een foto ten voeten uit — de app neemt zelf uw maten
+Foto's blijven op uw toestel
+Vraag het zoals aan een echte stylist: wat u naar een gelegenheid draagt, welke kleuren u staan
+De stylist kent uw figuur en kleurtype en toont de outfit meteen op het model
+Zoeken in winkels
+Beschrijf wat u zoekt — de app voegt uw maat toe en opent de zoekopdracht op Zalando, Amazon, Vinted en andere winkels
+Wiens figuur bouwen we?
+Beginnen
+Maten en foto's worden alleen op uw toestel bewaard
+U kunt dit venster opnieuw openen: «%» → «%»
+Over de app
+Winkels
+Beschrijf wat u zoekt — de app voegt uw maat toe en opent de zoekopdracht in webwinkels
+Wat zoekt u?
+Bijvoorbeeld: blauwe jeans of een trouwjurk
+Zoeken
+Jeans voor elke dag
+Outfit voor een bruiloft
+Winterjas
+Witte sneakers
+Pak voor kantoor
+Land van de winkels
+België
+Nederland
+Duitsland
+Frankrijk
+Polen
+Verenigd Koninkrijk
+Rusland
+Soort artikel
+Automatisch bepalen
+Broek, rok, short
+De AI-stylist schrijft de zoekopdracht in de taal van de winkels van het gekozen land
+Zonder AI-stylist gaat uw tekst ongewijzigd naar de winkel — schrijf in de taal van de winkels
+Artikelen uit de outfits van de stylist worden vanzelf vertaald
+De AI-stylist stelt de zoekopdracht op…
+AI niet beschikbaar — we zoeken met uw tekst
+Zoekopdracht
+Uw maat staat al in de zoekopdracht
+Vink op de site van de winkel uw maat aan in de filter en bekijk de maattabel van het merk
+De app ontvangt geen geld van winkels en deelt uw gegevens niet met hen
+Gevonden zoekopdrachten
+Zo werkt de AI-stylist
+Kent uw maten, maat, figuur en kleurtype uit de app
+Antwoordt in uw taal en stelt outfits voor die u meteen op het 3D-model kunt passen
+Zegt waar u op moet zoeken en vindt artikelen in uw maat in de winkels
+Praat alleen over stijl en kleding
+Foto's worden nooit verstuurd
+Zoeken in winkels
+## примерка
+Product passen via foto
+Passen via productfoto
+Artikel van de website van een winkel
+Productfoto of screenshot uploaden
+Sla de productfoto van de website op of maak een screenshot
+De app neemt daaruit de kleur van het artikel
+Productfoto
+Tik op het artikel om de kleur te nemen
+Tik op het artikel op de foto om de kleur te nemen
+Kleur
+Lang
+Kort
+Model
+Short
+Rok
+Lengte
+Jas
+Aantrekken
+Het model toont soort en kleur van het artikel
+Controleer de exacte pasvorm in de maattabel van de winkel
+Kleur genomen van de foto
+Tik op het artikel op de foto om te verfijnen
+Kleur gekozen
+De AI-stylist bekijkt het product…
+De AI heeft het artikel herkend
+Controleer en tik op «%»
+Kies zelf het soort artikel
+Dit artikel kan nog niet op het model worden getoond — alleen bovenstukken, onderstukken, jurken, bovenkleding en schoenen
+«%» staat op het model
+Passen
+Als de AI-stylist gekoppeld is en u in de chat akkoord ging, wordt de productfoto ter analyse naar hem gestuurd — upload hier geen foto’s van uzelf
+## корзина
+Winkelmand
+Hier komen de artikelen die u mooi vindt
+Tik op «%» bij een artikel in de zoekresultaten, bij het passen of bij een outfit van de stylist
+In winkelmand
+Alles op het model aantrekken
+Kopen doet u op de website van de winkel: open het product via de link of zoek het in uw maat
+De winkelmand wordt alleen op dit toestel bewaard
+Product openen
+Verwijderen
+Uit winkelmand verwijderen
+Link naar het product (optioneel)
+De link moet beginnen met https://
+«%» zit in de winkelmand
+«%» zit al in de winkelmand
+«%» uit de winkelmand verwijderd
+Outfit «%» zit in de winkelmand
+artikelen: #
+Winkelmand geleegd
+Outfit uit de winkelmand
+Artikel van
+Passen
+## примерочная по фото
+Fotopaskamer
+Upload een foto van uzelf ten voeten uit — u kunt er kleding uit winkels op passen en die met de hand aanpassen
+Rechtop staan, met het gezicht naar de camera, armen iets opzij
+Nauwsluitende kleding, gelijkmatig licht, effen achtergrond
+Het hele lichaam in beeld — van kruin tot voeten
+Foto maken
+De foto blijft op dit toestel en wordt nergens naartoe gestuurd
+Artikel toevoegen
+Afbeelding opslaan
+Alles uittrekken
+Andere foto
+Breedte
+Draaien
+Transparantie
+Gum
+Herstellen
+Penseel
+Laag omhoog
+Laag omlaag
+Opnieuw
+Artikel uittrekken
+Verschuif het artikel met uw vinger, rek en draai het met twee vingers of met de gele greep in de hoek
+Fotopaskamer: uw foto met de artikelen erop
+Pijltjestoetsen verschuiven het gekozen artikel, plus en min veranderen de grootte
+Figuur niet herkend — plaats het artikel met de hand
+Upload eerst een foto van uzelf ten voeten uit
+«%» staat op de foto
+Pas het aan met uw vinger of de greep in de hoek
+De achtergrond van het product is niet effen — gum het overbodige weg
+«%» uitgetrokken
+Alle artikelen uitgetrokken
+Foto geüpload
+Voeg een artikel toe: «%» of uit de winkelmand
+Uw foto
+Pasfoto opgeslagen
+Proekciya — passen
+Artikel
+Upload een productfoto of screenshot — het artikel verschijnt op uw foto
+Upload eerst een foto van uzelf ten voeten uit op het hoofdscherm
+In de winkelmand zitten geen artikelen met een productfoto
+Voeg ze toe via «%»
+Paskamer
+Meer instellingen
+Licht thema
+Donker thema
+Mijn foto
+mijn foto
+Achtergrond bijwerken
+Wissen
+Achtergrond bewerken
+Uw projectie op basis van een foto
+Upload een foto van uzelf ten voeten uit — de app verwijdert de achtergrond en u verschijnt op het scherm in plaats van het model
+Op de foto kunt u kleding uit winkels passen
+Achtergrond van de foto verwijderen… Dit kan tot een minuut duren
+Achtergrond van de foto verwijderen
+Achtergrond snel verwijderd
+Start voor een nauwkeurig resultaat de achtergrondverwijdering op uw laptop
+Achtergrond niet verwijderd
+de achtergrondverwijdering draait niet en er is geen internet voor herkenning
+Wis de achtergrond met de knop «%»
+Uw foto is nu de projectie
+Voeg een item toe of werk de achtergrond bij met het penseel
+Foto verwijderen
+Foto verwijderd
+De projectie is weer het 3D-model
+Filters: prijs, kleur, merk
+Prijs vanaf
+Prijs tot
+Alle
+Zwart
+Wit
+Grijs
+Blauw
+Beige
+Bruin
+Groen
+Rood
+Roze
+Geel
+Paars
+Oranje
+Merk
+Bijvoorbeeld: Levi's
+Mijn maatfilter meteen toepassen op de website van de winkel
+Filters wissen
+maat
+prijs
+Meteen met filters
+Zonder AI-stylist wordt de zoekopdracht vertaald met een woordenlijst van kleding en kleuren
+Complexe zoekopdrachten kunt u beter in de taal van de winkels schrijven
+De zoekopdracht is vertaald naar de taal van de winkels
+Schrijf de zoekopdracht in de taal van de winkels voor betere resultaten
+Uw maat bij merken
+Op basis van de officiële maattabellen van de merken en uw maten
+Tik op een merk om het aan de zoekopdracht toe te voegen
+Twijfelt u tussen twee maten, kies dan de grootste voor een ruimere pasvorm
+Maat volgens de maattabel van het merk
+Opnieuw beginnen
+Ja, alles wissen
+Uw maten, foto, paskamer, winkelmand en instellingen worden gewist
+Druk binnen # seconden nogmaals op «%»
+Scannen
+Scan klaar
+Niet nu
+Scan voltooid
+AI scant uw figuur
+Scanner niet beschikbaar
+Scan mislukt
+Sta rechtop, helemaal in beeld, armen iets van het lichaam
+Is uw lengte anders, pas die dan aan bij «Maten» en scan opnieuw
+Scanner
+Muziek aanzetten
+Muziek uitzetten
+Achtergrondmuziek
+Een rustige melodie, zachter tijdens het voorlezen
+Muziekvolume
+Muziek aan
+Muziek uit
+AI-paskamer
+Voor / na
+Vanaf mijn foto
+Het volgende item wordt op uw originele foto gepast
+Om u in dit item te tonen, worden uw foto en de foto van het item naar de AI-pasdienst FASHN (via fal.ai) gestuurd
+Die stuurt een kant-en-klare afbeelding terug
+Eén paskans kost ongeveer 7 cent
+De foto wordt alleen voor deze paskans gebruikt
+Zonder toestemming wordt de gewone paskamer gebruikt: het item wordt in de app op de foto gelegd
+Akkoord, passen
+Gewone paskamer
+Even geduld, de vorige paskans loopt nog
+AI past het item
+meestal 10–30 seconden
+De sleutel van de pasdienst is niet ingesteld
+De sleutel van de pasdienst klopt niet of het tegoed is op
+De dienst reageerde niet op tijd
+gepast
+Het volgende item uit de winkelmand komt erbovenop
+De paskans is mislukt
+Van wie
+Wijzigingen opslaan
+Opgeslagen terugzetten
++ Nieuwe persoon
+Naam, bijv. Anna
+Aanmaken
+Hernoemen
+Deze persoon verwijderen
+Maten nog niet opgeslagen
+Er zijn niet-opgeslagen wijzigingen
+opgeslagen
+Maten opgeslagen
+Maten bijgewerkt
+Opgeslagen maten teruggezet
+Nieuwe persoon
+Voer de maten in en druk op «Maten opslaan»
+Echt verwijderen
+Verwijderd
+Naar bestand
+Ik
+Probeer een andere foto tegen een effen achtergrond
+Item passen
+Upload een foto van uzelf ten voeten uit — de app verwijdert de achtergrond, scant uw figuur en toont uw maten
+Figuur niet herkend
+ga helemaal in beeld staan
+Dit apparaat deelt geen locatie
+Toegang tot locatie geweigerd
+Locatie kon niet worden bepaald
+kledingwinkel
+Winkels bij uw locatie
+Locatie bepalen
+Locatie bijwerken
+Kledingwinkels op de kaart
+Kledingwinkels in het land
+In de buurt
+De locatie wordt alleen gebruikt voor het land, het weer en winkels in de buurt
+Ze wordt op dit apparaat bewaard
+U bent hier
+Sta locatietoegang toe en de app toont winkels in uw land en in de buurt.
+Winkels in de buurt zoeken…
+Tik op een winkel voor de route.
+Geen kledingwinkels binnen 2 km gevonden. Bekijk de kaart.
+De kaartserver reageert nu niet. Open «Kledingwinkels op de kaart».
+Locatie bepalen…
+Locatie
+Weer en wat aan te trekken
+Weer bekijken
+Voorlezen
+Elke ochtend de voorspelling voorlezen bij de eerste tik
+Locatie en weer bepalen
+Vernieuwen
+Voorspelling laden…
+Voorspelling niet geladen
+Kortingen en uitverkoop
+De AI-agent zoekt online naar nieuws van winkels in uw land en vertelt waar en wanneer u goedkoper koopt.
+Kortingen zoeken
+Eén keer per dag kortingen controleren en melden
+Meer
+Bronnen
+Gecontroleerd
+Kortingen zoeken werkt met de AI-server: voeg de sleutel toe (zie README, «AI-stylist»).
+AI zoekt kortingen… meestal 20–60 seconden
+Kortingen
+Geen nieuwe kortingen gevonden
+Kortingen zoeken mislukt
+Marktplaatsen en warenhuizen
+Kleding voor elke dag
+Merken
+Sport
+Ondergoed
+Spanje
+Italië
+Portugal
+Oostenrijk
+Zwitserland
+Ierland
+Zweden
+Denemarken
+Tsjechië
+Litouwen
+Letland
+Estland
+Kinderkleding
+Straal
+# km
+Warenhuizen en winkelcentra
+Tweedehands
+website
+Tik op een winkel om hem op de kaart te openen.
+Gegevens
+Geen winkels in deze straal. Vergroot de straal of bekijk de kaart.
