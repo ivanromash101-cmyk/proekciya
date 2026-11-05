@@ -1,0 +1,95 @@
+# Автосборка Android-приложения. Запускается при каждой загрузке файлов в репозиторий
+# и вручную (Actions → «Собрать APK» → Run workflow).
+#  - proekciya.apk  — для установки на свой телефон (раздел Releases);
+#  - proekciya.aab  — для Google Play (Actions → эта сборка → Artifacts). Собирается, только если
+#    в Settings → Secrets → Actions задан секрет KEYSTORE_PASSWORD (пароль ключа подписи).
+#    При первой такой сборке ключ создаётся сам и сохраняется в репозиторий ЗАШИФРОВАННЫМ
+#    (signing/upload.jks.enc). Пароль не теряйте: без него новые версии в Google Play не загрузить.
+name: Собрать APK
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    env:
+      VERSION_CODE: ${{ github.run_number }}
+      VERSION_NAME: 2.1.${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: android-actions/setup-android@v3
+      - name: Установить зависимости
+        run: npm install --no-audit --no-fund --legacy-peer-deps
+      - name: Скачать модель распознавания и шрифты
+        run: node scripts/fetch-vendor.mjs
+      - name: Создать Android-проект
+        run: npx cap add android
+      - name: Значок и заставка
+        run: npx @capacitor/assets generate --android --iconBackgroundColor '#16181d' --iconBackgroundColorDark '#16181d' --splashBackgroundColor '#16181d' --splashBackgroundColorDark '#16181d' || echo "значок по умолчанию"
+      - name: Разрешения, версия, подпись
+        run: node scripts/android-setup.mjs
+      - name: Синхронизировать
+        run: npx cap sync android
+      - name: Собрать APK
+        run: cd android && chmod +x gradlew && ./gradlew assembleDebug --no-daemon
+      - name: Переименовать
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk proekciya.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proekciya-apk
+          path: proekciya.apk
+      - name: Выложить в Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Проекция, сборка ${{ github.run_number }}
+          body: Скачайте proekciya.apk на телефон и откройте его, чтобы установить.
+          files: proekciya.apk
+
+      # ---------- Google Play ----------
+      - name: Ключ подписи для Google Play
+        id: sign
+        env:
+          KS_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: |
+          if [ -z "$KS_PASS" ]; then echo "on=0" >> "$GITHUB_OUTPUT"; echo "Секрет KEYSTORE_PASSWORD не задан — для Google Play ничего не собираю"; exit 0; fi
+          KS="$RUNNER_TEMP/upload.jks"
+          if [ -f signing/upload.jks.enc ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in signing/upload.jks.enc -out "$KS" -pass env:KS_PASS \
+              || { echo "::error::Пароль KEYSTORE_PASSWORD не подходит к ключу signing/upload.jks.enc"; exit 1; }
+          else
+            keytool -genkeypair -keystore "$KS" -storetype PKCS12 -alias upload -keyalg RSA -keysize 4096 -validity 10000 \
+              -storepass "$KS_PASS" -keypass "$KS_PASS" -dname "CN=Proekciya, O=Proekciya, C=BE"
+            mkdir -p signing
+            openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -in "$KS" -out signing/upload.jks.enc -pass env:KS_PASS
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add signing/upload.jks.enc
+            git commit -m "Ключ подписи для Google Play (зашифрован) [skip ci]"
+            git push
+            echo "Создан новый ключ подписи и сохранён в signing/upload.jks.enc"
+          fi
+          echo "KEYSTORE_FILE=$KS" >> "$GITHUB_ENV"
+          echo "on=1" >> "$GITHUB_OUTPUT"
+      - name: Собрать AAB для Google Play
+        if: steps.sign.outputs.on == '1'
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: |
+          cd android && ./gradlew bundleRelease --no-daemon
+          cp app/build/outputs/bundle/release/app-release.aab ../proekciya.aab
+      - uses: actions/upload-artifact@v4
+        if: steps.sign.outputs.on == '1'
+        with:
+          name: proekciya-google-play-aab
+          path: proekciya.aab
