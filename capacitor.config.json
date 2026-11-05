@@ -1,0 +1,9 @@
+{
+  "appId": "com.proekciya.app",
+  "appName": "Проекция",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#16181d"
+  }
+}
