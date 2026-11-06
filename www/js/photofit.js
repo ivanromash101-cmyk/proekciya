@@ -73,8 +73,9 @@ async function cutPerson(c) {
   }
   if (window.Scan) {
     try {
-      status('Убираю фон с фото…');
-      const det = await Scan.detect(c); lastDet = det;
+      status('Убираю фон с фото… Первый раз готовлю распознавание, до 30 секунд.');
+      const det = await Promise.race([Scan.detect(c, t => status(t)),
+        new Promise((_, no) => setTimeout(() => no(new Error('timeout')), 90000))]); lastDet = det;
       const P = i => ({ x: det.landmarks[i].x*c.width, y: det.landmarks[i].y*c.height });
       marks = { ls: P(11), rs: P(12), lh: P(23), rh: P(24), lk: P(25), rk: P(26), la: P(27), ra: P(28), nose: P(0) };
       const m = document.createElement('canvas'); m.width = det.w; m.height = det.h;
@@ -547,8 +548,8 @@ async function setPerson(src, quiet, cut) {
   if (quiet) return;
   refreshView(viewMode === 'holo' ? 'photo' : null); // фото — проекция во всех видах, кроме голограммы
   const r = await cutPerson(personOrig);
-  if (r) { person = r.cut; personCut = true; pbox = boxOf(person); status(r.how === 'ai' ? '' : 'Фон убран быстро. Для точного результата запустите на ноутбуке модуль удаления фона.'); }
-  else status('Фон не убран: модуль удаления фона не запущен и нет интернета для распознавания. Попробуйте другое фото на однотонном фоне.');
+  if (r) { person = r.cut; personCut = true; pbox = boxOf(person); status(r.how === 'ai' || CFG.native ? '' : 'Фон убран быстро. Для точного результата запустите на ноутбуке модуль удаления фона.'); }
+  else status(CFG.native ? 'Фон не убран: фигура не распознана. Попробуйте другое фото в полный рост на однотонном фоне.' : 'Фон не убран: модуль удаления фона не запущен и нет интернета для распознавания. Попробуйте другое фото на однотонном фоне.');
   fitView(); draw(); save(true);
   notify('Ваше фото — теперь проекция.', 'Проекция');
   if (personCut) runScan(); else if (!marks) findMarks().then(draw);

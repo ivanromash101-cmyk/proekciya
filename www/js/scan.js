@@ -14,6 +14,7 @@ const SOURCES = [
 ];
 let landmarker = null, loading = null;
 
+const withTimeout = (p, ms, what) => Promise.race([p, new Promise((_, no) => setTimeout(() => no(new Error('Слишком долго: ' + what)), ms))]);
 async function exists(url) {
   if (/^https?:/.test(url)) return true;
   try { const r = await fetch(url, { method: 'HEAD' }); return r.ok; } catch (e) { return false; }
@@ -29,13 +30,16 @@ function load(onStatus) {
         onStatus && onStatus(/^https?:/.test(src.base) ? 'Загружаю распознавание фигуры из интернета (около 10 МБ, один раз)…' : 'Готовлю распознавание фигуры…');
         const mod = await import(new URL(src.base + '/vision_bundle.mjs', location.href).href);
         const fileset = await mod.FilesetResolver.forVisionTasks(new URL(src.base + '/wasm', location.href).href);
-        for (const delegate of ['GPU', 'CPU']) {
+        // на телефоне видеоускоритель (GPU) в WebView иногда зависает навсегда — там сначала процессор,
+        // и каждая попытка ограничена по времени
+        const native = !!(root.PROEKCIYA_CONFIG || {}).native || /Android|iPhone|iPad/i.test(navigator.userAgent);
+        for (const delegate of native ? ['CPU', 'GPU'] : ['GPU', 'CPU']) {
           try {
-            landmarker = await mod.PoseLandmarker.createFromOptions(fileset, {
+            landmarker = await withTimeout(mod.PoseLandmarker.createFromOptions(fileset, {
               baseOptions: { modelAssetPath: new URL(src.model, location.href).href, delegate },
               runningMode: 'IMAGE', numPoses: 1, outputSegmentationMasks: true,
               minPoseDetectionConfidence: 0.5, minPosePresenceConfidence: 0.5
-            });
+            }), 45000, 'распознавание фигуры не запустилось');
             return landmarker;
           } catch (e) { lastErr = e; }
         }
