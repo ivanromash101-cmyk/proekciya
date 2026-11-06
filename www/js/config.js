@@ -10,3 +10,10 @@ window.PROEKCIYA_CONFIG = {
   // Пусто — только быстрый способ (MediaPipe).
   bgUrl: 'api/remove-background'
 };
+
+// В Android-приложении нет ноутбучного сервера: адреса 'api/…' там не работают —
+// фон убирается встроенным способом, магазины рядом ищутся напрямую.
+(function () {
+  var C = window.Capacitor;
+  if (C && C.isNativePlatform && C.isNativePlatform()) { window.PROEKCIYA_CONFIG.native = true; window.PROEKCIYA_CONFIG.bgUrl = ''; }
+})();

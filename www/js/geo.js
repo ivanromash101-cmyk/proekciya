@@ -152,7 +152,7 @@ const shopsOf = cc => { const g = groupsOf(cc); return g ? GROUPS.flatMap(([k]) 
 
 /* ---------- магазины одежды рядом: через сервер программы (Google Maps или OpenStreetMap), иначе прямо из браузера ---------- */
 const CFG = window.PROEKCIYA_CONFIG || {};
-const SERVER = (CFG.chatUrl || (/^https?:$/.test(location.protocol) ? 'api' : '')).replace(/\/$/, '');
+const SERVER = (CFG.chatUrl || (!CFG.native && /^https?:$/.test(location.protocol) ? 'api' : '')).replace(/\/$/, '');
 const OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://overpass.private.coffee/api/interpreter'];
 const dist = (a, b, c, d) => { const R = 6371, r = x => x*Math.PI/180, dl = r(c - a), dg = r(d - b);
   return 2*R*Math.asin(Math.sqrt(Math.sin(dl/2)**2 + Math.cos(r(a))*Math.cos(r(c))*Math.sin(dg/2)**2)); };

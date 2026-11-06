@@ -605,6 +605,9 @@ $('manDone').onclick = () => {
   closeMan(); showScanTable('по отмеченным точкам');
 };
 addEventListener('resize', () => { if (!$('manual').hidden && mImg) layoutMan(); });
+// поворот экрана: некоторые Android-телефоны не присылают resize сразу — повторяем сами
+addEventListener('orientationchange', () => { for (const t of [150, 450, 900]) setTimeout(() => dispatchEvent(new Event('resize')), t); });
+if (screen.orientation && screen.orientation.addEventListener) screen.orientation.addEventListener('change', () => setTimeout(() => dispatchEvent(new Event('resize')), 300));
 
 /* ================= реалистичная модель: загрузка ================= */
 const idb = {
@@ -712,7 +715,7 @@ $('ctSel').onchange = e => { stylePrefs.ct = e.target.value; store.set('pr-style
 
 /* ================= вкладки и панель ================= */
 const tabs = [...document.querySelectorAll('[role="tab"]')];
-const isWide = () => matchMedia('(min-width: 900px)').matches;
+const isWide = () => matchMedia('(min-width: 900px), (orientation: landscape) and (min-width: 560px) and (max-height: 600px)').matches;
 function setSheet(open) { $('sheet').dataset.open = open; $('grab').setAttribute('aria-expanded', open); }
 function selectTab(id, focus) {
   const t = $(id), active = t.getAttribute('aria-selected') === 'true';

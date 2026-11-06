@@ -323,7 +323,7 @@ async function addGarment({ src, kind, title }) {
   if (r.cleared < 0.08) status('Фон товара не однотонный — сотрите лишнее ластиком.');
   return true;
 }
-function select(L) { sel = L; if (!L) setMode('move'); if (L && matchMedia('(min-width: 900px)').matches) $f('fitMore').open = true; panel(); draw(); }
+function select(L) { sel = L; if (!L) setMode('move'); if (L && matchMedia('(min-width: 900px), (orientation: landscape) and (min-width: 560px) and (max-height: 600px)').matches) $f('fitMore').open = true; panel(); draw(); }
 function panel() {
   const p = $f('fitPanel'); p.hidden = !sel;
   if (!sel) return;

@@ -15,7 +15,7 @@ let endpoint, checked = null;
 async function ready() { // где работает ИИ-примерка: локальный сервер или сервер в интернете
   if (checked) return checked;
   checked = (async () => {
-    try { const r = await fetch('api/tryon-ai/status', { cache: 'no-store' }); if (r.ok && (await r.json()).ok) { endpoint = 'api/tryon-ai'; return true; } } catch (e) {}
+    if (!(window.PROEKCIYA_CONFIG || {}).native) try { const r = await fetch('api/tryon-ai/status', { cache: 'no-store' }); if (r.ok && (await r.json()).ok) { endpoint = 'api/tryon-ai'; return true; } } catch (e) {}
     if (API) { try { const r = await fetch(API + '/vton'); if (r.ok && (await r.json()).ok) { endpoint = API + '/vton'; return true; } } catch (e) {} }
     return false;
   })();
