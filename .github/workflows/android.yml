@@ -94,3 +94,9 @@ jobs:
         with:
           name: proekciya-google-play-aab
           path: proekciya.aab
+      - name: Выложить AAB в Releases
+        if: steps.sign.outputs.on == '1'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          files: proekciya.aab
