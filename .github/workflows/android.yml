@@ -100,3 +100,10 @@ jobs:
         with:
           tag_name: build-${{ github.run_number }}
           files: proekciya.aab
+      - name: AAB в ветку play-files (для загрузки в Google Play Console)
+        if: steps.sign.outputs.on == '1'
+        run: |
+          mkdir -p /tmp/pf && cp proekciya.aab /tmp/pf/ && cd /tmp/pf
+          git init -q -b play-files && git add proekciya.aab
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "AAB, сборка ${{ github.run_number }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" play-files
